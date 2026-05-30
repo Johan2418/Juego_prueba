@@ -1,0 +1,39 @@
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/
+
+# IDE and editor folders/files
+.vs/
+.vscode/
+.idea/
+ExportedObj/
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# Unity metadata backups and diagnostics
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Plastic SCM metadata (if this repo uses Git as source control)
+.plastic/
+plastic.*
