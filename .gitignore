@@ -1,14 +1,15 @@
-# Unity generated folders
-[Ll]ibrary/
-[Tt]emp/
-[Oo]bj/
-[Bb]uild/
-[Bb]uilds/
-[Ll]ogs/
-[Mm]emoryCaptures/
-UserSettings/
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
 
-# IDE and editor folders/files
+# Extra Unity cache folders
+/[Mm]emoryCaptures/
+
+# Visual Studio / Rider / IDE
 .vs/
 .vscode/
 .idea/
@@ -23,16 +24,27 @@ ExportedObj/
 *.pidb
 *.booproj
 *.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
 
-# Unity metadata backups and diagnostics
+# Unity generated
+sysinfo.txt
+*.stackdump
 *.pidb.meta
 *.pdb.meta
 *.mdb.meta
-sysinfo.txt
 
-# OS files
+# OS
 .DS_Store
 Thumbs.db
+
+# Crash reports
+/[Cc]rash[Rr]eports/
+
+# Packed addressables
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
 
 # Plastic SCM metadata (if this repo uses Git as source control)
 .plastic/

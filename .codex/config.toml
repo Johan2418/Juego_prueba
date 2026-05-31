@@ -1,0 +1,10 @@
+# Configuracion local recomendada para Codex en este repositorio.
+# Ajustar permisos solo cuando el proyecto ya sea confiable.
+
+approval_policy = "on-request"
+sandbox_mode = "workspace-write"
+
+file_opener = "vscode"
+
+[tools]
+web_search = false
