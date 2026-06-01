@@ -21,7 +21,7 @@ Construir una demo jugable de 3 a 5 minutos con estilo pixel art.
 
 ## Version de Unity
 
-Anotar aqui la version exacta usada.
+Unity 6000.0.76f1
 
 Ejemplo:
 
