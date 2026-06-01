@@ -50,8 +50,8 @@ public class PlayerController : MonoBehaviour
 
     private void ReadMovementInput()
     {
-        float horizontal = Input.GetAxisRaw("Horizontal");
-        float vertical = Input.GetAxisRaw("Vertical");
+        float horizontal = GetHorizontalInput();
+        float vertical = GetVerticalInput();
 
         Vector2 rawInput = new Vector2(horizontal, vertical);
         moveInput = useCardinalMovement ? ClampToCardinal(rawInput) : rawInput.normalized;
@@ -60,6 +60,36 @@ public class PlayerController : MonoBehaviour
         {
             lastLookDirection = moveInput;
         }
+    }
+
+    private static float GetHorizontalInput()
+    {
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
+        {
+            return -1f;
+        }
+
+        if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
+        {
+            return 1f;
+        }
+
+        return 0f;
+    }
+
+    private static float GetVerticalInput()
+    {
+        if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
+        {
+            return -1f;
+        }
+
+        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
+        {
+            return 1f;
+        }
+
+        return 0f;
     }
 
     // Cozy movement starts with cardinal directions to keep interactions predictable.

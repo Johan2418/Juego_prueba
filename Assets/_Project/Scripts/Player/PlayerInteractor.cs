@@ -44,6 +44,7 @@ public class PlayerInteractor : MonoBehaviour
 
         if (currentInteractable != null && Input.GetKeyDown(interactionKey))
         {
+            Debug.Log($"[PlayerInteractor] Interacting with {currentInteractable.GetType().Name} using key {interactionKey}");
             currentInteractable.Interact(this);
         }
     }
@@ -78,6 +79,10 @@ public class PlayerInteractor : MonoBehaviour
         }
 
         int hitCount = Physics2D.OverlapCircleNonAlloc(center, interactionRadius, overlapResults, interactionLayers);
+        if (hitCount > 0)
+        {
+            Debug.Log($"[PlayerInteractor] Detected {hitCount} potential interactables at {center}");
+        }
         IInteractable closest = null;
         float closestDistance = float.MaxValue;
 
