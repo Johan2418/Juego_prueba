@@ -8,10 +8,20 @@ public class FishingSpot : MonoBehaviour, IInteractable
     [SerializeField] private float catchChance = 0.85f;
     [SerializeField] private FishData[] fishPool;
 
+    [Header("Demo Route (Optional)")]
+    [SerializeField] private bool enableDemoRouteHook;
+    [SerializeField] private bool overrideDefaultFishingWithDemoRoute;
+    [SerializeField] private string demoRouteInteractionId;
+
     public float FishingDuration => Mathf.Max(0.25f, fishingDuration);
 
     public void Interact(PlayerInteractor interactor)
     {
+        if (overrideDefaultFishingWithDemoRoute && TryHandleDemoRoute(interactor, true))
+        {
+            return;
+        }
+
         if (FishingManager.Instance == null)
         {
             Debug.LogWarning("FishingManager is not present in scene.");
@@ -38,7 +48,7 @@ public class FishingSpot : MonoBehaviour, IInteractable
             return new FishingResult(false, null, "No hay peces configurados aqui.");
         }
 
-        if (Random.value > Mathf.Clamp01(catchChance))
+        if (!ShouldUseDemoRouteHook() && Random.value > Mathf.Clamp01(catchChance))
         {
             return new FishingResult(false, null, "No atrapaste nada esta vez.");
         }
@@ -100,5 +110,33 @@ public class FishingSpot : MonoBehaviour, IInteractable
         interactionDistance = Mathf.Max(0.25f, interactionDistance);
         fishingDuration = Mathf.Max(0.25f, fishingDuration);
         catchChance = Mathf.Clamp01(catchChance);
+    }
+
+    public void NotifyDemoRouteFishingSucceeded(PlayerInteractor interactor)
+    {
+        TryHandleDemoRoute(interactor, false);
+    }
+
+    // Hook opcional para convertir un spot concreto en paso de mision de la demo.
+    private bool TryHandleDemoRoute(PlayerInteractor interactor, bool consumeInteraction)
+    {
+        if (!ShouldUseDemoRouteHook())
+        {
+            return false;
+        }
+
+        bool handled = DemoQuestRouteManager.Instance.TryHandleInteraction(ResolveDemoRouteInteractionId(), interactor);
+        return consumeInteraction && handled;
+    }
+
+    private bool ShouldUseDemoRouteHook()
+    {
+        return DemoQuestRouteManager.Instance != null &&
+            (enableDemoRouteHook || DemoQuestRouteManager.Instance.CanHandleInteraction(ResolveDemoRouteInteractionId()));
+    }
+
+    private string ResolveDemoRouteInteractionId()
+    {
+        return string.IsNullOrWhiteSpace(demoRouteInteractionId) ? gameObject.name : demoRouteInteractionId;
     }
 }

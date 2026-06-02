@@ -63,6 +63,7 @@ public class FishingManager : MonoBehaviour
             }
 
             Notify(interactor, result.Message);
+            fishingSpot.NotifyDemoRouteFishingSucceeded(interactor);
         }
         else
         {

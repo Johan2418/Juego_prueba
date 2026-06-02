@@ -15,6 +15,15 @@ public class MessageTrigger : MonoBehaviour
             var interactor = other.GetComponentInChildren<PlayerInteractor>();
             if (interactor != null)
             {
+                // Trigger_SecretZone usa el flujo de demo; otros triggers conservan su mensaje simple.
+                if (DemoQuestRouteManager.Instance != null &&
+                    DemoQuestRouteManager.Instance.CanHandleInteraction(gameObject.name))
+                {
+                    DemoQuestRouteManager.Instance.TryHandleInteraction(gameObject.name, interactor);
+                    activated = DemoQuestRouteManager.Instance.DemoFinished;
+                    return;
+                }
+
                 interactor.ShowNotification(message, 3f);
                 activated = true;
             }
