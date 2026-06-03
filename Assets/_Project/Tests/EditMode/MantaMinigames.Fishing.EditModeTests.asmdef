@@ -1,0 +1,23 @@
+{
+    "name": "MantaMinigames.Fishing.EditModeTests",
+    "rootNamespace": "MantaMinigames.Fishing.Tests",
+    "references": [
+        "MantaMinigames.Fishing",
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "noEngineReferences": false
+}
