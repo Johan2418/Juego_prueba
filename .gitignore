@@ -35,6 +35,7 @@ sysinfo.txt
 *.pidb.meta
 *.pdb.meta
 *.mdb.meta
+*.gitkeep.meta
 
 # OS
 .DS_Store
