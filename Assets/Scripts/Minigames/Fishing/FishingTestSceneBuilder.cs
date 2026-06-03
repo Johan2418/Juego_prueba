@@ -66,7 +66,7 @@ namespace MantaMinigames.Fishing
             Image indicatorImage = EnsureImage(indicator.gameObject, new Color(1f, 0.92f, 0.32f, 1f));
 
             TextMeshProUGUI attemptsText = GetOrCreateText(panel, AttemptsName, "Intentos: 3", 24f, new Vector2(0f, 94f), new Vector2(420f, 36f));
-            TextMeshProUGUI messageText = GetOrCreateText(panel, MessageName, "Presiona Iniciar o R. Luego usa Space, Enter o clic.", 21f, new Vector2(0f, -34f), new Vector2(460f, 48f));
+            TextMeshProUGUI messageText = GetOrCreateText(panel, MessageName, "Presiona Iniciar o R. Luego usa Space, E o clic.", 21f, new Vector2(0f, -34f), new Vector2(460f, 48f));
             Button startButton = GetOrCreateButton(panel, ButtonName, "Iniciar", new Vector2(0f, -104f), new Vector2(180f, 42f));
 
             minigameController = panel.GetComponent<FishingMinigameController>();

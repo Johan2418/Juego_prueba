@@ -9,7 +9,7 @@ namespace MantaMinigames.Fishing
         [SerializeField] private bool pollKeyboardInput = true;
         [SerializeField] private bool pollMouseInput = true;
         [SerializeField] private Key confirmKey = Key.Space;
-        [SerializeField] private Key alternativeConfirmKey = Key.Enter;
+        [SerializeField] private Key alternativeConfirmKey = Key.E;
         [SerializeField] private Key cancelKey = Key.Escape;
 
         private bool confirmPressed;

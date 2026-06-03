@@ -26,19 +26,20 @@ namespace MantaMinigames.Fishing
 
         private const string SuccessMessage = "Conseguiste un pescado";
         private const string RetryMessage = "Intenta otra vez";
+        private const string FailedMessage = "Se acabaron los intentos";
+        private const string CancelledMessage = "Pesca cancelada";
 
         [SerializeField] private bool hasFish;
 
         private float indicatorPosition;
         private int indicatorDirection = 1;
 
-        public event Action<FishingResult> MinigameFinished;
-        public event Action<FishingResult> AttemptResolved;
+        public event Action<FishingResult> OnFishingCompleted;
 
         public bool IsRunning { get; private set; }
         public bool HasFish => hasFish;
         public int RemainingAttempts { get; private set; }
-        public FishingResult LastResult { get; private set; }
+        public FishingResult Result { get; private set; } = FishingResult.None;
         public float NormalizedProgress => Mathf.Clamp01(indicatorPosition);
 
         private void Awake()
@@ -70,7 +71,7 @@ namespace MantaMinigames.Fishing
 
             if (inputHandler.ConsumeCancelPressed())
             {
-                Finish(FishingResultStatus.Failed);
+                CancelMinigame();
                 return;
             }
 
@@ -91,6 +92,7 @@ namespace MantaMinigames.Fishing
             indicatorDirection = 1;
             RemainingAttempts = Mathf.Max(1, maxAttempts);
             hasFish = false;
+            Result = FishingResult.None;
             IsRunning = true;
             inputHandler?.ResetInput();
             SetMessage(string.Empty);
@@ -101,7 +103,7 @@ namespace MantaMinigames.Fishing
         {
             if (IsRunning)
             {
-                Finish(FishingResultStatus.Failed);
+                Finish(FishingResult.Cancelled);
             }
         }
 
@@ -114,35 +116,26 @@ namespace MantaMinigames.Fishing
         {
             if (!IsRunning)
             {
-                return LastResult;
+                return Result;
             }
 
             if (IsProgressInSuccessWindow(NormalizedProgress))
             {
                 hasFish = true;
-                return Finish(FishingResultStatus.Success);
+                return Finish(FishingResult.Success);
             }
 
             RemainingAttempts = Mathf.Max(0, RemainingAttempts - 1);
 
             if (RemainingAttempts <= 0)
             {
-                return Finish(FishingResultStatus.Failed);
+                return Finish(FishingResult.Failed);
             }
 
-            LastResult = CreateResult(FishingResultStatus.InProgress);
-            SetMessage(LastResult.Message);
+            Result = FishingResult.None;
+            SetMessage(RetryMessage);
             RefreshVisuals();
-            AttemptResolved?.Invoke(LastResult);
-            return LastResult;
-        }
-
-        public FishingResult CreateResult(FishingResultStatus status)
-        {
-            FishingRewardData resultReward = status == FishingResultStatus.Success ? rewardData : null;
-            string message = status == FishingResultStatus.Success ? SuccessMessage : RetryMessage;
-
-            return new FishingResult(status, resultReward, message, NormalizedProgress, RemainingAttempts);
+            return Result;
         }
 
         public void RefreshVisuals()
@@ -182,20 +175,20 @@ namespace MantaMinigames.Fishing
             RefreshVisuals();
         }
 
-        private FishingResult Finish(FishingResultStatus status)
+        private FishingResult Finish(FishingResult result)
         {
             IsRunning = false;
-            LastResult = CreateResult(status);
-            SetMessage(LastResult.Message);
+            Result = result;
+            SetMessage(GetMessageForResult(result));
             RefreshVisuals();
 
             if (logResultToConsole)
             {
-                Debug.Log(LastResult.Message);
+                Debug.Log(GetMessageForResult(result));
             }
 
-            MinigameFinished?.Invoke(LastResult);
-            return LastResult;
+            OnFishingCompleted?.Invoke(Result);
+            return Result;
         }
 
         private void MoveIndicator(float deltaTime)
@@ -266,6 +259,21 @@ namespace MantaMinigames.Fishing
             if (attemptsText != null)
             {
                 attemptsText.text = $"Intentos: {RemainingAttempts}";
+            }
+        }
+
+        private static string GetMessageForResult(FishingResult result)
+        {
+            switch (result)
+            {
+                case FishingResult.Success:
+                    return SuccessMessage;
+                case FishingResult.Failed:
+                    return FailedMessage;
+                case FishingResult.Cancelled:
+                    return CancelledMessage;
+                default:
+                    return RetryMessage;
             }
         }
 
