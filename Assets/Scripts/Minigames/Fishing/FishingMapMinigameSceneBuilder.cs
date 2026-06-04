@@ -36,17 +36,55 @@ namespace MantaMinigames.Fishing
             BuildIfNeeded();
         }
 
-        [ContextMenu("Build Map Fishing Minigame UI")]
-        public void BuildIfNeeded()
+        public void ConfigureSceneReferences(Canvas targetCanvas, FishingMinigameLauncher targetLauncher, FishingPlayerFishingState targetState)
+        {
+            if (targetCanvas != null)
+            {
+                canvas = targetCanvas;
+            }
+
+            if (targetLauncher != null)
+            {
+                fishingLauncher = targetLauncher;
+            }
+
+            if (targetState != null)
+            {
+                fishingState = targetState;
+            }
+        }
+
+        public FishingMinigameController BuildIfNeeded()
         {
             if (canvas == null)
             {
                 canvas = GetComponent<Canvas>();
             }
 
+            if (canvas == null)
+            {
+                canvas = UnityEngine.Object.FindFirstObjectByType<Canvas>();
+            }
+
+            if (fishingLauncher == null)
+            {
+                fishingLauncher = UnityEngine.Object.FindFirstObjectByType<FishingMinigameLauncher>();
+            }
+
+            if (fishingState == null)
+            {
+                fishingState = UnityEngine.Object.FindFirstObjectByType<FishingPlayerFishingState>();
+            }
+
+            if (fishingState == null)
+            {
+                GameObject stateObject = new GameObject(nameof(FishingPlayerFishingState));
+                fishingState = stateObject.AddComponent<FishingPlayerFishingState>();
+            }
+
             if (canvas == null || fishingLauncher == null || fishingState == null)
             {
-                return;
+                return null;
             }
 
             RectTransform panel = GetOrCreateRect(canvas.transform, MinigamePanelName, new Vector2(520f, 260f));
@@ -71,6 +109,11 @@ namespace MantaMinigames.Fishing
             TextMeshProUGUI stateText = GetOrCreateText(panel, StateName, "HasFish: False", 18f, new Vector2(-120f, -96f), new Vector2(210f, 30f));
             TextMeshProUGUI resultText = GetOrCreateText(panel, ResultName, "Resultado: None", 18f, new Vector2(120f, -96f), new Vector2(230f, 30f));
 
+            if (panel.GetComponent<FishingInputHandler>() == null)
+            {
+                panel.gameObject.AddComponent<FishingInputHandler>();
+            }
+
             FishingMinigameController controller = panel.GetComponent<FishingMinigameController>();
             if (controller == null)
             {
@@ -79,6 +122,13 @@ namespace MantaMinigames.Fishing
 
             controller.SetUiReferences(barImage, successImage, indicatorImage, messageText, attemptsText);
             fishingLauncher.Configure(controller, fishingState, stateText, resultText);
+            return controller;
+        }
+
+        [ContextMenu("Build Map Fishing Minigame UI")]
+        private void BuildFromContextMenu()
+        {
+            BuildIfNeeded();
         }
 
         private static RectTransform GetOrCreateRect(Transform parent, string objectName, Vector2 size)

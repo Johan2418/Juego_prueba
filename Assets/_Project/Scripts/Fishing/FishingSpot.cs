@@ -26,14 +26,20 @@ public class FishingSpot : MonoBehaviour, IInteractable
     public void Interact(PlayerInteractor interactor)
     {
         MantaMinigames.Fishing.FishingMinigameLauncher minigameLauncher = ResolveMinigameLauncher();
+        if (minigameLauncher == null && IsMuelleDemoRoute())
+        {
+            minigameLauncher = gameObject.AddComponent<MantaMinigames.Fishing.FishingMinigameLauncher>();
+            fishingMinigameLauncher = minigameLauncher;
+        }
+
         if (minigameLauncher != null)
         {
-            if (!minigameLauncher.HasMinigameController)
+            if (!minigameLauncher.EnsureConfigured())
             {
                 fishingMinigameBuilder?.BuildIfNeeded();
             }
 
-            if (!minigameLauncher.HasMinigameController)
+            if (!minigameLauncher.EnsureConfigured())
             {
                 interactor?.ShowNotification(MissingMinigameMessage);
                 Debug.LogWarning($"{name} tiene FishingMinigameLauncher sin FishingMinigameController.");
