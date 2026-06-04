@@ -29868,7 +29868,7 @@ PrefabInstance:
     - target: {fileID: 5689118703921881810, guid: b35c1a87f360ba5448e67c9ded6569dd, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -1170265666809484647, guid: 7cc234c3dda661641bd0b7e848f48871, type: 3}
+      objectReference: {fileID: -1170265666809484647, guid: 892f281e5bf82e54997008d51826eac2, type: 3}
     - target: {fileID: 5689118703921881810, guid: b35c1a87f360ba5448e67c9ded6569dd, type: 3}
       propertyPath: m_Color.a
       value: 1
@@ -29964,6 +29964,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6412295442151756343, guid: b35c1a87f360ba5448e67c9ded6569dd, type: 3}
       insertIndex: -1
       addedObject: {fileID: 974511465}
+    - targetCorrespondingSourceObject: {fileID: 6412295442151756343, guid: b35c1a87f360ba5448e67c9ded6569dd, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 974511469}
   m_SourcePrefab: {fileID: 100100000, guid: b35c1a87f360ba5448e67c9ded6569dd, type: 3}
 --- !u!4 &974511461 stripped
 Transform:
@@ -30028,7 +30031,29 @@ MonoBehaviour:
   moveSpeed: 3
   rb: {fileID: 0}
   useCardinalMovement: 1
-  animator: {fileID: 0}
+  animator: {fileID: 974511469}
+--- !u!95 &974511469
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974511462}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a5aaf17cd80705040831f1686a01e082, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!28 &988012790
 Texture2D:
   m_ObjectHideFlags: 0
