@@ -51,6 +51,11 @@ namespace MantaMinigames.Fishing
 
         public void StartFishing()
         {
+            StartFishing(null);
+        }
+
+        public void StartFishing(global::FishData selectedFish)
+        {
             EnsureConfigured();
 
             if (minigameController == null)
@@ -60,6 +65,7 @@ namespace MantaMinigames.Fishing
             }
 
             waitingToHideOnPlayerMove = false;
+            minigameController.SetTargetFish(selectedFish);
             ShowMinigameUI();
 
             if (fishingState != null)
@@ -245,7 +251,14 @@ namespace MantaMinigames.Fishing
 
             if (fishingState != null)
             {
-                fishingState.SetHasFish(caughtFish);
+                if (caughtFish)
+                {
+                    fishingState.SetCaughtFish(minigameController != null ? minigameController.TargetFish : null);
+                }
+                else
+                {
+                    fishingState.ClearFish();
+                }
             }
 
             SetResultText($"Resultado: {result}");

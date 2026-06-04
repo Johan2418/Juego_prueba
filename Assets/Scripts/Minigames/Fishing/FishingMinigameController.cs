@@ -23,17 +23,26 @@ namespace MantaMinigames.Fishing
         [SerializeField] private Image indicatorImage;
         [SerializeField] private TextMeshProUGUI messageText;
         [SerializeField] private TextMeshProUGUI attemptsText;
+        [SerializeField] private TextMeshProUGUI targetFishText;
+        [SerializeField] private TextMeshProUGUI hitsText;
 
         private const string SuccessMessage = "Conseguiste un pescado";
         private const string RetryMessage = "Intenta otra vez";
         private const string FailedMessage = "Se acabaron los intentos";
         private const string CancelledMessage = "Pesca cancelada";
+        private const string GoodPullMessage = "Buen tiron";
 
         [SerializeField] private bool hasFish;
         [SerializeField] private FishingResult fishingResult = FishingResult.None;
+        [SerializeField] private global::FishData targetFish;
 
         private float indicatorPosition;
         private int indicatorDirection = 1;
+        private int currentSuccessHits;
+        private int requiredSuccessHits = 1;
+        private float defaultIndicatorSpeed;
+        private float defaultSuccessWindowStart;
+        private float defaultSuccessWindowEnd;
 
         public event Action<FishingResult> OnFishingCompleted;
 
@@ -42,9 +51,14 @@ namespace MantaMinigames.Fishing
         public int RemainingAttempts { get; private set; }
         public FishingResult Result => fishingResult;
         public float NormalizedProgress => Mathf.Clamp01(indicatorPosition);
+        public global::FishData TargetFish => targetFish;
+        public int CurrentSuccessHits => currentSuccessHits;
+        public int RequiredSuccessHits => requiredSuccessHits;
 
         private void Awake()
         {
+            CacheDefaultDifficulty();
+
             if (inputHandler == null)
             {
                 inputHandler = GetComponent<FishingInputHandler>();
@@ -87,11 +101,20 @@ namespace MantaMinigames.Fishing
             rewardData = reward;
         }
 
+        public void SetTargetFish(global::FishData fish)
+        {
+            targetFish = fish;
+            ApplyDifficultyForTargetFish();
+            RefreshVisuals();
+        }
+
         public void StartMinigame()
         {
+            ApplyDifficultyForTargetFish();
             indicatorPosition = initialIndicatorPosition;
             indicatorDirection = 1;
             RemainingAttempts = Mathf.Max(1, maxAttempts);
+            currentSuccessHits = 0;
             hasFish = false;
             fishingResult = FishingResult.None;
             IsRunning = true;
@@ -122,8 +145,18 @@ namespace MantaMinigames.Fishing
 
             if (IsProgressInSuccessWindow(NormalizedProgress))
             {
-                hasFish = true;
-                return Finish(FishingResult.Success);
+                currentSuccessHits = Mathf.Min(requiredSuccessHits, currentSuccessHits + 1);
+
+                if (currentSuccessHits >= requiredSuccessHits)
+                {
+                    hasFish = true;
+                    return Finish(FishingResult.Success);
+                }
+
+                fishingResult = FishingResult.None;
+                SetMessage(GoodPullMessage);
+                RefreshVisuals();
+                return Result;
             }
 
             RemainingAttempts = Mathf.Max(0, RemainingAttempts - 1);
@@ -144,6 +177,8 @@ namespace MantaMinigames.Fishing
             PositionSuccessZone();
             PositionIndicator();
             UpdateAttemptsText();
+            UpdateTargetFishText();
+            UpdateHitsText();
         }
 
         public void ConfigureForTest(int attempts, float successStart, float successEnd, float currentIndicatorPosition)
@@ -154,6 +189,9 @@ namespace MantaMinigames.Fishing
             successWindowEnd = Mathf.Clamp01(Mathf.Max(successWindowStart, successEnd));
             initialIndicatorPosition = Mathf.Clamp01(currentIndicatorPosition);
             indicatorPosition = initialIndicatorPosition;
+            requiredSuccessHits = 1;
+            currentSuccessHits = 0;
+            CacheDefaultDifficulty();
         }
 
         public void SetUiReferencesForTest(Image bar, Image successZone, Image indicator)
@@ -168,11 +206,25 @@ namespace MantaMinigames.Fishing
             TextMeshProUGUI message,
             TextMeshProUGUI attempts)
         {
+            SetUiReferences(bar, successZone, indicator, message, attempts, targetFishText, hitsText);
+        }
+
+        public void SetUiReferences(
+            Image bar,
+            Image successZone,
+            Image indicator,
+            TextMeshProUGUI message,
+            TextMeshProUGUI attempts,
+            TextMeshProUGUI target,
+            TextMeshProUGUI hits)
+        {
             barImage = bar;
             successZoneImage = successZone;
             indicatorImage = indicator;
             messageText = message;
             attemptsText = attempts;
+            targetFishText = target;
+            hitsText = hits;
             RefreshVisuals();
         }
 
@@ -263,12 +315,71 @@ namespace MantaMinigames.Fishing
             }
         }
 
-        private static string GetMessageForResult(FishingResult result)
+        private void UpdateTargetFishText()
+        {
+            if (targetFishText == null)
+            {
+                return;
+            }
+
+            targetFishText.text = targetFish != null ? $"Pez: {targetFish.DisplayName}" : "Pez: Pescado";
+        }
+
+        private void UpdateHitsText()
+        {
+            if (hitsText != null)
+            {
+                hitsText.text = $"Aciertos: {currentSuccessHits}/{requiredSuccessHits}";
+            }
+        }
+
+        private void ApplyDifficultyForTargetFish()
+        {
+            if (targetFish == null)
+            {
+                indicatorSpeed = defaultIndicatorSpeed;
+                successWindowStart = defaultSuccessWindowStart;
+                successWindowEnd = defaultSuccessWindowEnd;
+                requiredSuccessHits = 1;
+                return;
+            }
+
+            switch (targetFish.Rarity)
+            {
+                case global::FishRarity.Rare:
+                    indicatorSpeed = 1.25f;
+                    successWindowStart = 0.46f;
+                    successWindowEnd = 0.61f;
+                    requiredSuccessHits = 3;
+                    break;
+                case global::FishRarity.Uncommon:
+                    indicatorSpeed = 0.9f;
+                    successWindowStart = 0.4f;
+                    successWindowEnd = 0.68f;
+                    requiredSuccessHits = 2;
+                    break;
+                default:
+                    indicatorSpeed = 0.65f;
+                    successWindowStart = 0.32f;
+                    successWindowEnd = 0.76f;
+                    requiredSuccessHits = 1;
+                    break;
+            }
+        }
+
+        private void CacheDefaultDifficulty()
+        {
+            defaultIndicatorSpeed = indicatorSpeed;
+            defaultSuccessWindowStart = successWindowStart;
+            defaultSuccessWindowEnd = successWindowEnd;
+        }
+
+        private string GetMessageForResult(FishingResult result)
         {
             switch (result)
             {
                 case FishingResult.Success:
-                    return SuccessMessage;
+                    return targetFish != null ? $"Conseguiste: {targetFish.DisplayName}" : SuccessMessage;
                 case FishingResult.Failed:
                     return FailedMessage;
                 case FishingResult.Cancelled:

@@ -30438,7 +30438,10 @@ MonoBehaviour:
   fishingDuration: 1.8
   catchChance: 0.85
   fishPool:
-  - {fileID: 11400000, guid: ef5353aad20287a418ba928ab0164f46, type: 2}
+  - {fileID: 11400000, guid: bffc591c313b61d4191a1d63ee947024, type: 2}
+  - {fileID: 11400000, guid: e3ec5895b96f0f944834c2d6c4abf4eb, type: 2}
+  - {fileID: 11400000, guid: b7ea5537cbd9efe4db5edbd7aded1bf0, type: 2}
+  - {fileID: 11400000, guid: 4c764c309fede4b4e9bb6b09b324c9fe, type: 2}
   enableDemoRouteHook: 0
   overrideDefaultFishingWithDemoRoute: 0
   demoRouteInteractionId: 

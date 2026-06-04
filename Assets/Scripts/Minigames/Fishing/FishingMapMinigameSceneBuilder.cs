@@ -16,8 +16,10 @@ namespace MantaMinigames.Fishing
         private const string BarName = "PrecisionBar";
         private const string SuccessName = "SuccessZone_Green";
         private const string IndicatorName = "MovingIndicator";
+        private const string TargetFishName = "Text_TargetFish";
         private const string AttemptsName = "Text_Attempts";
         private const string MessageName = "Text_Message";
+        private const string HitsName = "Text_Hits";
         private const string StateName = "Text_HasFish";
         private const string ResultName = "Text_FishingResult";
 
@@ -87,7 +89,7 @@ namespace MantaMinigames.Fishing
                 return null;
             }
 
-            RectTransform panel = GetOrCreateRect(canvas.transform, MinigamePanelName, new Vector2(520f, 260f));
+            RectTransform panel = GetOrCreateRect(canvas.transform, MinigamePanelName, new Vector2(560f, 300f));
             panel.anchorMin = new Vector2(0.5f, 0.5f);
             panel.anchorMax = new Vector2(0.5f, 0.5f);
             panel.pivot = new Vector2(0.5f, 0.5f);
@@ -95,7 +97,7 @@ namespace MantaMinigames.Fishing
             EnsureImage(panel.gameObject, new Color(0.07f, 0.09f, 0.11f, 0.92f));
 
             RectTransform bar = GetOrCreateRect(panel, BarName, new Vector2(420f, 32f));
-            bar.anchoredPosition = new Vector2(0f, 32f);
+            bar.anchoredPosition = new Vector2(0f, 24f);
             Image barImage = EnsureImage(bar.gameObject, new Color(0.18f, 0.2f, 0.24f, 1f));
 
             RectTransform successZone = GetOrCreateRect(bar, SuccessName, new Vector2(90f, 32f));
@@ -104,10 +106,12 @@ namespace MantaMinigames.Fishing
             RectTransform indicator = GetOrCreateRect(bar, IndicatorName, new Vector2(12f, 52f));
             Image indicatorImage = EnsureImage(indicator.gameObject, new Color(1f, 0.92f, 0.32f, 1f));
 
-            TextMeshProUGUI attemptsText = GetOrCreateText(panel, AttemptsName, "Intentos: 3", 24f, new Vector2(0f, 94f), new Vector2(420f, 36f));
-            TextMeshProUGUI messageText = GetOrCreateText(panel, MessageName, "Interactua con el muelle para pescar.", 21f, new Vector2(0f, -34f), new Vector2(460f, 48f));
-            TextMeshProUGUI stateText = GetOrCreateText(panel, StateName, "HasFish: False", 18f, new Vector2(-120f, -96f), new Vector2(210f, 30f));
-            TextMeshProUGUI resultText = GetOrCreateText(panel, ResultName, "Resultado: None", 18f, new Vector2(120f, -96f), new Vector2(230f, 30f));
+            TextMeshProUGUI targetFishText = GetOrCreateText(panel, TargetFishName, "Pez: Pescado", 21f, new Vector2(0f, 122f), new Vector2(460f, 30f));
+            TextMeshProUGUI attemptsText = GetOrCreateText(panel, AttemptsName, "Intentos: 3", 23f, new Vector2(-120f, 86f), new Vector2(220f, 32f));
+            TextMeshProUGUI hitsText = GetOrCreateText(panel, HitsName, "Aciertos: 0/1", 23f, new Vector2(120f, 86f), new Vector2(220f, 32f));
+            TextMeshProUGUI messageText = GetOrCreateText(panel, MessageName, "Interactua con el muelle para pescar.", 21f, new Vector2(0f, -40f), new Vector2(500f, 48f));
+            TextMeshProUGUI stateText = GetOrCreateText(panel, StateName, "HasFish: False", 18f, new Vector2(-125f, -112f), new Vector2(220f, 30f));
+            TextMeshProUGUI resultText = GetOrCreateText(panel, ResultName, "Resultado: None", 18f, new Vector2(130f, -112f), new Vector2(250f, 30f));
 
             if (panel.GetComponent<FishingInputHandler>() == null)
             {
@@ -120,7 +124,7 @@ namespace MantaMinigames.Fishing
                 controller = panel.gameObject.AddComponent<FishingMinigameController>();
             }
 
-            controller.SetUiReferences(barImage, successImage, indicatorImage, messageText, attemptsText);
+            controller.SetUiReferences(barImage, successImage, indicatorImage, messageText, attemptsText, targetFishText, hitsText);
             fishingLauncher.Configure(controller, fishingState, stateText, resultText);
             return controller;
         }

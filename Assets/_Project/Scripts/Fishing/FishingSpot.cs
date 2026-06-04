@@ -54,9 +54,20 @@ public class FishingSpot : MonoBehaviour, IInteractable
             activeMinigameLauncher = minigameLauncher;
             activeMinigameInteractor = interactor;
             activeMinigameLauncher.OnFishingCompleted += HandleMinigameCompleted;
+            FishData selectedFish = PickWeightedFish();
+            if (selectedFish == null)
+            {
+                activeMinigameLauncher.OnFishingCompleted -= HandleMinigameCompleted;
+                activeMinigameLauncher = null;
+                activeMinigameInteractor = null;
+                interactor?.ShowNotification("No hay peces configurados aqui.");
+                Debug.LogWarning($"{name} no tiene peces validos en fishPool.");
+                return;
+            }
+
             interactor?.ShowNotification("Pescando...", 1f);
             interactor?.SetInteractionLocked(true);
-            minigameLauncher.StartFishing();
+            minigameLauncher.StartFishing(selectedFish);
             return;
         }
 
@@ -146,7 +157,15 @@ public class FishingSpot : MonoBehaviour, IInteractable
             }
         }
 
-        return fishPool[fishPool.Length - 1];
+        for (int i = fishPool.Length - 1; i >= 0; i--)
+        {
+            if (fishPool[i] != null)
+            {
+                return fishPool[i];
+            }
+        }
+
+        return null;
     }
 
     private void OnDrawGizmosSelected()
