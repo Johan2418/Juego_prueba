@@ -1,0 +1,1794 @@
+fileFormatVersion: 2
+guid: 7cc234c3dda661641bd0b7e848f48871
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1170265666809484647
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_0
+  - first:
+      213: -1177413712811492839
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_1
+  - first:
+      213: -4810695702892231712
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_2
+  - first:
+      213: 5506368493342677248
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_3
+  - first:
+      213: -5841944378236358045
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_4
+  - first:
+      213: 2890578604155717810
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_5
+  - first:
+      213: -6027841661983264623
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_6
+  - first:
+      213: -3300791507567184346
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_7
+  - first:
+      213: 5219618382516883511
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_8
+  - first:
+      213: 4414374213185729864
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_9
+  - first:
+      213: 3653099487664294909
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_10
+  - first:
+      213: -9042168444985741266
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_11
+  - first:
+      213: 8964320712879533133
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_12
+  - first:
+      213: 8092977906168030627
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_13
+  - first:
+      213: -8745103123812677302
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_14
+  - first:
+      213: 6619513234526014290
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_15
+  - first:
+      213: -3159620543675712085
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_16
+  - first:
+      213: -7657002540634928191
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_17
+  - first:
+      213: 4808081645913214157
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_18
+  - first:
+      213: 1134276637449059802
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_19
+  - first:
+      213: -1114797408316692498
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_20
+  - first:
+      213: -3572921955566022145
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_21
+  - first:
+      213: 1415160157534856134
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_22
+  - first:
+      213: 5443637652403339884
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_23
+  - first:
+      213: -6231361297611346509
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_24
+  - first:
+      213: -3202207596913706343
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_25
+  - first:
+      213: 5417485693740023533
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_26
+  - first:
+      213: 3161993140611622673
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_27
+  - first:
+      213: -5104143109849162368
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_28
+  - first:
+      213: -8390881945435973822
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_29
+  - first:
+      213: -9073466005746261689
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_30
+  - first:
+      213: -4880220023002190025
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_31
+  - first:
+      213: -8525508213621619475
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_32
+  - first:
+      213: 9090499550400632300
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_33
+  - first:
+      213: 8613431307275995221
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_34
+  - first:
+      213: -5440947905153687334
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_35
+  - first:
+      213: -8719473010649778828
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_36
+  - first:
+      213: 2563506304885772173
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_37
+  - first:
+      213: -1284887474253965882
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_38
+  - first:
+      213: -2263791818034670477
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_39
+  - first:
+      213: 8599621249678787366
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_40
+  - first:
+      213: 5508544956569783649
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_41
+  - first:
+      213: -6714788767786477623
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_42
+  - first:
+      213: 7942648080599282408
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_43
+  - first:
+      213: 2924818862137138135
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_44
+  - first:
+      213: -2643699931053657241
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_45
+  - first:
+      213: -1542991863598453784
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_46
+  - first:
+      213: -7137463925569349152
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_47
+  - first:
+      213: -5382113826777816417
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_48
+  - first:
+      213: -1604217589147050529
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_49
+  - first:
+      213: 2329728480162237951
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_50
+  - first:
+      213: -8413318659986700385
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_51
+  - first:
+      213: 3564600510027067737
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_52
+  - first:
+      213: -5137993760519334523
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_53
+  - first:
+      213: -5450401097149330664
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_54
+  - first:
+      213: -3040495775865580250
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_55
+  - first:
+      213: -4103829139373267346
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_56
+  - first:
+      213: -3466105131954736367
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_57
+  - first:
+      213: 1297401414929243112
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_58
+  - first:
+      213: 8299251977310717536
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_59
+  - first:
+      213: -924481880416041996
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_60
+  - first:
+      213: -4064092574445145588
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_61
+  - first:
+      213: -5033634813649614464
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_62
+  - first:
+      213: 2302771624631374359
+    second: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_63
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 225
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99a2cfc839162cfe0800000000000000
+      internalID: -1170265666809484647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 225
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91a7236677cf8afe0800000000000000
+      internalID: -1177413712811492839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 225
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e34c921fb9fc3db0800000000000000
+      internalID: -4810695702892231712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_3
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 225
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 009d71088fc8a6c40800000000000000
+      internalID: 5506368493342677248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_4
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 224
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 362b1a93a8e3deea0800000000000000
+      internalID: -5841944378236358045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_5
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 225
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b8cb00fce56d1820800000000000000
+      internalID: 2890578604155717810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_6
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 225
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 190ff2ff1fdc85ca0800000000000000
+      internalID: -6027841661983264623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_7
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 225
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 626f4d9bc9b3132d0800000000000000
+      internalID: -3300791507567184346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_8
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 193
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7309401a34fcf6840800000000000000
+      internalID: 5219618382516883511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_9
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 193
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 845749265f1034d30800000000000000
+      internalID: 4414374213185729864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_10
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 193
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfb446b01aa62b230800000000000000
+      internalID: 3653099487664294909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_11
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 193
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e20f06de4b3c38280800000000000000
+      internalID: -9042168444985741266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_12
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 192
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4c6cdf713aa76c70800000000000000
+      internalID: 8964320712879533133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_13
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 193
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a5ea38f688005070800000000000000
+      internalID: 8092977906168030627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_14
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 193
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a498cfcda0723a680800000000000000
+      internalID: -8745103123812677302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_15
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 193
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25b8be1173c3ddb50800000000000000
+      internalID: 6619513234526014290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_16
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 161
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: badbe2d1bd5c624d0800000000000000
+      internalID: -3159620543675712085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_17
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 161
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cb013102ccdcb590800000000000000
+      internalID: -7657002540634928191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_18
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 161
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcc8bbb58ccb9b240800000000000000
+      internalID: 4808081645913214157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_19
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 161
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: addfc249792cdbf00800000000000000
+      internalID: 1134276637449059802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_20
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 161
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee7e1c0e9a17780f0800000000000000
+      internalID: -1114797408316692498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_21
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 161
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff11b4c596e6a6ec0800000000000000
+      internalID: -3572921955566022145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_22
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 161
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c3a62a5aa8a3a310800000000000000
+      internalID: 1415160157534856134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_23
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 161
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c62417d6a9fab8b40800000000000000
+      internalID: 5443637652403339884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_24
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 129
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bd22cc3ae1c589a0800000000000000
+      internalID: -6231361297611346509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_25
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 129
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ab6e818297f83d0800000000000000
+      internalID: -3202207596913706343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_26
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 129
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dee722f0986ce2b40800000000000000
+      internalID: 5417485693740023533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_27
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 129
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 117a0682208a1eb20800000000000000
+      internalID: 3161993140611622673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_28
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 129
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08ddeae62e07a29b0800000000000000
+      internalID: -5104143109849162368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_29
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 129
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 247dc02d3599d8b80800000000000000
+      internalID: -8390881945435973822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_30
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 129
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74169e5bdb2941280800000000000000
+      internalID: -9073466005746261689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_31
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 129
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73fa43fdeb9f54cb0800000000000000
+      internalID: -4880220023002190025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_32
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 97
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de48865237f4fa980800000000000000
+      internalID: -8525508213621619475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_33
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 97
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce55a747d21f72e70800000000000000
+      internalID: 9090499550400632300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_34
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 97
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5580a67532e098770800000000000000
+      internalID: 8613431307275995221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_35
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 97
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad0a8e725bedd74b0800000000000000
+      internalID: -5440947905153687334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_36
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 97
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4753d9b9e753ef680800000000000000
+      internalID: -8719473010649778828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_37
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 97
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8fc03af667639320800000000000000
+      internalID: 2563506304885772173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_38
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 97
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c55eb856a92b2ee0800000000000000
+      internalID: -1284887474253965882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_39
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 97
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3749b98e5556590e0800000000000000
+      internalID: -2263791818034670477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_40
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 65
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 623410eb6fdf75770800000000000000
+      internalID: 8599621249678787366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_41
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 65
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16d8c95d378427c40800000000000000
+      internalID: 5508544956569783649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_42
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 65
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c7dd42313740d2a0800000000000000
+      internalID: -6714788767786477623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_43
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 65
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e2fe0ce854f93e60800000000000000
+      internalID: 7942648080599282408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_44
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 65
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dbdb0e324b079820800000000000000
+      internalID: 2924818862137138135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_45
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 65
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76372dc6be0bf4bd0800000000000000
+      internalID: -2643699931053657241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_46
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 65
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eb65ee3311369ae0800000000000000
+      internalID: -1542991863598453784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_47
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 65
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e916472062a2fc90800000000000000
+      internalID: -7137463925569349152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_48
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 33
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f92a03e7df3ee45b0800000000000000
+      internalID: -5382113826777816417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_49
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 33
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fddd4782a9cacb9e0800000000000000
+      internalID: -1604217589147050529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_50
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 33
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffd4e2395bbd45020800000000000000
+      internalID: 2329728480162237951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_51
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 33
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f97c3512143ed3b80800000000000000
+      internalID: -8413318659986700385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_52
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 33
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 951f65e1741087130800000000000000
+      internalID: 3564600510027067737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_53
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 33
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5855216a5ed22b8b0800000000000000
+      internalID: -5137993760519334523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_54
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 33
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81bc30164194c54b0800000000000000
+      internalID: -5450401097149330664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_55
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 33
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 625d47a733dfdc5d0800000000000000
+      internalID: -3040495775865580250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_56
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6662c804254c07c0800000000000000
+      internalID: -4103829139373267346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_57
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 113fda72fbbe5efc0800000000000000
+      internalID: -3466105131954736367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_58
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eb52f386bb410210800000000000000
+      internalID: 1297401414929243112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_59
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0664019b3bddc2370800000000000000
+      internalID: 8299251977310717536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_60
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f3448cb0a49b23f0800000000000000
+      internalID: -924481880416041996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_61
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c02f4e506517997c0800000000000000
+      internalID: -4064092574445145588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_62
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 089006b6ecfe42ab0800000000000000
+      internalID: -5033634813649614464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixellab-Create-a-2D-pixel-art-top-down-1780501933967_63
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 1
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 712900d879615ff10800000000000000
+      internalID: 2302771624631374359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_0: -1170265666809484647
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_1: -1177413712811492839
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_10: 3653099487664294909
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_11: -9042168444985741266
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_12: 8964320712879533133
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_13: 8092977906168030627
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_14: -8745103123812677302
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_15: 6619513234526014290
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_16: -3159620543675712085
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_17: -7657002540634928191
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_18: 4808081645913214157
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_19: 1134276637449059802
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_2: -4810695702892231712
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_20: -1114797408316692498
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_21: -3572921955566022145
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_22: 1415160157534856134
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_23: 5443637652403339884
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_24: -6231361297611346509
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_25: -3202207596913706343
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_26: 5417485693740023533
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_27: 3161993140611622673
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_28: -5104143109849162368
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_29: -8390881945435973822
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_3: 5506368493342677248
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_30: -9073466005746261689
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_31: -4880220023002190025
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_32: -8525508213621619475
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_33: 9090499550400632300
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_34: 8613431307275995221
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_35: -5440947905153687334
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_36: -8719473010649778828
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_37: 2563506304885772173
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_38: -1284887474253965882
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_39: -2263791818034670477
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_4: -5841944378236358045
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_40: 8599621249678787366
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_41: 5508544956569783649
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_42: -6714788767786477623
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_43: 7942648080599282408
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_44: 2924818862137138135
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_45: -2643699931053657241
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_46: -1542991863598453784
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_47: -7137463925569349152
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_48: -5382113826777816417
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_49: -1604217589147050529
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_5: 2890578604155717810
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_50: 2329728480162237951
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_51: -8413318659986700385
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_52: 3564600510027067737
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_53: -5137993760519334523
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_54: -5450401097149330664
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_55: -3040495775865580250
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_56: -4103829139373267346
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_57: -3466105131954736367
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_58: 1297401414929243112
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_59: 8299251977310717536
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_6: -6027841661983264623
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_60: -924481880416041996
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_61: -4064092574445145588
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_62: -5033634813649614464
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_63: 2302771624631374359
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_7: -3300791507567184346
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_8: 5219618382516883511
+      pixellab-Create-a-2D-pixel-art-top-down-1780501933967_9: 4414374213185729864
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
