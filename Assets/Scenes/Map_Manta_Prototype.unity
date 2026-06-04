@@ -30442,6 +30442,8 @@ MonoBehaviour:
   enableDemoRouteHook: 0
   overrideDefaultFishingWithDemoRoute: 0
   demoRouteInteractionId: 
+  fishingMinigameLauncher: {fileID: 1073591046}
+  fishingMinigameBuilder: {fileID: 943311943}
 --- !u!114 &1073591046
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -31,6 +31,11 @@ namespace MantaMinigames.Fishing
             BuildIfNeeded();
         }
 
+        private void Start()
+        {
+            BuildIfNeeded();
+        }
+
         [ContextMenu("Build Map Fishing Minigame UI")]
         public void BuildIfNeeded()
         {

@@ -12,21 +12,30 @@ public class FishingSpot : MonoBehaviour, IInteractable
     [SerializeField] private bool enableDemoRouteHook;
     [SerializeField] private bool overrideDefaultFishingWithDemoRoute;
     [SerializeField] private string demoRouteInteractionId;
+    [SerializeField] private MantaMinigames.Fishing.FishingMinigameLauncher fishingMinigameLauncher;
+    [SerializeField] private MantaMinigames.Fishing.FishingMapMinigameSceneBuilder fishingMinigameBuilder;
 
     private MantaMinigames.Fishing.FishingMinigameLauncher activeMinigameLauncher;
     private PlayerInteractor activeMinigameInteractor;
     private bool completingFromMinigame;
 
+    private const string MissingMinigameMessage = "El minijuego de pesca no est\u00e1 configurado.";
+
     public float FishingDuration => Mathf.Max(0.25f, fishingDuration);
 
     public void Interact(PlayerInteractor interactor)
     {
-        MantaMinigames.Fishing.FishingMinigameLauncher minigameLauncher = GetComponent<MantaMinigames.Fishing.FishingMinigameLauncher>();
+        MantaMinigames.Fishing.FishingMinigameLauncher minigameLauncher = ResolveMinigameLauncher();
         if (minigameLauncher != null)
         {
             if (!minigameLauncher.HasMinigameController)
             {
-                interactor?.ShowNotification("El minijuego de pesca no esta configurado.");
+                fishingMinigameBuilder?.BuildIfNeeded();
+            }
+
+            if (!minigameLauncher.HasMinigameController)
+            {
+                interactor?.ShowNotification(MissingMinigameMessage);
                 Debug.LogWarning($"{name} tiene FishingMinigameLauncher sin FishingMinigameController.");
                 return;
             }
@@ -42,6 +51,13 @@ public class FishingSpot : MonoBehaviour, IInteractable
             interactor?.ShowNotification("Pescando...", 1f);
             interactor?.SetInteractionLocked(true);
             minigameLauncher.StartFishing();
+            return;
+        }
+
+        if (IsMuelleDemoRoute())
+        {
+            interactor?.ShowNotification(MissingMinigameMessage);
+            Debug.LogWarning($"{name} es la ruta del muelle y no tiene FishingMinigameLauncher configurado.");
             return;
         }
 
@@ -138,6 +154,11 @@ public class FishingSpot : MonoBehaviour, IInteractable
         interactionDistance = Mathf.Max(0.25f, interactionDistance);
         fishingDuration = Mathf.Max(0.25f, fishingDuration);
         catchChance = Mathf.Clamp01(catchChance);
+
+        if (fishingMinigameLauncher == null)
+        {
+            fishingMinigameLauncher = GetComponent<MantaMinigames.Fishing.FishingMinigameLauncher>();
+        }
     }
 
     public void NotifyDemoRouteFishingSucceeded(PlayerInteractor interactor)
@@ -167,13 +188,30 @@ public class FishingSpot : MonoBehaviour, IInteractable
         if (result == MantaMinigames.Fishing.FishingResult.Success)
         {
             completingFromMinigame = true;
-            NotifyDemoRouteFishingSucceeded(activeMinigameInteractor);
-            completingFromMinigame = false;
+            try
+            {
+                NotifyDemoRouteFishingSucceeded(activeMinigameInteractor);
+            }
+            finally
+            {
+                completingFromMinigame = false;
+            }
         }
 
         activeMinigameInteractor?.SetInteractionLocked(false);
         activeMinigameLauncher = null;
         activeMinigameInteractor = null;
+    }
+
+    private MantaMinigames.Fishing.FishingMinigameLauncher ResolveMinigameLauncher()
+    {
+        if (fishingMinigameLauncher != null)
+        {
+            return fishingMinigameLauncher;
+        }
+
+        fishingMinigameLauncher = GetComponent<MantaMinigames.Fishing.FishingMinigameLauncher>();
+        return fishingMinigameLauncher;
     }
 
     // Hook opcional para convertir un spot concreto en paso de mision de la demo.
