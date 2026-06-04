@@ -17108,6 +17108,7 @@ GameObject:
   - component: {fileID: 943311941}
   - component: {fileID: 943311940}
   - component: {fileID: 943311939}
+  - component: {fileID: 943311943}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
@@ -17155,6 +17156,21 @@ MonoBehaviour:
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
   m_PresetInfoIsWorld: 0
+--- !u!114 &943311943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 943311938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20d6080c72784dd29dea0d528a4c57ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 943311941}
+  fishingLauncher: {fileID: 1073591046}
+  fishingState: {fileID: 1073591047}
 --- !u!223 &943311941
 Canvas:
   m_ObjectHideFlags: 0
@@ -30377,6 +30393,8 @@ GameObject:
   - component: {fileID: 1073591041}
   - component: {fileID: 1073591043}
   - component: {fileID: 1073591042}
+  - component: {fileID: 1073591046}
+  - component: {fileID: 1073591047}
   - component: {fileID: 1073591045}
   - component: {fileID: 1073591044}
   m_Layer: 0
@@ -30424,6 +30442,35 @@ MonoBehaviour:
   enableDemoRouteHook: 0
   overrideDefaultFishingWithDemoRoute: 0
   demoRouteInteractionId: 
+--- !u!114 &1073591046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073591040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dbc366261944dd1b5dbb61f796f8daf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minigameController: {fileID: 0}
+  fishingState: {fileID: 1073591047}
+  stateText: {fileID: 0}
+  resultText: {fileID: 0}
+--- !u!114 &1073591047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073591040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bf0bb08b483433bb1dd12e826e186ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasFish: 0
 --- !u!58 &1073591043
 CircleCollider2D:
   m_ObjectHideFlags: 0

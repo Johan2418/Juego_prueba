@@ -156,8 +156,20 @@ public class DemoQuestRouteManager : MonoBehaviour
 
     private void HandleMuelleFishing(PlayerInteractor interactor)
     {
+        ShowMessage(interactor, "Completa el minijuego de pesca para conseguir un pescado.");
+    }
+
+    public void CompleteMuelleFishingFromMinigame(PlayerInteractor interactor)
+    {
+        if (hasFish)
+        {
+            ShowMessage(interactor, "Lleva el pescado al mercado.");
+            SetObjective("Lleva el pescado al mercado.");
+            return;
+        }
+
         hasFish = true;
-        ShowMessage(interactor, "Has conseguido pescado fresco.");
+        ShowMessage(interactor, "Lleva el pescado al mercado.");
         SetObjective("Lleva el pescado al mercado.");
         QuestManager.Instance?.SubmitEvent(QuestEvent.ForFishCaught("fish_muelle", 1));
     }

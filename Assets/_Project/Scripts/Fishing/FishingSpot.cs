@@ -13,10 +13,38 @@ public class FishingSpot : MonoBehaviour, IInteractable
     [SerializeField] private bool overrideDefaultFishingWithDemoRoute;
     [SerializeField] private string demoRouteInteractionId;
 
+    private MantaMinigames.Fishing.FishingMinigameLauncher activeMinigameLauncher;
+    private PlayerInteractor activeMinigameInteractor;
+    private bool completingFromMinigame;
+
     public float FishingDuration => Mathf.Max(0.25f, fishingDuration);
 
     public void Interact(PlayerInteractor interactor)
     {
+        MantaMinigames.Fishing.FishingMinigameLauncher minigameLauncher = GetComponent<MantaMinigames.Fishing.FishingMinigameLauncher>();
+        if (minigameLauncher != null)
+        {
+            if (!minigameLauncher.HasMinigameController)
+            {
+                interactor?.ShowNotification("El minijuego de pesca no esta configurado.");
+                Debug.LogWarning($"{name} tiene FishingMinigameLauncher sin FishingMinigameController.");
+                return;
+            }
+
+            if (activeMinigameLauncher != null)
+            {
+                activeMinigameLauncher.OnFishingCompleted -= HandleMinigameCompleted;
+            }
+
+            activeMinigameLauncher = minigameLauncher;
+            activeMinigameInteractor = interactor;
+            activeMinigameLauncher.OnFishingCompleted += HandleMinigameCompleted;
+            interactor?.ShowNotification("Pescando...", 1f);
+            interactor?.SetInteractionLocked(true);
+            minigameLauncher.StartFishing();
+            return;
+        }
+
         if (overrideDefaultFishingWithDemoRoute && TryHandleDemoRoute(interactor, true))
         {
             return;
@@ -114,7 +142,38 @@ public class FishingSpot : MonoBehaviour, IInteractable
 
     public void NotifyDemoRouteFishingSucceeded(PlayerInteractor interactor)
     {
+        if (IsMuelleDemoRoute())
+        {
+            if (!completingFromMinigame)
+            {
+                Debug.Log("La ruta del muelle solo se completa al ganar el minijuego de pesca.");
+                return;
+            }
+
+            DemoQuestRouteManager.Instance?.CompleteMuelleFishingFromMinigame(interactor);
+            return;
+        }
+
         TryHandleDemoRoute(interactor, false);
+    }
+
+    private void HandleMinigameCompleted(MantaMinigames.Fishing.FishingResult result)
+    {
+        if (activeMinigameLauncher != null)
+        {
+            activeMinigameLauncher.OnFishingCompleted -= HandleMinigameCompleted;
+        }
+
+        if (result == MantaMinigames.Fishing.FishingResult.Success)
+        {
+            completingFromMinigame = true;
+            NotifyDemoRouteFishingSucceeded(activeMinigameInteractor);
+            completingFromMinigame = false;
+        }
+
+        activeMinigameInteractor?.SetInteractionLocked(false);
+        activeMinigameLauncher = null;
+        activeMinigameInteractor = null;
     }
 
     // Hook opcional para convertir un spot concreto en paso de mision de la demo.
@@ -127,6 +186,12 @@ public class FishingSpot : MonoBehaviour, IInteractable
 
         bool handled = DemoQuestRouteManager.Instance.TryHandleInteraction(ResolveDemoRouteInteractionId(), interactor);
         return consumeInteraction && handled;
+    }
+
+    private bool IsMuelleDemoRoute()
+    {
+        string routeId = ResolveDemoRouteInteractionId().Trim().ToLowerInvariant();
+        return routeId == "fishingspot_muelle" || routeId == "fishing_spot_muelle";
     }
 
     private bool ShouldUseDemoRouteHook()

@@ -30,6 +30,7 @@ namespace MantaMinigames.Fishing
         private const string CancelledMessage = "Pesca cancelada";
 
         [SerializeField] private bool hasFish;
+        [SerializeField] private FishingResult fishingResult = FishingResult.None;
 
         private float indicatorPosition;
         private int indicatorDirection = 1;
@@ -39,7 +40,7 @@ namespace MantaMinigames.Fishing
         public bool IsRunning { get; private set; }
         public bool HasFish => hasFish;
         public int RemainingAttempts { get; private set; }
-        public FishingResult Result { get; private set; } = FishingResult.None;
+        public FishingResult Result => fishingResult;
         public float NormalizedProgress => Mathf.Clamp01(indicatorPosition);
 
         private void Awake()
@@ -92,7 +93,7 @@ namespace MantaMinigames.Fishing
             indicatorDirection = 1;
             RemainingAttempts = Mathf.Max(1, maxAttempts);
             hasFish = false;
-            Result = FishingResult.None;
+            fishingResult = FishingResult.None;
             IsRunning = true;
             inputHandler?.ResetInput();
             SetMessage(string.Empty);
@@ -132,7 +133,7 @@ namespace MantaMinigames.Fishing
                 return Finish(FishingResult.Failed);
             }
 
-            Result = FishingResult.None;
+            fishingResult = FishingResult.None;
             SetMessage(RetryMessage);
             RefreshVisuals();
             return Result;
@@ -178,7 +179,7 @@ namespace MantaMinigames.Fishing
         private FishingResult Finish(FishingResult result)
         {
             IsRunning = false;
-            Result = result;
+            fishingResult = result;
             SetMessage(GetMessageForResult(result));
             RefreshVisuals();
 
@@ -187,8 +188,8 @@ namespace MantaMinigames.Fishing
                 Debug.Log(GetMessageForResult(result));
             }
 
-            OnFishingCompleted?.Invoke(Result);
-            return Result;
+            OnFishingCompleted?.Invoke(fishingResult);
+            return fishingResult;
         }
 
         private void MoveIndicator(float deltaTime)
