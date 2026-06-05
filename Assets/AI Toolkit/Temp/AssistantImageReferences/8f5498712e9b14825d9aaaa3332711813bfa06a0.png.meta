@@ -1,0 +1,1146 @@
+fileFormatVersion: 2
+guid: d0747cbade5bac44a819191566c2b92c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8074020816934574821
+    second: 8f5498712e9b14825d9aaaa3332711813bfa06a0_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vendedora_0
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1510
+        width: 81
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a5970ddca7b85848b215ae30ab75a7d
+      internalID: 1811853064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vendedora_1
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1510
+        width: 80
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2062a1cb9111834eacd24289b3fc08f
+      internalID: 1933691917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vendedora_2
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1509
+        width: 80
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 837274198673997429ebea9d0c815855
+      internalID: 603230010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vendedora_3
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 1506
+        width: 82
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03fcb9613a10bf64389d85f9ce52249d
+      internalID: -1598493496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vendedora_4
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 1504
+        width: 80
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6071bb1cb338b448c33ddfe21e7d31
+      internalID: -733575817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vendedora_5
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1505
+        width: 81
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3990a2a58e79ea54eb6d6b581fb95134
+      internalID: 827209400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vendedora_6
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1325
+        width: 78
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ae07e1fdb61fd44b03f8bc85dc71d5
+      internalID: 956101660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vendedora_7
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1324
+        width: 77
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a1ae1bd2e5b834ca51e17f12b1da3d
+      internalID: -753027046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vendedora_8
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 1325
+        width: 78
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575ac822f77ec5d42ae2b81d308c433c
+      internalID: -1008688377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vendedora_9
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 1324
+        width: 83
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f06ebdf33f32243aa7e543a87da5fc
+      internalID: 2091032531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vendedora_10
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 1322
+        width: 80
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e95b16edb145855449ba8d48eb5deb17
+      internalID: -549013577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vendedora_11
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1322
+        width: 78
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed5a796f36902d4fb5d1cd9679cd937
+      internalID: -1441588543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vendedora_12
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1146
+        width: 73
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f816a1e62288640b824e0b509de21e
+      internalID: -1651868607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vendedora_13
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1146
+        width: 74
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6effd256201a70e418f8aaf9129bbfbd
+      internalID: -511573832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vendedora_14
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1146
+        width: 73
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddadad2772a1f674983e3c8277b78778
+      internalID: -238554444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vendedora_15
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1147
+        width: 75
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe9dafc6f3c2c34e8c94e485571308c
+      internalID: -86570157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vendedora_16
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 1149
+        width: 73
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 609160f6d99c7cb428658146b8b30dd4
+      internalID: 191088442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vendedora_17
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 1146
+        width: 73
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653a3f5105122d748bfeb9b576a3e71c
+      internalID: -57677615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vendedora_18
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 964
+        width: 74
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41acd41485cd7124e8c20f17d3ed34c4
+      internalID: 814095751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vendedora_19
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 965
+        width: 76
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ac5036bf037df4784cadabc9b4c4b8
+      internalID: -2109201330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vendedora_20
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 964
+        width: 73
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2f34b7c0d7f75408c1a355133a5492
+      internalID: 1268928771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vendedora_21
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 965
+        width: 74
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3998baf9fe9d8f4cae3eeb1b4a367e9
+      internalID: -763046249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vendedora_22
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 965
+        width: 74
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e9b3c91eea579f48b6e240d6d1e8cce
+      internalID: 1303631747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vendedora_23
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 968
+        width: 76
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f42a8c78952a84e9b8aaffcceaffb4
+      internalID: -1942292205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vendedora_24
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 736
+        width: 107
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc495b0256d67042a04b8f96b25f124
+      internalID: -1715548893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vendedora_25
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 736
+        width: 107
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcbb89bc6bbcbe042bf318a35b1b80e8
+      internalID: 489137182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vendedora_26
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 736
+        width: 106
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef850d4d219206040b8371b3f15349f4
+      internalID: -371486757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vendedora_27
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 736
+        width: 107
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c35996ef3f40e34d9f08dbec0f0966f
+      internalID: -1307217230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vendedora_28
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 501
+        width: 138
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd1dd81d9ffe354294e6f9f40607629
+      internalID: 1603125790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vendedora_29
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 501
+        width: 139
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df54873a4a76a8d4cb6513a46b7cacfc
+      internalID: 1127632023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vendedora_30
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 504
+        width: 142
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9661ac0acff822a46a4e8670611706a2
+      internalID: -1233433599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vendedora_31
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 504
+        width: 96
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c55cb999c69734b9329a08fa0b48f4
+      internalID: -1038965471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vendedora_32
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 277
+        width: 145
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6377a88e7203b7448da8573ca7eb939
+      internalID: 1128460981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vendedora_33
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 243
+        width: 140
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e489709312459574781628f40b6138ba
+      internalID: -551388340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vendedora_34
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 285
+        width: 107
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ec614fc5f34b044a95f1e1d1b988a7
+      internalID: -1368858892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vendedora_35
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 432
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88eeb5992e85fdc4d8eccd523e4ee6f8
+      internalID: -1499336544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vendedora_36
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 286
+        width: 98
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c545b90dcf19d6a499093e87aa4ad438
+      internalID: -1418129441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vendedora_37
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 414
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af491a3024c4b00438edd5b0cdfd74c5
+      internalID: 2058932555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vendedora_38
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 399
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29728e269949b074ab6af977e3e2efb7
+      internalID: -713681353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vendedora_39
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 40
+        width: 110
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7cb17cbe8dfc4b438f51006d107f830
+      internalID: -594900869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vendedora_40
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 40
+        width: 126
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aefc8039393d84e4996e137acdf4fbee
+      internalID: 1088019080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vendedora_41
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 40
+        width: 95
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938d0ca449de8aa46b11a41e383cf80c
+      internalID: -328570996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vendedora_42
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 42
+        width: 156
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac28271d2abd160408a793fa978fe7a7
+      internalID: -1044006887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vendedora_43
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 40
+        width: 95
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532cb164351622442b5ff6cd9620e6d4
+      internalID: 172450497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1e2b5e3d6948b5348a2bae9c01e65025
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      8f5498712e9b14825d9aaaa3332711813bfa06a0_0: -8074020816934574821
+      vendedora_0: 1811853064
+      vendedora_1: 1933691917
+      vendedora_10: -549013577
+      vendedora_11: -1441588543
+      vendedora_12: -1651868607
+      vendedora_13: -511573832
+      vendedora_14: -238554444
+      vendedora_15: -86570157
+      vendedora_16: 191088442
+      vendedora_17: -57677615
+      vendedora_18: 814095751
+      vendedora_19: -2109201330
+      vendedora_2: 603230010
+      vendedora_20: 1268928771
+      vendedora_21: -763046249
+      vendedora_22: 1303631747
+      vendedora_23: -1942292205
+      vendedora_24: -1715548893
+      vendedora_25: 489137182
+      vendedora_26: -371486757
+      vendedora_27: -1307217230
+      vendedora_28: 1603125790
+      vendedora_29: 1127632023
+      vendedora_3: -1598493496
+      vendedora_30: -1233433599
+      vendedora_31: -1038965471
+      vendedora_32: 1128460981
+      vendedora_33: -551388340
+      vendedora_34: -1368858892
+      vendedora_35: -1499336544
+      vendedora_36: -1418129441
+      vendedora_37: 2058932555
+      vendedora_38: -713681353
+      vendedora_39: -594900869
+      vendedora_4: -733575817
+      vendedora_40: 1088019080
+      vendedora_41: -328570996
+      vendedora_42: -1044006887
+      vendedora_43: 172450497
+      vendedora_5: 827209400
+      vendedora_6: 956101660
+      vendedora_7: -753027046
+      vendedora_8: -1008688377
+      vendedora_9: 2091032531
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
