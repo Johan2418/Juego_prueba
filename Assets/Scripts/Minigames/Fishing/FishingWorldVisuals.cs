@@ -5,6 +5,11 @@ namespace MantaMinigames.Fishing
     // Reproduce las animaciones visuales de pesca en el mundo, fuera del Canvas.
     public sealed class FishingWorldVisuals : MonoBehaviour
     {
+        private static readonly Vector3 RuntimeUpperWaterOffset = new Vector3(-4.25f, 1.15f, 0f);
+        private static readonly Vector3 RuntimeLowerWaterOffset = new Vector3(-4.25f, -1.15f, 0f);
+        private static readonly Vector3 RuntimePlayerScale = new Vector3(0.42f, 0.42f, 1f);
+        private static readonly Vector3 RuntimeWaterScale = new Vector3(1.1f, 1.1f, 1f);
+
         [SerializeField] private SpriteRenderer playerRenderer;
         [SerializeField] private SpriteRenderer waterRenderer;
         [SerializeField] private Transform playerAnchor;
@@ -37,13 +42,18 @@ namespace MantaMinigames.Fishing
         private bool hideWhenCompletionFramesFinish;
         private SpriteRenderer[] playerAnchorRenderers;
         private bool[] playerAnchorRendererStates;
-        private float cachedPlayerHeight;
         private bool hasReplacedPlayerRenderer;
 
         private void Awake()
         {
             EnsureRenderers();
+            ApplyRuntimeTuning();
             Hide();
+        }
+
+        private void OnDisable()
+        {
+            RestorePlayerRenderer();
         }
 
         private void LateUpdate()
@@ -72,6 +82,8 @@ namespace MantaMinigames.Fishing
 
         public void ConfigureAnchors(Transform player, Transform water)
         {
+            ApplyRuntimeTuning();
+
             if (player != null)
             {
                 playerAnchor = player;
@@ -105,6 +117,7 @@ namespace MantaMinigames.Fishing
         public void PlayIdle()
         {
             gameObject.SetActive(true);
+            ApplyRuntimeTuning();
             returnToIdleTime = 0f;
             autoHideTime = 0f;
             hideWhenCompletionFramesFinish = false;
@@ -116,6 +129,7 @@ namespace MantaMinigames.Fishing
         public void PlayCompletion(FishingResult result)
         {
             gameObject.SetActive(true);
+            ApplyRuntimeTuning();
             returnToIdleTime = 0f;
             autoHideTime = 0f;
             hideWhenCompletionFramesFinish = false;
@@ -143,6 +157,7 @@ namespace MantaMinigames.Fishing
         public void PlayMiss()
         {
             gameObject.SetActive(true);
+            ApplyRuntimeTuning();
             autoHideTime = 0f;
             hideWhenCompletionFramesFinish = false;
             ReplacePlayerRenderer();
@@ -161,12 +176,14 @@ namespace MantaMinigames.Fishing
             {
                 playerRenderer.enabled = false;
                 playerRenderer.sprite = null;
+                playerRenderer.gameObject.SetActive(false);
             }
 
             if (waterRenderer != null)
             {
                 waterRenderer.enabled = false;
                 waterRenderer.sprite = null;
+                waterRenderer.gameObject.SetActive(false);
             }
 
             RestorePlayerRenderer();
@@ -177,6 +194,11 @@ namespace MantaMinigames.Fishing
             activePlayerFrames = HasUsableFrames(frames) ? frames : null;
             loopPlayerAnimation = loop;
             playerAnimationTime = 0f;
+            if (playerRenderer != null)
+            {
+                playerRenderer.gameObject.SetActive(activePlayerFrames != null);
+            }
+
             ApplyFrame(playerRenderer, activePlayerFrames, 0);
         }
 
@@ -185,6 +207,11 @@ namespace MantaMinigames.Fishing
             activeWaterFrames = HasUsableFrames(frames) ? frames : null;
             loopWaterAnimation = loop;
             waterAnimationTime = 0f;
+            if (waterRenderer != null)
+            {
+                waterRenderer.gameObject.SetActive(activeWaterFrames != null);
+            }
+
             ApplyFrame(waterRenderer, activeWaterFrames, 0);
         }
 
@@ -217,7 +244,7 @@ namespace MantaMinigames.Fishing
             {
                 Transform waterTransform = waterRenderer.transform;
                 waterTransform.position = waterAnchor.position + ResolveWaterOffset();
-                waterTransform.localScale = waterScale;
+                waterTransform.localScale = RuntimeWaterScale;
             }
         }
 
@@ -225,10 +252,10 @@ namespace MantaMinigames.Fishing
         {
             if (playerAnchor == null || waterAnchor == null)
             {
-                return lowerWaterOffset;
+                return RuntimeLowerWaterOffset;
             }
 
-            return playerAnchor.position.y >= waterAnchor.position.y ? upperWaterOffset : lowerWaterOffset;
+            return playerAnchor.position.y >= waterAnchor.position.y ? RuntimeUpperWaterOffset : RuntimeLowerWaterOffset;
         }
 
         private void EnsureRenderers()
@@ -236,6 +263,15 @@ namespace MantaMinigames.Fishing
             playerRenderer = playerRenderer != null ? playerRenderer : GetRenderer("Fishing_PlayerAnimationWorld", 4);
             waterRenderer = waterRenderer != null ? waterRenderer : GetRenderer("Fishing_WaterAnimationWorld", 3);
             SyncPlayerSortingOrder();
+        }
+
+        private void ApplyRuntimeTuning()
+        {
+            upperWaterOffset = RuntimeUpperWaterOffset;
+            lowerWaterOffset = RuntimeLowerWaterOffset;
+            playerScale = RuntimePlayerScale;
+            waterScale = RuntimeWaterScale;
+            playerSizeMultiplier = RuntimePlayerScale.x;
         }
 
         private SpriteRenderer GetRenderer(string objectName, int sortingOrder)
@@ -257,20 +293,7 @@ namespace MantaMinigames.Fishing
 
         private Vector3 ResolvePlayerScale()
         {
-            if (playerRenderer == null || playerRenderer.sprite == null)
-            {
-                return playerScale;
-            }
-
-            float targetHeight = cachedPlayerHeight;
-            float sourceHeight = playerRenderer.sprite.bounds.size.y;
-            if (targetHeight <= 0f || sourceHeight <= 0f)
-            {
-                return playerScale;
-            }
-
-            float uniformScale = Mathf.Clamp((targetHeight / sourceHeight) * playerSizeMultiplier, 0.35f, 2.5f);
-            return new Vector3(uniformScale, uniformScale, 1f);
+            return RuntimePlayerScale;
         }
 
         private void SyncPlayerSortingOrder()
@@ -294,7 +317,6 @@ namespace MantaMinigames.Fishing
             {
                 playerAnchorRenderers = null;
                 playerAnchorRendererStates = null;
-                cachedPlayerHeight = 0f;
                 return;
             }
 
@@ -306,17 +328,11 @@ namespace MantaMinigames.Fishing
 
             playerAnchorRenderers = renderers;
             playerAnchorRendererStates = new bool[playerAnchorRenderers.Length];
-            cachedPlayerHeight = 0f;
 
             for (int i = 0; i < playerAnchorRenderers.Length; i++)
             {
                 SpriteRenderer renderer = playerAnchorRenderers[i];
                 playerAnchorRendererStates[i] = renderer != null && renderer.enabled;
-
-                if (renderer != null && renderer.sprite != null)
-                {
-                    cachedPlayerHeight = Mathf.Max(cachedPlayerHeight, renderer.bounds.size.y);
-                }
             }
         }
 
@@ -372,6 +388,11 @@ namespace MantaMinigames.Fishing
             if (Time.unscaledTime < completionStartedTime + minimumCompletionVisibleSeconds)
             {
                 return false;
+            }
+
+            if (autoHideTime > 0f && Time.unscaledTime >= autoHideTime)
+            {
+                return true;
             }
 
             return AnimationFinished(activePlayerFrames, playerAnimationTime) &&
