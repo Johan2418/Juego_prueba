@@ -1,0 +1,1898 @@
+fileFormatVersion: 2
+guid: 0178c1cf256e8184fb3419b577836cfc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6449074209399475391
+    second: mar-Photoroom_0
+  - first:
+      213: -3790781271107978988
+    second: mar-Photoroom_1
+  - first:
+      213: -5015618160219453031
+    second: mar-Photoroom_2
+  - first:
+      213: -9111072899713437542
+    second: mar-Photoroom_3
+  - first:
+      213: 7194294630945174191
+    second: mar-Photoroom_4
+  - first:
+      213: -5254102023081156719
+    second: mar-Photoroom_5
+  - first:
+      213: 4939796206306720529
+    second: mar-Photoroom_6
+  - first:
+      213: 7342788601169621482
+    second: mar-Photoroom_7
+  - first:
+      213: 2154805319508077509
+    second: mar-Photoroom_8
+  - first:
+      213: -1942506050236621603
+    second: mar-Photoroom_9
+  - first:
+      213: 8627808280530242823
+    second: mar-Photoroom_10
+  - first:
+      213: 8742158947281753027
+    second: mar-Photoroom_11
+  - first:
+      213: -5518158040447111735
+    second: mar-Photoroom_12
+  - first:
+      213: -9044835105358502586
+    second: mar-Photoroom_13
+  - first:
+      213: 8274238645646671904
+    second: mar-Photoroom_14
+  - first:
+      213: 5930233823213505993
+    second: mar-Photoroom_15
+  - first:
+      213: -3225348562479246302
+    second: mar-Photoroom_16
+  - first:
+      213: -2299709576363835399
+    second: mar-Photoroom_17
+  - first:
+      213: -3604919119899535184
+    second: mar-Photoroom_18
+  - first:
+      213: 7267596656457437622
+    second: mar-Photoroom_19
+  - first:
+      213: -2855148241987366085
+    second: mar-Photoroom_20
+  - first:
+      213: 3087425214782772551
+    second: mar-Photoroom_21
+  - first:
+      213: -3611726783497897417
+    second: mar-Photoroom_22
+  - first:
+      213: -6180140107269193250
+    second: mar-Photoroom_23
+  - first:
+      213: -7448176003411274677
+    second: mar-Photoroom_24
+  - first:
+      213: 5332264862597717308
+    second: mar-Photoroom_25
+  - first:
+      213: -5659585854077707624
+    second: mar-Photoroom_26
+  - first:
+      213: 3767563344747503996
+    second: mar-Photoroom_27
+  - first:
+      213: -1806186053997341252
+    second: mar-Photoroom_28
+  - first:
+      213: -8008303776720011167
+    second: mar-Photoroom_29
+  - first:
+      213: 4128882996671841289
+    second: mar-Photoroom_30
+  - first:
+      213: -1030362481446423950
+    second: mar-Photoroom_31
+  - first:
+      213: 7639520228690568929
+    second: mar-Photoroom_32
+  - first:
+      213: -3467155879428373254
+    second: mar-Photoroom_33
+  - first:
+      213: 7752227845423382502
+    second: mar-Photoroom_34
+  - first:
+      213: 126995294403640536
+    second: mar-Photoroom_35
+  - first:
+      213: -2565679647393875059
+    second: mar-Photoroom_36
+  - first:
+      213: -6954073849756548877
+    second: mar-Photoroom_37
+  - first:
+      213: -2318603728350138040
+    second: mar-Photoroom_38
+  - first:
+      213: 3800486559399327261
+    second: mar-Photoroom_39
+  - first:
+      213: 1544707506097555363
+    second: mar-Photoroom_40
+  - first:
+      213: 2414059723155966700
+    second: mar-Photoroom_41
+  - first:
+      213: -7182241050220721728
+    second: mar-Photoroom_42
+  - first:
+      213: 6853993755921352525
+    second: mar-Photoroom_43
+  - first:
+      213: -6005973145507328448
+    second: mar-Photoroom_44
+  - first:
+      213: 4397948332854235899
+    second: mar-Photoroom_45
+  - first:
+      213: -4970299479380745821
+    second: mar-Photoroom_46
+  - first:
+      213: -4282434346048849181
+    second: mar-Photoroom_47
+  - first:
+      213: -3070054208433811867
+    second: mar-Photoroom_48
+  - first:
+      213: -102308327979121950
+    second: mar-Photoroom_49
+  - first:
+      213: 4250113931775828749
+    second: mar-Photoroom_50
+  - first:
+      213: -2219263689343209842
+    second: mar-Photoroom_51
+  - first:
+      213: 196749056231424136
+    second: mar-Photoroom_52
+  - first:
+      213: -176675778359046608
+    second: mar-Photoroom_53
+  - first:
+      213: 8863936369955039416
+    second: mar-Photoroom_54
+  - first:
+      213: 5528009394765290751
+    second: mar-Photoroom_55
+  - first:
+      213: -7520605552031556657
+    second: mar-Photoroom_56
+  - first:
+      213: 7716374809170182030
+    second: mar-Photoroom_57
+  - first:
+      213: 6256061098297421682
+    second: mar-Photoroom_58
+  - first:
+      213: 5411493035840325215
+    second: mar-Photoroom_59
+  - first:
+      213: -427189339299966907
+    second: mar-Photoroom_60
+  - first:
+      213: 2037980855619721130
+    second: mar-Photoroom_61
+  - first:
+      213: 698947575895098846
+    second: mar-Photoroom_62
+  - first:
+      213: -5167429872086956461
+    second: mar-Photoroom_63
+  - first:
+      213: -8130733070026181851
+    second: mar-Photoroom_64
+  - first:
+      213: -7311185137162700871
+    second: mar-Photoroom_65
+  - first:
+      213: 4878204216996331603
+    second: mar-Photoroom_66
+  - first:
+      213: -114502384499368820
+    second: mar-Photoroom_67
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mar-Photoroom_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1088
+        width: 169
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbc836523d6bf7950800000000000000
+      internalID: 6449074209399475391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_1
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1088
+        width: 131
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 419b762b480746bc0800000000000000
+      internalID: -3790781271107978988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_2
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1088
+        width: 131
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9990f1f6bd1f46ab0800000000000000
+      internalID: -5015618160219453031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_3
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 1088
+        width: 129
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9074e16877fe8180800000000000000
+      internalID: -9111072899713437542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_4
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 1088
+        width: 127
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa2bcfe89d447d360800000000000000
+      internalID: 7194294630945174191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_5
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1088
+        width: 128
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19f16942c0ea517b0800000000000000
+      internalID: -5254102023081156719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_6
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 1088
+        width: 129
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11bfbbb3a7ead8440800000000000000
+      internalID: 4939796206306720529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_7
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1088
+        width: 174
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae1b0893453d6e560800000000000000
+      internalID: 7342788601169621482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_8
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 932
+        width: 130
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cba66d750867ed10800000000000000
+      internalID: 2154805319508077509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_9
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 932
+        width: 130
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddc59950a05da05e0800000000000000
+      internalID: -1942506050236621603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_10
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 932
+        width: 131
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70dcd274be12cb770800000000000000
+      internalID: 8627808280530242823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_11
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 932
+        width: 129
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c35bbe9e33625970800000000000000
+      internalID: 8742158947281753027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_12
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 932
+        width: 127
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cd2fa8af709b63b0800000000000000
+      internalID: -5518158040447111735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_13
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 932
+        width: 127
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 645af1da46a4a7280800000000000000
+      internalID: -9044835105358502586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_14
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 932
+        width: 129
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 020449c953004d270800000000000000
+      internalID: 8274238645646671904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_15
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 932
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cdc5a31e3c6c4250800000000000000
+      internalID: 5930233823213505993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_16
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 779
+        width: 130
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2249b9032924d33d0800000000000000
+      internalID: -3225348562479246302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_17
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 779
+        width: 130
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fff44e135ac510e0800000000000000
+      internalID: -2299709576363835399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_18
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 779
+        width: 130
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b8df5ef821c8fdc0800000000000000
+      internalID: -3604919119899535184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_19
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 779
+        width: 129
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b156f657a0bbd460800000000000000
+      internalID: 7267596656457437622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_20
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 779
+        width: 127
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3313471dc97068d0800000000000000
+      internalID: -2855148241987366085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_21
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 779
+        width: 127
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74516bdffdcb8da20800000000000000
+      internalID: 3087425214782772551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_22
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 779
+        width: 128
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73af7db40a190edc0800000000000000
+      internalID: -3611726783497897417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_23
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 779
+        width: 131
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed14314f05bbb3aa0800000000000000
+      internalID: -6180140107269193250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_24
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 624
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4415141363c2a890800000000000000
+      internalID: -7448176003411274677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_25
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 624
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3d1f6714a2000a40800000000000000
+      internalID: 5332264862597717308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_26
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 624
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89a5fd7c6ac1571b0800000000000000
+      internalID: -5659585854077707624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_27
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 624
+        width: 129
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c71257096e2194430800000000000000
+      internalID: 3767563344747503996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_28
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 624
+        width: 127
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb5593d7a532fe6e0800000000000000
+      internalID: -1806186053997341252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_29
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 624
+        width: 127
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1604f27152accd090800000000000000
+      internalID: -8008303776720011167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_30
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 624
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90486cfa53dbc4930800000000000000
+      internalID: 4128882996671841289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_31
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 624
+        width: 131
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 272fe7f38ca63b1f0800000000000000
+      internalID: -1030362481446423950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_32
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 468
+        width: 131
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e6238d0c27050a60800000000000000
+      internalID: 7639520228690568929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_33
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 468
+        width: 130
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af4c3c1f81032efc0800000000000000
+      internalID: -3467155879428373254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_34
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 468
+        width: 130
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ef3a500722759b60800000000000000
+      internalID: 7752227845423382502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_35
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 468
+        width: 129
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dc33132c8d23c100800000000000000
+      internalID: 126995294403640536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_36
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 468
+        width: 127
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8b73a944ffd46cd0800000000000000
+      internalID: -2565679647393875059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_37
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 468
+        width: 127
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f08d6b8daa2e7f90800000000000000
+      internalID: -6954073849756548877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_38
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 468
+        width: 128
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8413bcc813aa2dfd0800000000000000
+      internalID: -2318603728350138040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_39
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 468
+        width: 131
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d16b4a2d36a0eb430800000000000000
+      internalID: 3800486559399327261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_40
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 232
+        width: 219
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a703d6ea47ef6510800000000000000
+      internalID: 1544707506097555363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_41
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 232
+        width: 236
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea0a492786708120800000000000000
+      internalID: 2414059723155966700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_42
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 233
+        width: 191
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c98d5661dd835c90800000000000000
+      internalID: -7182241050220721728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_43
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 233
+        width: 195
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d47007ac1074e1f50800000000000000
+      internalID: 6853993755921352525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_44
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 233
+        width: 222
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04e0083ce3f76aca0800000000000000
+      internalID: -6005973145507328448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 122
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf25c4815b6a80d30800000000000000
+      internalID: 4397948332854235899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_46
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 118
+        width: 79
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a1a33015f2f50bb0800000000000000
+      internalID: -4970299479380745821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_47
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 118
+        width: 60
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ea73ddc6acb194c0800000000000000
+      internalID: -4282434346048849181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_48
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 118
+        width: 57
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56e0c1996f9f465d0800000000000000
+      internalID: -3070054208433811867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_49
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 118
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e28d352e17849ef0800000000000000
+      internalID: -102308327979121950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_50
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 172
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d03ef665a107bfa30800000000000000
+      internalID: 4250113931775828749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_51
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 119
+        width: 57
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8e66c5ce679331e0800000000000000
+      internalID: -2219263689343209842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_52
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 181
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8804196693efab200800000000000000
+      internalID: 196749056231424136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_53
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 177
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03e4e7ec0525c8df0800000000000000
+      internalID: -176675778359046608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_54
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 181
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b8e5d25a27030b70800000000000000
+      internalID: 8863936369955039416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_55
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 179
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffcd102814f67bc40800000000000000
+      internalID: 5528009394765290751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_56
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 136
+        width: 78
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcb1457a81171a790800000000000000
+      internalID: -7520605552031556657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_57
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 166
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8f7c5e7102161b60800000000000000
+      internalID: 7716374809170182030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_58
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 122
+        width: 93
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27f68214c6ef1d650800000000000000
+      internalID: 6256061098297421682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_59
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 132
+        width: 90
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5643c9ae3c791b40800000000000000
+      internalID: 5411493035840325215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_60
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 120
+        width: 56
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 540113b2f81521af0800000000000000
+      internalID: -427189339299966907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_61
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 162
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa7924e5acc584c10800000000000000
+      internalID: 2037980855619721130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_62
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 122
+        width: 60
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed509d9fd1923b900800000000000000
+      internalID: 698947575895098846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_63
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 122
+        width: 63
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 356c388d8e99948b0800000000000000
+      internalID: -5167429872086956461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_64
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 146
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 523719de955d92f80800000000000000
+      internalID: -8130733070026181851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_65
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 141
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b73d44aad3798a90800000000000000
+      internalID: -7311185137162700871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_66
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 122
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35001e7b3ecd2b340800000000000000
+      internalID: 4878204216996331603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mar-Photoroom_67
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 124
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8cdafd10b4396ef0800000000000000
+      internalID: -114502384499368820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      mar-Photoroom_0: 6449074209399475391
+      mar-Photoroom_1: -3790781271107978988
+      mar-Photoroom_10: 8627808280530242823
+      mar-Photoroom_11: 8742158947281753027
+      mar-Photoroom_12: -5518158040447111735
+      mar-Photoroom_13: -9044835105358502586
+      mar-Photoroom_14: 8274238645646671904
+      mar-Photoroom_15: 5930233823213505993
+      mar-Photoroom_16: -3225348562479246302
+      mar-Photoroom_17: -2299709576363835399
+      mar-Photoroom_18: -3604919119899535184
+      mar-Photoroom_19: 7267596656457437622
+      mar-Photoroom_2: -5015618160219453031
+      mar-Photoroom_20: -2855148241987366085
+      mar-Photoroom_21: 3087425214782772551
+      mar-Photoroom_22: -3611726783497897417
+      mar-Photoroom_23: -6180140107269193250
+      mar-Photoroom_24: -7448176003411274677
+      mar-Photoroom_25: 5332264862597717308
+      mar-Photoroom_26: -5659585854077707624
+      mar-Photoroom_27: 3767563344747503996
+      mar-Photoroom_28: -1806186053997341252
+      mar-Photoroom_29: -8008303776720011167
+      mar-Photoroom_3: -9111072899713437542
+      mar-Photoroom_30: 4128882996671841289
+      mar-Photoroom_31: -1030362481446423950
+      mar-Photoroom_32: 7639520228690568929
+      mar-Photoroom_33: -3467155879428373254
+      mar-Photoroom_34: 7752227845423382502
+      mar-Photoroom_35: 126995294403640536
+      mar-Photoroom_36: -2565679647393875059
+      mar-Photoroom_37: -6954073849756548877
+      mar-Photoroom_38: -2318603728350138040
+      mar-Photoroom_39: 3800486559399327261
+      mar-Photoroom_4: 7194294630945174191
+      mar-Photoroom_40: 1544707506097555363
+      mar-Photoroom_41: 2414059723155966700
+      mar-Photoroom_42: -7182241050220721728
+      mar-Photoroom_43: 6853993755921352525
+      mar-Photoroom_44: -6005973145507328448
+      mar-Photoroom_45: 4397948332854235899
+      mar-Photoroom_46: -4970299479380745821
+      mar-Photoroom_47: -4282434346048849181
+      mar-Photoroom_48: -3070054208433811867
+      mar-Photoroom_49: -102308327979121950
+      mar-Photoroom_5: -5254102023081156719
+      mar-Photoroom_50: 4250113931775828749
+      mar-Photoroom_51: -2219263689343209842
+      mar-Photoroom_52: 196749056231424136
+      mar-Photoroom_53: -176675778359046608
+      mar-Photoroom_54: 8863936369955039416
+      mar-Photoroom_55: 5528009394765290751
+      mar-Photoroom_56: -7520605552031556657
+      mar-Photoroom_57: 7716374809170182030
+      mar-Photoroom_58: 6256061098297421682
+      mar-Photoroom_59: 5411493035840325215
+      mar-Photoroom_6: 4939796206306720529
+      mar-Photoroom_60: -427189339299966907
+      mar-Photoroom_61: 2037980855619721130
+      mar-Photoroom_62: 698947575895098846
+      mar-Photoroom_63: -5167429872086956461
+      mar-Photoroom_64: -8130733070026181851
+      mar-Photoroom_65: -7311185137162700871
+      mar-Photoroom_66: 4878204216996331603
+      mar-Photoroom_67: -114502384499368820
+      mar-Photoroom_7: 7342788601169621482
+      mar-Photoroom_8: 2154805319508077509
+      mar-Photoroom_9: -1942506050236621603
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

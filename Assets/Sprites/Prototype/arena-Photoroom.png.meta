@@ -1,0 +1,4160 @@
+fileFormatVersion: 2
+guid: 85e99f030a1073d4eaf399432b71e257
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2418725364163939399
+    second: arena-Photoroom_0
+  - first:
+      213: 2290114894874494560
+    second: arena-Photoroom_1
+  - first:
+      213: -1106321364367200751
+    second: arena-Photoroom_2
+  - first:
+      213: -3631538567541812162
+    second: arena-Photoroom_3
+  - first:
+      213: -7941318621951253337
+    second: arena-Photoroom_4
+  - first:
+      213: 2532954001271594872
+    second: arena-Photoroom_5
+  - first:
+      213: -4088838860073560461
+    second: arena-Photoroom_6
+  - first:
+      213: 5562912669210949290
+    second: arena-Photoroom_7
+  - first:
+      213: -867409369125943033
+    second: arena-Photoroom_8
+  - first:
+      213: 3632664802648033482
+    second: arena-Photoroom_9
+  - first:
+      213: 1823439310215972291
+    second: arena-Photoroom_10
+  - first:
+      213: -8113822453169460806
+    second: arena-Photoroom_11
+  - first:
+      213: 5782500259807122940
+    second: arena-Photoroom_12
+  - first:
+      213: -5769023281949943939
+    second: arena-Photoroom_13
+  - first:
+      213: -8196040206377404690
+    second: arena-Photoroom_14
+  - first:
+      213: 1163611962429350649
+    second: arena-Photoroom_15
+  - first:
+      213: 3133998176217012555
+    second: arena-Photoroom_16
+  - first:
+      213: 2109012060358231990
+    second: arena-Photoroom_17
+  - first:
+      213: 4278838164206222316
+    second: arena-Photoroom_18
+  - first:
+      213: 5859779614640238614
+    second: arena-Photoroom_19
+  - first:
+      213: 3838643913379169512
+    second: arena-Photoroom_20
+  - first:
+      213: 2336478150704666994
+    second: arena-Photoroom_21
+  - first:
+      213: 8686930767238887218
+    second: arena-Photoroom_22
+  - first:
+      213: 5471112113933181483
+    second: arena-Photoroom_23
+  - first:
+      213: 4682156306335530669
+    second: arena-Photoroom_24
+  - first:
+      213: 87848806896845016
+    second: arena-Photoroom_25
+  - first:
+      213: -7255368266065962983
+    second: arena-Photoroom_26
+  - first:
+      213: 247884211207944132
+    second: arena-Photoroom_27
+  - first:
+      213: -2695230058071241158
+    second: arena-Photoroom_28
+  - first:
+      213: -1060874477992339790
+    second: arena-Photoroom_29
+  - first:
+      213: 8427374466899690471
+    second: arena-Photoroom_30
+  - first:
+      213: -5747981228616687711
+    second: arena-Photoroom_31
+  - first:
+      213: -3706727526180860691
+    second: arena-Photoroom_32
+  - first:
+      213: 7560264106069141081
+    second: arena-Photoroom_33
+  - first:
+      213: -6797773133264044688
+    second: arena-Photoroom_34
+  - first:
+      213: 3148066158386024007
+    second: arena-Photoroom_35
+  - first:
+      213: -4631040852276353660
+    second: arena-Photoroom_36
+  - first:
+      213: 2439468130424875172
+    second: arena-Photoroom_37
+  - first:
+      213: -6089436540166037262
+    second: arena-Photoroom_38
+  - first:
+      213: -306030534085924921
+    second: arena-Photoroom_39
+  - first:
+      213: 6170360547391028731
+    second: arena-Photoroom_40
+  - first:
+      213: -4562264121334464108
+    second: arena-Photoroom_41
+  - first:
+      213: -2364647686035790065
+    second: arena-Photoroom_42
+  - first:
+      213: -2432361759994691784
+    second: arena-Photoroom_43
+  - first:
+      213: 918742757333787219
+    second: arena-Photoroom_44
+  - first:
+      213: 6301222666867311060
+    second: arena-Photoroom_45
+  - first:
+      213: 5421684696565864273
+    second: arena-Photoroom_46
+  - first:
+      213: -356764513236860282
+    second: arena-Photoroom_47
+  - first:
+      213: -2254507461441364025
+    second: arena-Photoroom_48
+  - first:
+      213: 6388602282231571085
+    second: arena-Photoroom_49
+  - first:
+      213: 7877521896975248753
+    second: arena-Photoroom_50
+  - first:
+      213: -5467332574463569949
+    second: arena-Photoroom_51
+  - first:
+      213: -6683654018982186185
+    second: arena-Photoroom_52
+  - first:
+      213: -4773147181627321767
+    second: arena-Photoroom_53
+  - first:
+      213: -5032241750164388328
+    second: arena-Photoroom_54
+  - first:
+      213: 1597875776683857775
+    second: arena-Photoroom_55
+  - first:
+      213: 1946405969111039648
+    second: arena-Photoroom_56
+  - first:
+      213: -3684049112801318563
+    second: arena-Photoroom_57
+  - first:
+      213: 3703505037918892567
+    second: arena-Photoroom_58
+  - first:
+      213: -8635203800406107279
+    second: arena-Photoroom_59
+  - first:
+      213: 8422836733300697145
+    second: arena-Photoroom_60
+  - first:
+      213: -4149831723865871995
+    second: arena-Photoroom_61
+  - first:
+      213: -4893172173110914400
+    second: arena-Photoroom_62
+  - first:
+      213: -5780626397912568768
+    second: arena-Photoroom_63
+  - first:
+      213: -2704904540630344468
+    second: arena-Photoroom_64
+  - first:
+      213: 4428174377628838461
+    second: arena-Photoroom_65
+  - first:
+      213: 5349736299394030264
+    second: arena-Photoroom_66
+  - first:
+      213: 7458143135497225605
+    second: arena-Photoroom_67
+  - first:
+      213: -2923685635895417616
+    second: arena-Photoroom_68
+  - first:
+      213: 5134010171566578576
+    second: arena-Photoroom_69
+  - first:
+      213: 3318543023417320484
+    second: arena-Photoroom_70
+  - first:
+      213: 4379986400122883251
+    second: arena-Photoroom_71
+  - first:
+      213: 6633195242119475261
+    second: arena-Photoroom_72
+  - first:
+      213: -5449294639901626796
+    second: arena-Photoroom_73
+  - first:
+      213: 5195901289198254904
+    second: arena-Photoroom_74
+  - first:
+      213: -1559080292987234335
+    second: arena-Photoroom_75
+  - first:
+      213: 4777647569151322153
+    second: arena-Photoroom_76
+  - first:
+      213: -6115395793280638748
+    second: arena-Photoroom_77
+  - first:
+      213: -3406007258869545905
+    second: arena-Photoroom_78
+  - first:
+      213: 8241038756305959200
+    second: arena-Photoroom_79
+  - first:
+      213: 406840599281950220
+    second: arena-Photoroom_80
+  - first:
+      213: 7484830399544946329
+    second: arena-Photoroom_81
+  - first:
+      213: 9048474667451738775
+    second: arena-Photoroom_82
+  - first:
+      213: -3957014969267386479
+    second: arena-Photoroom_83
+  - first:
+      213: -5014003746488195830
+    second: arena-Photoroom_84
+  - first:
+      213: -7014186051684210677
+    second: arena-Photoroom_85
+  - first:
+      213: 1742838521814999805
+    second: arena-Photoroom_86
+  - first:
+      213: -3375540543759165977
+    second: arena-Photoroom_87
+  - first:
+      213: 5467918551154123491
+    second: arena-Photoroom_88
+  - first:
+      213: -7890686025777892261
+    second: arena-Photoroom_89
+  - first:
+      213: 712862062613911933
+    second: arena-Photoroom_90
+  - first:
+      213: -8618410956898768211
+    second: arena-Photoroom_91
+  - first:
+      213: -4817950355329384144
+    second: arena-Photoroom_92
+  - first:
+      213: 8700320614232412704
+    second: arena-Photoroom_93
+  - first:
+      213: 5569481037911771697
+    second: arena-Photoroom_94
+  - first:
+      213: 1180077528715918370
+    second: arena-Photoroom_95
+  - first:
+      213: -3045046505673262231
+    second: arena-Photoroom_96
+  - first:
+      213: 3217174027833180667
+    second: arena-Photoroom_97
+  - first:
+      213: -6766430621419872884
+    second: arena-Photoroom_98
+  - first:
+      213: -6282213524625490854
+    second: arena-Photoroom_99
+  - first:
+      213: 940513034995098352
+    second: arena-Photoroom_100
+  - first:
+      213: 733739714054731495
+    second: arena-Photoroom_101
+  - first:
+      213: 3663406212758825011
+    second: arena-Photoroom_102
+  - first:
+      213: -1049426028381946353
+    second: arena-Photoroom_103
+  - first:
+      213: 3669734091257480679
+    second: arena-Photoroom_104
+  - first:
+      213: 231357457238897273
+    second: arena-Photoroom_105
+  - first:
+      213: 3826361316527601813
+    second: arena-Photoroom_106
+  - first:
+      213: 3780544695136241484
+    second: arena-Photoroom_107
+  - first:
+      213: -8933889400479627083
+    second: arena-Photoroom_108
+  - first:
+      213: 7710332315998631138
+    second: arena-Photoroom_109
+  - first:
+      213: 4885298414515523546
+    second: arena-Photoroom_110
+  - first:
+      213: -8791226210142642965
+    second: arena-Photoroom_111
+  - first:
+      213: 8497974329934628923
+    second: arena-Photoroom_112
+  - first:
+      213: -1598490613604389934
+    second: arena-Photoroom_113
+  - first:
+      213: 6214882047741083799
+    second: arena-Photoroom_114
+  - first:
+      213: -847211069739575937
+    second: arena-Photoroom_115
+  - first:
+      213: 1421011326273223538
+    second: arena-Photoroom_116
+  - first:
+      213: 7150279461820978254
+    second: arena-Photoroom_117
+  - first:
+      213: -4178892070001364747
+    second: arena-Photoroom_118
+  - first:
+      213: 501308796638380433
+    second: arena-Photoroom_119
+  - first:
+      213: 3846555470785496547
+    second: arena-Photoroom_120
+  - first:
+      213: -8048848354101997654
+    second: arena-Photoroom_121
+  - first:
+      213: -2211686264816603702
+    second: arena-Photoroom_122
+  - first:
+      213: 5228652804238027386
+    second: arena-Photoroom_123
+  - first:
+      213: 2515038438382710939
+    second: arena-Photoroom_124
+  - first:
+      213: 468258736724022539
+    second: arena-Photoroom_125
+  - first:
+      213: 2066862343334864746
+    second: arena-Photoroom_126
+  - first:
+      213: 5217224035782718144
+    second: arena-Photoroom_127
+  - first:
+      213: 2438105125450017712
+    second: arena-Photoroom_128
+  - first:
+      213: 1470748542161629701
+    second: arena-Photoroom_129
+  - first:
+      213: 2674203517414327118
+    second: arena-Photoroom_130
+  - first:
+      213: 465824189550341068
+    second: arena-Photoroom_131
+  - first:
+      213: -9042780824681520416
+    second: arena-Photoroom_132
+  - first:
+      213: 2289300992827271464
+    second: arena-Photoroom_133
+  - first:
+      213: -3206669464791632313
+    second: arena-Photoroom_134
+  - first:
+      213: -4857737921454377020
+    second: arena-Photoroom_135
+  - first:
+      213: 2145121289258485698
+    second: arena-Photoroom_136
+  - first:
+      213: 1480021386647543452
+    second: arena-Photoroom_137
+  - first:
+      213: -6489205478695306008
+    second: arena-Photoroom_138
+  - first:
+      213: -1086625997301069917
+    second: arena-Photoroom_139
+  - first:
+      213: 2186990210155612561
+    second: arena-Photoroom_140
+  - first:
+      213: 2188920797182491025
+    second: arena-Photoroom_141
+  - first:
+      213: -4619126708354028274
+    second: arena-Photoroom_142
+  - first:
+      213: -601534414042313027
+    second: arena-Photoroom_143
+  - first:
+      213: 3685149720962864107
+    second: arena-Photoroom_144
+  - first:
+      213: -6306538466180987953
+    second: arena-Photoroom_145
+  - first:
+      213: 322689932306214098
+    second: arena-Photoroom_146
+  - first:
+      213: -2568695479404151549
+    second: arena-Photoroom_147
+  - first:
+      213: -5244797322834988145
+    second: arena-Photoroom_148
+  - first:
+      213: 2909495053921812058
+    second: arena-Photoroom_149
+  - first:
+      213: -2032180739965003701
+    second: arena-Photoroom_150
+  - first:
+      213: -7202597427673889673
+    second: arena-Photoroom_151
+  - first:
+      213: 2813246957116955542
+    second: arena-Photoroom_152
+  - first:
+      213: 7435745579977598156
+    second: arena-Photoroom_153
+  - first:
+      213: 89040475872369904
+    second: arena-Photoroom_154
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: arena-Photoroom_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1090
+        width: 170
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74c083c57e9019120800000000000000
+      internalID: 2418725364163939399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_1
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1090
+        width: 128
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06643d30d5f18cf10800000000000000
+      internalID: 2290114894874494560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1090
+        width: 129
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11ea775a49e85a0f0800000000000000
+      internalID: -1106321364367200751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_3
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 1090
+        width: 127
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e341a8dd9ee2a9dc0800000000000000
+      internalID: -3631538567541812162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_4
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 1090
+        width: 127
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a4a66ac9c4cac190800000000000000
+      internalID: -7941318621951253337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_5
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1090
+        width: 127
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87f92367e3cd62320800000000000000
+      internalID: 2532954001271594872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_6
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 1090
+        width: 127
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 376908968b68147c0800000000000000
+      internalID: -4088838860073560461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_7
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 1090
+        width: 173
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa6b6dc599f633d40800000000000000
+      internalID: 5562912669210949290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_8
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 936
+        width: 130
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 709076646c756f3f0800000000000000
+      internalID: -867409369125943033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_9
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 936
+        width: 128
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac886ed2461d96230800000000000000
+      internalID: 3632664802648033482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_10
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 936
+        width: 129
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c508e244682e4910800000000000000
+      internalID: 1823439310215972291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_11
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 936
+        width: 127
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab9ee3cb779e56f80800000000000000
+      internalID: -8113822453169460806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_12
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 936
+        width: 126
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf5586b69519f3050800000000000000
+      internalID: 5782500259807122940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_13
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 936
+        width: 127
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d775a6204ef40ffa0800000000000000
+      internalID: -5769023281949943939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_14
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 936
+        width: 127
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee63e065bd0d14e80800000000000000
+      internalID: -8196040206377404690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_15
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 936
+        width: 129
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f22ffc2aeaf52010800000000000000
+      internalID: 1163611962429350649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_16
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 783
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4913249cb23e7b20800000000000000
+      internalID: 3133998176217012555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_17
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 783
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b7caac7b47b44d10800000000000000
+      internalID: 2109012060358231990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_18
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 783
+        width: 129
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceb75ecd3ac716b30800000000000000
+      internalID: 4278838164206222316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_19
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 783
+        width: 127
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 610f4b8538e125150800000000000000
+      internalID: 5859779614640238614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_20
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 783
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e44e2c1d4a954530800000000000000
+      internalID: 3838643913379169512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_21
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 782
+        width: 127
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2799636bf76dc6020800000000000000
+      internalID: 2336478150704666994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_22
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 783
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2377fa9e18d2e8870800000000000000
+      internalID: 8686930767238887218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_23
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 783
+        width: 129
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b22e25dfa7b4deb40800000000000000
+      internalID: 5471112113933181483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_24
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 626
+        width: 130
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daefbfd7a5c5af040800000000000000
+      internalID: 4682156306335530669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_25
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 626
+        width: 127
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d04701460a183100800000000000000
+      internalID: 87848806896845016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_26
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 626
+        width: 129
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9181f7aa001cf4b90800000000000000
+      internalID: -7255368266065962983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_27
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 626
+        width: 127
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c73a727069a07300800000000000000
+      internalID: 247884211207944132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_28
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 626
+        width: 127
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3e45b8ca8e989ad0800000000000000
+      internalID: -2695230058071241158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_29
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 626
+        width: 127
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b61df378440741f0800000000000000
+      internalID: -1060874477992339790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_30
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 626
+        width: 128
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e3c0c07d6c04f470800000000000000
+      internalID: 8427374466899690471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_31
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 626
+        width: 129
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1af50b4d6811b30b0800000000000000
+      internalID: -5747981228616687711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_32
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 564
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: decc3da34fe0f8cc0800000000000000
+      internalID: -3706727526180860691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_33
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 564
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 956236206247be860800000000000000
+      internalID: 7560264106069141081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_34
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 536
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07d3a18f95579a1a0800000000000000
+      internalID: -6797773133264044688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_35
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 557
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74e070ced7d20bb20800000000000000
+      internalID: 3148066158386024007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_36
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 560
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 485eeb391ec3bbfb0800000000000000
+      internalID: -4631040852276353660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_37
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 552
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a86cdaf65bbad120800000000000000
+      internalID: 2439468130424875172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_38
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 564
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f0ae1ddab9fd7ba0800000000000000
+      internalID: -6089436540166037262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_39
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 557
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c7a265c9d2c0cbf0800000000000000
+      internalID: -306030534085924921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_40
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 555
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfdb353d93681a550800000000000000
+      internalID: 6170360547391028731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_41
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 564
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 491895c14f49fa0c0800000000000000
+      internalID: -4562264121334464108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_42
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 562
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0723ee35751f2fd0800000000000000
+      internalID: -2364647686035790065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_43
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 550
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83fb542ddd38e3ed0800000000000000
+      internalID: -2432361759994691784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_44
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 566
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 352e7da8ba700cc00800000000000000
+      internalID: 918742757333787219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_45
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 550
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d1044551a0727750800000000000000
+      internalID: 6301222666867311060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_46
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 555
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 157daf69181bd3b40800000000000000
+      internalID: 5421684696565864273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_47
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 526
+        width: 70
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6824d00c0948c0bf0800000000000000
+      internalID: -356764513236860282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_48
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 550
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cfd151a86166b0e0800000000000000
+      internalID: -2254507461441364025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_49
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 510
+        width: 99
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d82a9ab6defd8a850800000000000000
+      internalID: 6388602282231571085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_50
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 564
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17d229bad64925d60800000000000000
+      internalID: 7877521896975248753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_51
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 513
+        width: 98
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ef4d2e9df12024b0800000000000000
+      internalID: -5467332574463569949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_52
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 510
+        width: 85
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73374fcc414ee33a0800000000000000
+      internalID: -6683654018982186185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_53
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 533
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95252727def52cdb0800000000000000
+      internalID: -4773147181627321767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_54
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 512
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 816cf894ac2e92ab0800000000000000
+      internalID: -5032241750164388328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_55
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 553
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6751709d8bcc2610800000000000000
+      internalID: 1597875776683857775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_56
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 543
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ae30999ae5030b10800000000000000
+      internalID: 1946405969111039648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_57
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 514
+        width: 59
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d596260d9d0afdcc0800000000000000
+      internalID: -3684049112801318563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_58
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 514
+        width: 41
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7127601c53e756330800000000000000
+      internalID: 3703505037918892567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_59
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 505
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17bd0b115e7992880800000000000000
+      internalID: -8635203800406107279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_60
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 510
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 938ef71026de3e470800000000000000
+      internalID: 8422836733300697145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_61
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 510
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 589e35da806d866c0800000000000000
+      internalID: -4149831723865871995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_62
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 510
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a2d5ec65d5f71cb0800000000000000
+      internalID: -4893172173110914400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_63
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 510
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04cec2d0be617cfa0800000000000000
+      internalID: -5780626397912568768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_64
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 517
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cec1368c6af367ad0800000000000000
+      internalID: -2704904540630344468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_65
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 510
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3aad0e8229047d30800000000000000
+      internalID: 4428174377628838461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_66
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 513
+        width: 44
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bad467f1d41e3a40800000000000000
+      internalID: 5349736299394030264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_67
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 510
+        width: 44
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5858453baa5a08760800000000000000
+      internalID: 7458143135497225605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_68
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 419
+        width: 42
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f4aa8d876bfc67d0800000000000000
+      internalID: -2923685635895417616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_69
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 416
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09bd775cc0baf3740800000000000000
+      internalID: 5134010171566578576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_70
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 410
+        width: 74
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 424e3a22c45dd0e20800000000000000
+      internalID: 3318543023417320484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_71
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 401
+        width: 102
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bccd5cbc66d8cc30800000000000000
+      internalID: 4379986400122883251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_72
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 397
+        width: 120
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d30b754bde7dd0c50800000000000000
+      internalID: 6633195242119475261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_73
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 401
+        width: 110
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45e293885673064b0800000000000000
+      internalID: -5449294639901626796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_74
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 401
+        width: 132
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83bf7a681bc8b1840800000000000000
+      internalID: 5195901289198254904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_75
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 397
+        width: 137
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e71f20ebb80d5ae0800000000000000
+      internalID: -1559080292987234335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_76
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 395
+        width: 171
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 928e54da62d9d4240800000000000000
+      internalID: 4777647569151322153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_77
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 364
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e0e6904defb12ba0800000000000000
+      internalID: -6115395793280638748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_78
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 368
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f44cda0a17e6bb0d0800000000000000
+      internalID: -3406007258869545905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_79
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 364
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 029f7d1061d0e5270800000000000000
+      internalID: 8241038756305959200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_80
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 364
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0e58689e5365a500800000000000000
+      internalID: 406840599281950220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_81
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 343
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99eebe097957fd760800000000000000
+      internalID: 7484830399544946329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_82
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 345
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79ae498e4c3a29d70800000000000000
+      internalID: 9048474667451738775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_83
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 354
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1970ae1c9dbd519c0800000000000000
+      internalID: -3957014969267386479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_84
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 357
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a05e71c682eaa6ab0800000000000000
+      internalID: -5014003746488195830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_85
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 355
+        width: 43
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b08ecd0e2fa98ae90800000000000000
+      internalID: -7014186051684210677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_86
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 320
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df266a1d66ecf2810800000000000000
+      internalID: 1742838521814999805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_87
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 359
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e55e4482cba721d0800000000000000
+      internalID: -3375540543759165977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_88
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 353
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e26f46b3f2f1eb40800000000000000
+      internalID: 5467918551154123491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_89
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 356
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b54be5fbdd6ae7290800000000000000
+      internalID: -7890686025777892261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_90
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 348
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7954ffd44894e900800000000000000
+      internalID: 712862062613911933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_91
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 354
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daae6b1a5e0456880800000000000000
+      internalID: -8618410956898768211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_92
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 350
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 031002dada3332db0800000000000000
+      internalID: -4817950355329384144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_93
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 340
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 022d45b908fbdb870800000000000000
+      internalID: 8700320614232412704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_94
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 336
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13a4100ee75ca4d40800000000000000
+      internalID: 5569481037911771697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_95
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 342
+        width: 57
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22c7882924a706010800000000000000
+      internalID: 1180077528715918370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_96
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 354
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96bfcc02652ddb5d0800000000000000
+      internalID: -3045046505673262231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_97
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 326
+        width: 59
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf10c95abb2b5ac20800000000000000
+      internalID: 3217174027833180667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_98
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 355
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8d51fc233fc812a0800000000000000
+      internalID: -6766430621419872884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_99
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 316
+        width: 94
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5cfa8d751811d8a0800000000000000
+      internalID: -6282213524625490854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_100
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 360
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f2e18d4f9f5d0d00800000000000000
+      internalID: 940513034995098352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_101
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 320
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e634d5e164ce2a00800000000000000
+      internalID: 733739714054731495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_102
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 355
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 338e27b7a8807d230800000000000000
+      internalID: 3663406212758825011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_103
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 348
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0ebe385690bf61f0800000000000000
+      internalID: -1049426028381946353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_104
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 346
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e50b8186b38de230800000000000000
+      internalID: 3669734091257480679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_105
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 342
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 972bcdea162f53300800000000000000
+      internalID: 231357457238897273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_106
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 331
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5987ced2857f91530800000000000000
+      internalID: 3826361316527601813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_107
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 337
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c47451bbe51377430800000000000000
+      internalID: 3780544695136241484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_108
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 339
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b8c8cd8ce2740480800000000000000
+      internalID: -8933889400479627083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_109
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 336
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e4305be36a900b60800000000000000
+      internalID: 7710332315998631138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_110
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 343
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adf0afa46011cc340800000000000000
+      internalID: 4885298414515523546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_111
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 319
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bec185cf65a4ff580800000000000000
+      internalID: -8791226210142642965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_112
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 320
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b38442ef0aedee570800000000000000
+      internalID: 8497974329934628923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_113
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 325
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2db605f814501d9e0800000000000000
+      internalID: -1598490613604389934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_114
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 346
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7904f886b42bf3650800000000000000
+      internalID: 6214882047741083799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_115
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 333
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f75d462550a1e34f0800000000000000
+      internalID: -847211069739575937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_116
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 325
+        width: 59
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27b725cb54278b310800000000000000
+      internalID: 1421011326273223538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_117
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 340
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e445c966945ea3360800000000000000
+      internalID: 7150279461820978254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_118
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 340
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f03fd49dc79106c0800000000000000
+      internalID: -4178892070001364747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_119
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 328
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 191c86ac1b105f600800000000000000
+      internalID: 501308796638380433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_120
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 329
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e5410d12d5b16530800000000000000
+      internalID: 3846555470785496547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_121
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 326
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf43ca011fbc4090800000000000000
+      internalID: -8048848354101997654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_122
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 337
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acdeef66f038e41e0800000000000000
+      internalID: -2211686264816603702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_123
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 327
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7a257ad508ef8840800000000000000
+      internalID: 5228652804238027386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_124
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 330
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b90314c622637e220800000000000000
+      internalID: 2515038438382710939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_125
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 328
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b05986117d69f7600800000000000000
+      internalID: 468258736724022539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_126
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 330
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a672b1eb958feac10800000000000000
+      internalID: 2066862343334864746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_127
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 320
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c275765e9d476840800000000000000
+      internalID: 5217224035782718144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_128
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 318
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bbe187a1b3e5d120800000000000000
+      internalID: 2438105125450017712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_129
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 320
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 502b779b106296410800000000000000
+      internalID: 1470748542161629701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_130
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 324
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e43c4983eedac1520800000000000000
+      internalID: 2674203517414327118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_131
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 323
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccbaee1e1a0f67600800000000000000
+      internalID: 465824189550341068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_132
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 325
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e2e42b20c6918280800000000000000
+      internalID: -9042780824681520416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_133
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 318
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8292b6daf1b35cf10800000000000000
+      internalID: 2289300992827271464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_134
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 320
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 746b0078c1f9f73d0800000000000000
+      internalID: -3206669464791632313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_135
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 324
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c774cb0919d59cb0800000000000000
+      internalID: -4857737921454377020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_136
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 193
+        width: 130
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c7416e727005cd10800000000000000
+      internalID: 2145121289258485698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_137
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 193
+        width: 128
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9e9b131c971a8410800000000000000
+      internalID: 1480021386647543452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_138
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 193
+        width: 129
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ecf8d79ff5b1f5a0800000000000000
+      internalID: -6489205478695306008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_139
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 193
+        width: 127
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a74a23a9678be0f0800000000000000
+      internalID: -1086625997301069917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_140
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 193
+        width: 126
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 199059b4200c95e10800000000000000
+      internalID: 2186990210155612561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_141
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 192
+        width: 127
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 199f68d1edb906e10800000000000000
+      internalID: 2188920797182491025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_142
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 193
+        width: 127
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0de9006bb095efb0800000000000000
+      internalID: -4619126708354028274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_143
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 193
+        width: 129
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbec5d233abe6a7f0800000000000000
+      internalID: -601534414042313027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 148
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be31f1e7528442330800000000000000
+      internalID: 3685149720962864107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_145
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 44
+        width: 112
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc302f0bdacaa78a0800000000000000
+      internalID: -6306538466180987953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_146
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 46
+        width: 70
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dce4b3a8cc6a7400800000000000000
+      internalID: 322689932306214098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_147
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 45
+        width: 108
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30db6fd22192a5cd0800000000000000
+      internalID: -2568695479404151549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_148
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 48
+        width: 81
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f83308d7f9cb637b0800000000000000
+      internalID: -5244797322834988145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_149
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 49
+        width: 77
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5ef3cc165a906820800000000000000
+      internalID: 2909495053921812058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_150
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 53
+        width: 71
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b48defa426e3cc3e0800000000000000
+      internalID: -2032180739965003701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_151
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 51
+        width: 75
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7740b5feccb3b0c90800000000000000
+      internalID: -7202597427673889673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_152
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 51
+        width: 104
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69b9768c339aa0720800000000000000
+      internalID: 2813246957116955542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_153
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 45
+        width: 114
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc4eebe6533113760800000000000000
+      internalID: 7435745579977598156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena-Photoroom_154
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 46
+        width: 102
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fc110f47d55c3100800000000000000
+      internalID: 89040475872369904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      arena-Photoroom_0: 2418725364163939399
+      arena-Photoroom_1: 2290114894874494560
+      arena-Photoroom_10: 1823439310215972291
+      arena-Photoroom_100: 940513034995098352
+      arena-Photoroom_101: 733739714054731495
+      arena-Photoroom_102: 3663406212758825011
+      arena-Photoroom_103: -1049426028381946353
+      arena-Photoroom_104: 3669734091257480679
+      arena-Photoroom_105: 231357457238897273
+      arena-Photoroom_106: 3826361316527601813
+      arena-Photoroom_107: 3780544695136241484
+      arena-Photoroom_108: -8933889400479627083
+      arena-Photoroom_109: 7710332315998631138
+      arena-Photoroom_11: -8113822453169460806
+      arena-Photoroom_110: 4885298414515523546
+      arena-Photoroom_111: -8791226210142642965
+      arena-Photoroom_112: 8497974329934628923
+      arena-Photoroom_113: -1598490613604389934
+      arena-Photoroom_114: 6214882047741083799
+      arena-Photoroom_115: -847211069739575937
+      arena-Photoroom_116: 1421011326273223538
+      arena-Photoroom_117: 7150279461820978254
+      arena-Photoroom_118: -4178892070001364747
+      arena-Photoroom_119: 501308796638380433
+      arena-Photoroom_12: 5782500259807122940
+      arena-Photoroom_120: 3846555470785496547
+      arena-Photoroom_121: -8048848354101997654
+      arena-Photoroom_122: -2211686264816603702
+      arena-Photoroom_123: 5228652804238027386
+      arena-Photoroom_124: 2515038438382710939
+      arena-Photoroom_125: 468258736724022539
+      arena-Photoroom_126: 2066862343334864746
+      arena-Photoroom_127: 5217224035782718144
+      arena-Photoroom_128: 2438105125450017712
+      arena-Photoroom_129: 1470748542161629701
+      arena-Photoroom_13: -5769023281949943939
+      arena-Photoroom_130: 2674203517414327118
+      arena-Photoroom_131: 465824189550341068
+      arena-Photoroom_132: -9042780824681520416
+      arena-Photoroom_133: 2289300992827271464
+      arena-Photoroom_134: -3206669464791632313
+      arena-Photoroom_135: -4857737921454377020
+      arena-Photoroom_136: 2145121289258485698
+      arena-Photoroom_137: 1480021386647543452
+      arena-Photoroom_138: -6489205478695306008
+      arena-Photoroom_139: -1086625997301069917
+      arena-Photoroom_14: -8196040206377404690
+      arena-Photoroom_140: 2186990210155612561
+      arena-Photoroom_141: 2188920797182491025
+      arena-Photoroom_142: -4619126708354028274
+      arena-Photoroom_143: -601534414042313027
+      arena-Photoroom_144: 3685149720962864107
+      arena-Photoroom_145: -6306538466180987953
+      arena-Photoroom_146: 322689932306214098
+      arena-Photoroom_147: -2568695479404151549
+      arena-Photoroom_148: -5244797322834988145
+      arena-Photoroom_149: 2909495053921812058
+      arena-Photoroom_15: 1163611962429350649
+      arena-Photoroom_150: -2032180739965003701
+      arena-Photoroom_151: -7202597427673889673
+      arena-Photoroom_152: 2813246957116955542
+      arena-Photoroom_153: 7435745579977598156
+      arena-Photoroom_154: 89040475872369904
+      arena-Photoroom_16: 3133998176217012555
+      arena-Photoroom_17: 2109012060358231990
+      arena-Photoroom_18: 4278838164206222316
+      arena-Photoroom_19: 5859779614640238614
+      arena-Photoroom_2: -1106321364367200751
+      arena-Photoroom_20: 3838643913379169512
+      arena-Photoroom_21: 2336478150704666994
+      arena-Photoroom_22: 8686930767238887218
+      arena-Photoroom_23: 5471112113933181483
+      arena-Photoroom_24: 4682156306335530669
+      arena-Photoroom_25: 87848806896845016
+      arena-Photoroom_26: -7255368266065962983
+      arena-Photoroom_27: 247884211207944132
+      arena-Photoroom_28: -2695230058071241158
+      arena-Photoroom_29: -1060874477992339790
+      arena-Photoroom_3: -3631538567541812162
+      arena-Photoroom_30: 8427374466899690471
+      arena-Photoroom_31: -5747981228616687711
+      arena-Photoroom_32: -3706727526180860691
+      arena-Photoroom_33: 7560264106069141081
+      arena-Photoroom_34: -6797773133264044688
+      arena-Photoroom_35: 3148066158386024007
+      arena-Photoroom_36: -4631040852276353660
+      arena-Photoroom_37: 2439468130424875172
+      arena-Photoroom_38: -6089436540166037262
+      arena-Photoroom_39: -306030534085924921
+      arena-Photoroom_4: -7941318621951253337
+      arena-Photoroom_40: 6170360547391028731
+      arena-Photoroom_41: -4562264121334464108
+      arena-Photoroom_42: -2364647686035790065
+      arena-Photoroom_43: -2432361759994691784
+      arena-Photoroom_44: 918742757333787219
+      arena-Photoroom_45: 6301222666867311060
+      arena-Photoroom_46: 5421684696565864273
+      arena-Photoroom_47: -356764513236860282
+      arena-Photoroom_48: -2254507461441364025
+      arena-Photoroom_49: 6388602282231571085
+      arena-Photoroom_5: 2532954001271594872
+      arena-Photoroom_50: 7877521896975248753
+      arena-Photoroom_51: -5467332574463569949
+      arena-Photoroom_52: -6683654018982186185
+      arena-Photoroom_53: -4773147181627321767
+      arena-Photoroom_54: -5032241750164388328
+      arena-Photoroom_55: 1597875776683857775
+      arena-Photoroom_56: 1946405969111039648
+      arena-Photoroom_57: -3684049112801318563
+      arena-Photoroom_58: 3703505037918892567
+      arena-Photoroom_59: -8635203800406107279
+      arena-Photoroom_6: -4088838860073560461
+      arena-Photoroom_60: 8422836733300697145
+      arena-Photoroom_61: -4149831723865871995
+      arena-Photoroom_62: -4893172173110914400
+      arena-Photoroom_63: -5780626397912568768
+      arena-Photoroom_64: -2704904540630344468
+      arena-Photoroom_65: 4428174377628838461
+      arena-Photoroom_66: 5349736299394030264
+      arena-Photoroom_67: 7458143135497225605
+      arena-Photoroom_68: -2923685635895417616
+      arena-Photoroom_69: 5134010171566578576
+      arena-Photoroom_7: 5562912669210949290
+      arena-Photoroom_70: 3318543023417320484
+      arena-Photoroom_71: 4379986400122883251
+      arena-Photoroom_72: 6633195242119475261
+      arena-Photoroom_73: -5449294639901626796
+      arena-Photoroom_74: 5195901289198254904
+      arena-Photoroom_75: -1559080292987234335
+      arena-Photoroom_76: 4777647569151322153
+      arena-Photoroom_77: -6115395793280638748
+      arena-Photoroom_78: -3406007258869545905
+      arena-Photoroom_79: 8241038756305959200
+      arena-Photoroom_8: -867409369125943033
+      arena-Photoroom_80: 406840599281950220
+      arena-Photoroom_81: 7484830399544946329
+      arena-Photoroom_82: 9048474667451738775
+      arena-Photoroom_83: -3957014969267386479
+      arena-Photoroom_84: -5014003746488195830
+      arena-Photoroom_85: -7014186051684210677
+      arena-Photoroom_86: 1742838521814999805
+      arena-Photoroom_87: -3375540543759165977
+      arena-Photoroom_88: 5467918551154123491
+      arena-Photoroom_89: -7890686025777892261
+      arena-Photoroom_9: 3632664802648033482
+      arena-Photoroom_90: 712862062613911933
+      arena-Photoroom_91: -8618410956898768211
+      arena-Photoroom_92: -4817950355329384144
+      arena-Photoroom_93: 8700320614232412704
+      arena-Photoroom_94: 5569481037911771697
+      arena-Photoroom_95: 1180077528715918370
+      arena-Photoroom_96: -3045046505673262231
+      arena-Photoroom_97: 3217174027833180667
+      arena-Photoroom_98: -6766430621419872884
+      arena-Photoroom_99: -6282213524625490854
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
