@@ -14,6 +14,7 @@ namespace MantaMinigames.Fishing
         [SerializeField] private TextMeshProUGUI resultText;
         [SerializeField] private GameObject minigameRoot;
         [SerializeField, Min(0f)] private float minimumResultVisibleSeconds = 0.75f;
+        [SerializeField] private bool hideOwnMarkerRenderer = true;
 
         private bool isAutoConfiguring;
         private bool waitingToHideOnPlayerMove;
@@ -32,6 +33,8 @@ namespace MantaMinigames.Fishing
 
         private void OnEnable()
         {
+            HideOwnMarkerRendererIfNeeded();
+
             if (minigameController != null)
             {
                 minigameController.OnFishingCompleted += HandleFishingCompleted;
@@ -263,8 +266,13 @@ namespace MantaMinigames.Fishing
 
             SetResultText($"Resultado: {result}");
             RefreshStateText();
-            waitingToHideOnPlayerMove = true;
-            hideAllowedTime = Time.time + minimumResultVisibleSeconds;
+            waitingToHideOnPlayerMove = false;
+            HideMinigamePanelOnly();
+            if (result == FishingResult.Cancelled)
+            {
+                minigameController?.HideWorldVisuals();
+            }
+
             OnFishingCompleted?.Invoke(result);
         }
 
@@ -278,6 +286,12 @@ namespace MantaMinigames.Fishing
         }
 
         private void HideMinigameUI()
+        {
+            HideMinigamePanelOnly();
+            minigameController?.HideWorldVisuals();
+        }
+
+        private void HideMinigamePanelOnly()
         {
             GameObject root = ResolveMinigameRoot();
             if (root != null)
@@ -311,6 +325,20 @@ namespace MantaMinigames.Fishing
                 Input.GetKey(KeyCode.DownArrow) ||
                 Input.GetKey(KeyCode.LeftArrow) ||
                 Input.GetKey(KeyCode.RightArrow);
+        }
+
+        private void HideOwnMarkerRendererIfNeeded()
+        {
+            if (!hideOwnMarkerRenderer)
+            {
+                return;
+            }
+
+            SpriteRenderer markerRenderer = GetComponent<SpriteRenderer>();
+            if (markerRenderer != null)
+            {
+                markerRenderer.enabled = false;
+            }
         }
 
         private void RefreshStateText()

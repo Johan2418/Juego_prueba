@@ -25,12 +25,26 @@ namespace MantaMinigames.Fishing
         [SerializeField] private TextMeshProUGUI attemptsText;
         [SerializeField] private TextMeshProUGUI targetFishText;
         [SerializeField] private TextMeshProUGUI hitsText;
+        [SerializeField] private Image fishIconImage;
+        [SerializeField] private FishingWorldVisuals worldVisuals;
+        [SerializeField] private Sprite corvinaIcon;
+        [SerializeField] private Sprite albacoraIcon;
+        [SerializeField] private Sprite doradoIcon;
+        [SerializeField] private Sprite picudoIcon;
+        [SerializeField] private Sprite[] idleBobberFrames;
+        [SerializeField] private Sprite[] successFishJumpFrames;
+        [SerializeField] private Sprite[] failEscapeFrames;
+        [SerializeField] private Sprite[] playerFishingIdleFrames;
+        [SerializeField] private Sprite[] playerGetFishFrames;
+        [SerializeField] private Sprite[] playerFishingFailFrames;
 
         private const string SuccessMessage = "Conseguiste un pescado";
         private const string RetryMessage = "Intenta otra vez";
         private const string FailedMessage = "Se acabaron los intentos";
         private const string CancelledMessage = "Pesca cancelada";
         private const string GoodPullMessage = "Buen tiron";
+        private const float BarHorizontalPadding = 72f;
+        private const float BarVerticalOffset = 0f;
 
         [SerializeField] private bool hasFish;
         [SerializeField] private FishingResult fishingResult = FishingResult.None;
@@ -120,6 +134,7 @@ namespace MantaMinigames.Fishing
             IsRunning = true;
             inputHandler?.ResetInput();
             SetMessage(string.Empty);
+            PlayIdleAnimations();
             RefreshVisuals();
         }
 
@@ -169,6 +184,7 @@ namespace MantaMinigames.Fishing
             fishingResult = FishingResult.None;
             SetMessage(RetryMessage);
             RefreshVisuals();
+            PlayMissAnimations();
             return Result;
         }
 
@@ -179,6 +195,11 @@ namespace MantaMinigames.Fishing
             UpdateAttemptsText();
             UpdateTargetFishText();
             UpdateHitsText();
+        }
+
+        public void HideWorldVisuals()
+        {
+            worldVisuals?.Hide();
         }
 
         public void ConfigureForTest(int attempts, float successStart, float successEnd, float currentIndicatorPosition)
@@ -228,11 +249,72 @@ namespace MantaMinigames.Fishing
             RefreshVisuals();
         }
 
+        public void SetVisualReferences(
+            Image fishIcon,
+            Image resultAnimation,
+            Image playerAnimation,
+            Sprite corvina,
+            Sprite albacora,
+            Sprite dorado,
+            Sprite picudo,
+            Sprite[] idleBobber,
+            Sprite[] successFishJump,
+            Sprite[] failEscape,
+            Sprite[] playerIdle,
+            Sprite[] playerGetFish,
+            Sprite[] playerFail)
+        {
+            SetVisualReferences(
+                fishIcon,
+                null,
+                corvina,
+                albacora,
+                dorado,
+                picudo,
+                idleBobber,
+                successFishJump,
+                failEscape,
+                playerIdle,
+                playerGetFish,
+                playerFail);
+        }
+
+        public void SetVisualReferences(
+            Image fishIcon,
+            FishingWorldVisuals worldAnimationVisuals,
+            Sprite corvina,
+            Sprite albacora,
+            Sprite dorado,
+            Sprite picudo,
+            Sprite[] idleBobber,
+            Sprite[] successFishJump,
+            Sprite[] failEscape,
+            Sprite[] playerIdle,
+            Sprite[] playerGetFish,
+            Sprite[] playerFail)
+        {
+            fishIconImage = fishIcon;
+            worldVisuals = worldAnimationVisuals;
+            corvinaIcon = corvina;
+            albacoraIcon = albacora;
+            doradoIcon = dorado;
+            picudoIcon = picudo;
+            idleBobberFrames = idleBobber;
+            successFishJumpFrames = successFishJump;
+            failEscapeFrames = failEscape;
+            playerFishingIdleFrames = playerIdle;
+            playerGetFishFrames = playerGetFish;
+            playerFishingFailFrames = playerFail;
+
+            UpdateFishIcon();
+        }
+
         private FishingResult Finish(FishingResult result)
         {
             IsRunning = false;
             fishingResult = result;
             SetMessage(GetMessageForResult(result));
+            PlayCompletionAnimations(result);
             RefreshVisuals();
 
             if (logResultToConsole)
@@ -272,14 +354,18 @@ namespace MantaMinigames.Fishing
             RectTransform barRect = barImage.rectTransform;
             RectTransform successRect = successZoneImage.rectTransform;
             float barWidth = barRect.rect.width > 0f ? barRect.rect.width : barRect.sizeDelta.x;
-            float windowWidth = (successWindowEnd - successWindowStart) * barWidth;
-            float center = ((successWindowStart + successWindowEnd) * 0.5f) * barWidth;
+            float usableWidth = Mathf.Max(0f, barWidth - (BarHorizontalPadding * 2f));
+            float windowWidth = (successWindowEnd - successWindowStart) * usableWidth;
+            float center = BarHorizontalPadding + (((successWindowStart + successWindowEnd) * 0.5f) * usableWidth);
+            float safeWindowWidth = Mathf.Min(windowWidth, usableWidth);
+            float minCenter = BarHorizontalPadding + (safeWindowWidth * 0.5f);
+            float maxCenter = barWidth - BarHorizontalPadding - (safeWindowWidth * 0.5f);
 
             successRect.anchorMin = new Vector2(0f, 0.5f);
             successRect.anchorMax = new Vector2(0f, 0.5f);
             successRect.pivot = new Vector2(0.5f, 0.5f);
-            successRect.sizeDelta = new Vector2(windowWidth, successRect.sizeDelta.y);
-            successRect.anchoredPosition = new Vector2(center, successRect.anchoredPosition.y);
+            successRect.sizeDelta = new Vector2(safeWindowWidth, successRect.sizeDelta.y);
+            successRect.anchoredPosition = new Vector2(Mathf.Clamp(center, minCenter, maxCenter), BarVerticalOffset);
         }
 
         private void PositionIndicator()
@@ -292,11 +378,17 @@ namespace MantaMinigames.Fishing
             RectTransform barRect = barImage.rectTransform;
             RectTransform indicatorRect = indicatorImage.rectTransform;
             float barWidth = barRect.rect.width > 0f ? barRect.rect.width : barRect.sizeDelta.x;
+            float indicatorWidth = indicatorRect.rect.width > 0f ? indicatorRect.rect.width : indicatorRect.sizeDelta.x;
+            float halfIndicatorWidth = indicatorWidth * 0.5f;
+            float usableWidth = Mathf.Max(0f, barWidth - (BarHorizontalPadding * 2f));
+            float unclampedX = BarHorizontalPadding + (indicatorPosition * usableWidth);
+            float minX = BarHorizontalPadding + halfIndicatorWidth;
+            float maxX = barWidth - BarHorizontalPadding - halfIndicatorWidth;
 
             indicatorRect.anchorMin = new Vector2(0f, 0.5f);
             indicatorRect.anchorMax = new Vector2(0f, 0.5f);
             indicatorRect.pivot = new Vector2(0.5f, 0.5f);
-            indicatorRect.anchoredPosition = new Vector2(indicatorPosition * barWidth, indicatorRect.anchoredPosition.y);
+            indicatorRect.anchoredPosition = new Vector2(Mathf.Clamp(unclampedX, minX, maxX), BarVerticalOffset);
         }
 
         private void SetMessage(string message)
@@ -331,6 +423,8 @@ namespace MantaMinigames.Fishing
             {
                 hitsText.text = $"Aciertos: {currentSuccessHits}/{requiredSuccessHits}";
             }
+
+            UpdateFishIcon();
         }
 
         private void ApplyDifficultyForTargetFish()
@@ -372,6 +466,77 @@ namespace MantaMinigames.Fishing
             defaultIndicatorSpeed = indicatorSpeed;
             defaultSuccessWindowStart = successWindowStart;
             defaultSuccessWindowEnd = successWindowEnd;
+        }
+
+        private void UpdateFishIcon()
+        {
+            if (fishIconImage == null)
+            {
+                return;
+            }
+
+            Sprite icon = GetIconForTargetFish();
+            fishIconImage.sprite = icon;
+            fishIconImage.enabled = icon != null;
+            fishIconImage.preserveAspect = true;
+        }
+
+        private Sprite GetIconForTargetFish()
+        {
+            if (targetFish == null)
+            {
+                return null;
+            }
+
+            string fishName = targetFish.DisplayName.ToLowerInvariant();
+            if (fishName.Contains("corvina"))
+            {
+                return corvinaIcon;
+            }
+
+            if (fishName.Contains("albacora"))
+            {
+                return albacoraIcon;
+            }
+
+            if (fishName.Contains("dorado"))
+            {
+                return doradoIcon;
+            }
+
+            if (fishName.Contains("picudo"))
+            {
+                return picudoIcon;
+            }
+
+            return null;
+        }
+
+        private void PlayIdleAnimations()
+        {
+            if (worldVisuals == null)
+            {
+                return;
+            }
+
+            worldVisuals.SetFrames(
+                idleBobberFrames,
+                successFishJumpFrames,
+                failEscapeFrames,
+                playerFishingIdleFrames,
+                playerGetFishFrames,
+                playerFishingFailFrames);
+            worldVisuals.PlayIdle();
+        }
+
+        private void PlayCompletionAnimations(FishingResult result)
+        {
+            worldVisuals?.PlayCompletion(result);
+        }
+
+        private void PlayMissAnimations()
+        {
+            worldVisuals?.PlayMiss();
         }
 
         private string GetMessageForResult(FishingResult result)
