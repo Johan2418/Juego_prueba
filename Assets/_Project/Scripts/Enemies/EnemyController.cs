@@ -130,11 +130,40 @@ public class EnemyController : MonoBehaviour
         }
 
         bool isMoving = moveDirection.sqrMagnitude > 0.01f;
-        animator.SetBool("IsMoving", isMoving);
-        animator.SetFloat("MoveX", moveDirection.x);
-        animator.SetFloat("MoveY", moveDirection.y);
-        animator.SetFloat("LastMoveX", lastMoveDirection.x);
-        animator.SetFloat("LastMoveY", lastMoveDirection.y);
+        SetAnimatorBoolIfExists("IsMoving", isMoving);
+        SetAnimatorFloatIfExists("MoveX", moveDirection.x);
+        SetAnimatorFloatIfExists("MoveY", moveDirection.y);
+        SetAnimatorFloatIfExists("LastMoveX", lastMoveDirection.x);
+        SetAnimatorFloatIfExists("LastMoveY", lastMoveDirection.y);
+    }
+
+    private void SetAnimatorBoolIfExists(string parameterName, bool value)
+    {
+        if (HasAnimatorParameter(parameterName, AnimatorControllerParameterType.Bool))
+        {
+            animator.SetBool(parameterName, value);
+        }
+    }
+
+    private void SetAnimatorFloatIfExists(string parameterName, float value)
+    {
+        if (HasAnimatorParameter(parameterName, AnimatorControllerParameterType.Float))
+        {
+            animator.SetFloat(parameterName, value);
+        }
+    }
+
+    private bool HasAnimatorParameter(string parameterName, AnimatorControllerParameterType parameterType)
+    {
+        foreach (AnimatorControllerParameter parameter in animator.parameters)
+        {
+            if (parameter.type == parameterType && parameter.name == parameterName)
+            {
+                return true;
+            }
+        }
+
+        return false;
     }
 
     private void OnDrawGizmosSelected()

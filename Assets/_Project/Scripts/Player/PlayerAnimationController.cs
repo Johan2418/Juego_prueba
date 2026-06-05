@@ -24,10 +24,39 @@ public class PlayerAnimationController : MonoBehaviour
         Vector2 moveInput = playerController.CurrentMoveInput;
         Vector2 lookDirection = playerController.LastLookDirection;
 
-        animator.SetBool("IsMoving", playerController.IsMoving);
-        animator.SetFloat("MoveX", moveInput.x);
-        animator.SetFloat("MoveY", moveInput.y);
-        animator.SetFloat("LastMoveX", lookDirection.x);
-        animator.SetFloat("LastMoveY", lookDirection.y);
+        SetAnimatorBoolIfExists("IsMoving", playerController.IsMoving);
+        SetAnimatorFloatIfExists("MoveX", moveInput.x);
+        SetAnimatorFloatIfExists("MoveY", moveInput.y);
+        SetAnimatorFloatIfExists("LastMoveX", lookDirection.x);
+        SetAnimatorFloatIfExists("LastMoveY", lookDirection.y);
+    }
+
+    private void SetAnimatorBoolIfExists(string parameterName, bool value)
+    {
+        if (HasAnimatorParameter(parameterName, AnimatorControllerParameterType.Bool))
+        {
+            animator.SetBool(parameterName, value);
+        }
+    }
+
+    private void SetAnimatorFloatIfExists(string parameterName, float value)
+    {
+        if (HasAnimatorParameter(parameterName, AnimatorControllerParameterType.Float))
+        {
+            animator.SetFloat(parameterName, value);
+        }
+    }
+
+    private bool HasAnimatorParameter(string parameterName, AnimatorControllerParameterType parameterType)
+    {
+        foreach (AnimatorControllerParameter parameter in animator.parameters)
+        {
+            if (parameter.type == parameterType && parameter.name == parameterName)
+            {
+                return true;
+            }
+        }
+
+        return false;
     }
 }
