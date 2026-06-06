@@ -5757,8 +5757,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -11242,6 +11242,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 609726102}
+  - component: {fileID: 609726105}
+  - component: {fileID: 609726106}
   - component: {fileID: 609726104}
   - component: {fileID: 609726103}
   m_Layer: 0
@@ -11312,6 +11314,46 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.7255, y: 0.98}
   m_EdgeRadius: 0
+--- !u!114 &609726105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 609726101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 043f326739f747859aedc1da04869c6f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  prompt: Presiona E para pedir ceviche
+  integration: {fileID: 609726106}
+--- !u!114 &609726106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 609726101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c80f5bc9054424a9670239d692d2135, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  rapidEatMinigameRoot: {fileID: 100000, guid: 496350c5e75940ba9fef78a8f0c72721, type: 3}
+  minigameController: {fileID: 0}
+  instantiateFromPrefab: 1
+  instanceParent: {fileID: 0}
+  hideOnAwake: 1
+  mapUiScale: 1.35
+  hideAutomaticallyOnComplete: 1
+  autoCloseDelay: 1
+  OnCevicheMinigameWon:
+    m_PersistentCalls:
+      m_Calls: []
+  OnCevicheMinigameLost:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!212 &609726104
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16321,8 +16363,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 0
@@ -17638,8 +17680,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e0a224d6bb207bc4b8c6d8c2dd6eeaef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   labelText: Enemy Placeholder
   labelColor: {r: 1, g: 0, b: 0, a: 1}
   yOffset: 1.3
@@ -17861,8 +17903,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e0a224d6bb207bc4b8c6d8c2dd6eeaef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   labelText: Player
   labelColor: {r: 0, g: 1, b: 0, a: 1}
   yOffset: 1.3
@@ -48614,6 +48656,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1133024456}
+  - component: {fileID: 1133024459}
+  - component: {fileID: 1133024460}
   - component: {fileID: 1133024458}
   - component: {fileID: 1133024457}
   m_Layer: 0
@@ -48684,6 +48728,46 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.7595, y: 0.98}
   m_EdgeRadius: 0
+--- !u!114 &1133024459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133024455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 043f326739f747859aedc1da04869c6f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  prompt: Presiona E para pedir ceviche
+  integration: {fileID: 1133024460}
+--- !u!114 &1133024460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133024455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c80f5bc9054424a9670239d692d2135, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  rapidEatMinigameRoot: {fileID: 100000, guid: 496350c5e75940ba9fef78a8f0c72721, type: 3}
+  minigameController: {fileID: 0}
+  instantiateFromPrefab: 1
+  instanceParent: {fileID: 0}
+  hideOnAwake: 1
+  mapUiScale: 1.35
+  hideAutomaticallyOnComplete: 1
+  autoCloseDelay: 1
+  OnCevicheMinigameWon:
+    m_PersistentCalls:
+      m_Calls: []
+  OnCevicheMinigameLost:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!212 &1133024458
 SpriteRenderer:
   m_ObjectHideFlags: 0
