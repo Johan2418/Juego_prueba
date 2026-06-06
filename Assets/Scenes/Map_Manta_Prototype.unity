@@ -7940,6 +7940,7 @@ GameObject:
   - component: {fileID: 279833367}
   - component: {fileID: 279833366}
   - component: {fileID: 279833365}
+  - component: {fileID: 279833368}
   m_Layer: 0
   m_Name: atun_43
   m_TagString: Untagged
@@ -7947,6 +7948,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &279833368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279833364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 741a4f260fac4df39e4d2802fded89e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionPrompt: Presione el boton E para inspeccionar
+  description: "El Monumento al Atún en Manta simboliza la enorme importancia de la pesca para el desarrollo económico, social e histórico de la ciudad. Rinde homenaje a los pescadores, a la industria y al orgullo de Manta por ser conocida como la \"Capital Mundial del Atún\"."
 --- !u!61 &279833365
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17908,8 +17923,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionKey: 101
-  interactionRadius: 0.65
-  forwardOffset: 0.5
+  interactionRadius: 1.25
+  forwardOffset: 0
   interactionLayers:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -77910,6 +77925,7 @@ GameObject:
   - component: {fileID: 1975108994}
   - component: {fileID: 1975108993}
   - component: {fileID: 1975108992}
+  - component: {fileID: 1975108995}
   m_Layer: 0
   m_Name: "silla mante\xF1a_0"
   m_TagString: Untagged
@@ -77917,6 +77933,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1975108995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975108991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 741a4f260fac4df39e4d2802fded89e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionPrompt: Presione el boton E para inspeccionar
+  description: "La silla manteña (o silla en \"U\") es un ícono ceremonial y arqueológico de la Cultura Manteña. Símbolo de identidad y poder de Manabí, representa la jerarquía política, religiosa y chamánica de sus antiguos habitantes."
 --- !u!61 &1975108992
 BoxCollider2D:
   m_ObjectHideFlags: 0
