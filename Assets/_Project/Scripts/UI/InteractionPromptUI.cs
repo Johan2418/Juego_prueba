@@ -15,21 +15,11 @@ public class InteractionPromptUI : MonoBehaviour
 
     private void Awake()
     {
-        EnsureReferences();
-        HidePrompt();
-    }
-
-    public void Configure(GameObject promptRoot, TMP_Text text)
-    {
-        root = promptRoot;
-        promptText = text;
         HidePrompt();
     }
 
     public void ShowPrompt(string message)
     {
-        EnsureReferences();
-
         if (promptText != null)
         {
             promptText.text = message;
@@ -43,29 +33,9 @@ public class InteractionPromptUI : MonoBehaviour
 
     public void HidePrompt()
     {
-        EnsureReferences();
-
         if (root != null)
         {
             root.SetActive(false);
-        }
-    }
-
-    private void EnsureReferences()
-    {
-        if (root == null)
-        {
-            root = gameObject;
-        }
-
-        if (promptText == null)
-        {
-            promptText = GetComponent<TMP_Text>();
-        }
-
-        if (promptText == null)
-        {
-            promptText = GetComponentInChildren<TMP_Text>(true);
         }
     }
 }
