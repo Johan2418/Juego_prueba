@@ -1,0 +1,15 @@
+{
+    "asset": "c5f37e4c2c7e587448ce22ae2866c986",
+    "fileName": "019e9d85-7ea4-712b-9ca4-509c30a65d03.wav",
+    "prompt": "Calm tropical beach ambience: gentle ocean waves lapping the sandy shore, soft sea breeze, faint distant seagulls, peaceful and relaxing, seamless continuous loop, no abrupt start or end",
+    "negativePrompt": "",
+    "model": "elevenlabs-sound-effects-v2",
+    "modelName": "ElevenLabs Sound Effects V2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "duration": 10.0,
+    "autoTrim": false,
+    "hasReference": false,
+    "voice": ""
+}

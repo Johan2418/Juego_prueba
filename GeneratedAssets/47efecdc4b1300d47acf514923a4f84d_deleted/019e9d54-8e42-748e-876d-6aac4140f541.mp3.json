@@ -1,0 +1,15 @@
+{
+    "asset": "47efecdc4b1300d47acf514923a4f84d",
+    "fileName": "019e9d54-8e42-748e-876d-6aac4140f541.mp3",
+    "prompt": "Seamless looping 16-bit retro game music, bustling harbor town theme, SNES style. THE AUDIO MUST START AND END INSTANTLY WITH NO SILENCE TO ALLOW SEAMLESS LOOPING. Perfect loop.",
+    "negativePrompt": "",
+    "model": "google-lyria-3-clip",
+    "modelName": "Google Lyria 3 Clip",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "duration": 10.0,
+    "autoTrim": false,
+    "hasReference": false,
+    "voice": ""
+}

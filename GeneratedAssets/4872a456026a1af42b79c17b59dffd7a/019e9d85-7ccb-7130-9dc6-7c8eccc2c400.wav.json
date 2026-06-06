@@ -1,0 +1,15 @@
+{
+    "asset": "4872a456026a1af42b79c17b59dffd7a",
+    "fileName": "019e9d85-7ccb-7130-9dc6-7c8eccc2c400.wav",
+    "prompt": "Coastal fishing harbor ambience: gentle water lapping against a wooden dock, soft creaking of moored boats and ropes, distant seagulls, faint harbor bell, calm and atmospheric, seamless continuous loop, no abrupt start or end",
+    "negativePrompt": "",
+    "model": "elevenlabs-sound-effects-v2",
+    "modelName": "ElevenLabs Sound Effects V2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "duration": 10.0,
+    "autoTrim": false,
+    "hasReference": false,
+    "voice": ""
+}
