@@ -8,6 +8,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/SecretBoss/SecretBossEntrance_Test.unity
+    guid: 5ef63f67c834ae940bae1a2dfd6e8200
+  - enabled: 1
+    path: Assets/Scenes/SecretBoss/SecretBossArena_Test.unity
+    guid: 0c6de536b4283ad43a755fb42554f805
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
