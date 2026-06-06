@@ -10,6 +10,13 @@ public class MapDesignUpdater : MonoBehaviour
     public static void UpdateMapDesign()
     {
         var scene = EditorSceneManager.GetActiveScene();
+        // Exclude specific scenes from being modified by the updater
+        string[] excludedScenes = new[] { "Map_Manta_Prototype" };
+        if (excludedScenes.Contains(scene.name))
+        {
+            EditorUtility.DisplayDialog("Skipped", $"Scene '{scene.name}' is excluded from map updates.", "OK");
+            return;
+        }
 
         // Load sprites
         Sprite waterSprite = LoadSpriteFromPath("Assets/Sprites/Cute_Fantasy_Free/Tiles/Water_Tile.png");
