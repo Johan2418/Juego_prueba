@@ -2628,6 +2628,7 @@ GameObject:
   - component: {fileID: 281496868}
   - component: {fileID: 281496870}
   - component: {fileID: 281496869}
+  - component: {fileID: 4100000001}
   - component: {fileID: 281496872}
   - component: {fileID: 281496871}
   m_Layer: 0
@@ -2663,11 +2664,37 @@ MonoBehaviour:
   m_GameObject: {fileID: 281496867}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00dcf2d51e1291f428713a4ff9ed3840, type: 3}
+  m_Script: {fileID: 11500000, guid: 043f326739f747859aedc1da04869c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   prompt: Presiona E para pedir ceviche
-  message: La vendedora necesita pescado fresco del puerto.
+  integration: {fileID: 4100000001}
+--- !u!114 &4100000001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 281496867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c80f5bc9054424a9670239d692d2135, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  rapidEatMinigameRoot: {fileID: 100000, guid: 496350c5e75940ba9fef78a8f0c72721, type: 3}
+  minigameController: {fileID: 0}
+  instantiateFromPrefab: 1
+  instanceParent: {fileID: 0}
+  hideOnAwake: 1
+  mapUiScale: 1.35
+  hideAutomaticallyOnComplete: 1
+  autoCloseDelay: 1
+  OnCevicheMinigameWon:
+    m_PersistentCalls:
+      m_Calls: []
+  OnCevicheMinigameLost:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!61 &281496870
 BoxCollider2D:
   m_ObjectHideFlags: 0

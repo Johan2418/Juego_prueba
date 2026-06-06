@@ -39,7 +39,7 @@ namespace MantaMinigames.RapidEat
 
         private void Start()
         {
-            if (autoStart)
+            if (autoStart && !IsRunning)
             {
                 StartMinigame();
             }
