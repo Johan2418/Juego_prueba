@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 132f6ba674787774992ae9daa7ced278
+guid: 1f936d671251aeb47b3e4e2c4f6a3d33
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2854053662719815127
-    second: mar_0
+      213: -7335422775148237416
+    second: "silla mante\xF1a_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mar_0
+      name: "silla mante\xF1a_0"
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1254
-        height: 1254
+        x: 215
+        y: 6
+        width: 594
+        height: 553
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7dd21505fa2ab9720800000000000000
-      internalID: 2854053662719815127
+      spriteID: 89daaf9c9d7533a90800000000000000
+      internalID: -7335422775148237416
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      mar_0: 2854053662719815127
+      "silla mante\xF1a_0": -7335422775148237416
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

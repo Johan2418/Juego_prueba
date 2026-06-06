@@ -1,0 +1,1274 @@
+fileFormatVersion: 2
+guid: 564daaaefc7df6944980170889ef4ba9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5309075943765800369
+    second: npc vendedora_0
+  - first:
+      213: 3759496778790580996
+    second: npc vendedora_1
+  - first:
+      213: 5709218237053944448
+    second: npc vendedora_2
+  - first:
+      213: -2657045517969605167
+    second: npc vendedora_3
+  - first:
+      213: 1166799322160592356
+    second: npc vendedora_4
+  - first:
+      213: 2213511037975485461
+    second: npc vendedora_5
+  - first:
+      213: -1036823918621296116
+    second: npc vendedora_6
+  - first:
+      213: 6401702418651780512
+    second: npc vendedora_7
+  - first:
+      213: -7408312163856762074
+    second: npc vendedora_8
+  - first:
+      213: 8849257476767532737
+    second: npc vendedora_9
+  - first:
+      213: -5081017837601215735
+    second: npc vendedora_10
+  - first:
+      213: -907703278279448907
+    second: npc vendedora_11
+  - first:
+      213: 2343518076672326186
+    second: npc vendedora_12
+  - first:
+      213: -5525251083546727189
+    second: npc vendedora_13
+  - first:
+      213: 5203953094553693088
+    second: npc vendedora_14
+  - first:
+      213: 8754658317721471670
+    second: npc vendedora_15
+  - first:
+      213: 2615344745591247973
+    second: npc vendedora_16
+  - first:
+      213: 9193990324728772133
+    second: npc vendedora_17
+  - first:
+      213: 4456650772235243132
+    second: npc vendedora_18
+  - first:
+      213: -8671970859098181246
+    second: npc vendedora_19
+  - first:
+      213: -2967621372403155149
+    second: npc vendedora_20
+  - first:
+      213: -2365051947281849514
+    second: npc vendedora_21
+  - first:
+      213: -779701295348818272
+    second: npc vendedora_22
+  - first:
+      213: 1259478969785881978
+    second: npc vendedora_23
+  - first:
+      213: 134714055083748656
+    second: npc vendedora_24
+  - first:
+      213: 7771174838465642964
+    second: npc vendedora_25
+  - first:
+      213: -7119024338219406764
+    second: npc vendedora_26
+  - first:
+      213: 3312146390268642555
+    second: npc vendedora_27
+  - first:
+      213: 1759377906920522578
+    second: npc vendedora_28
+  - first:
+      213: 3504477271884733017
+    second: npc vendedora_29
+  - first:
+      213: 930190800960138020
+    second: npc vendedora_30
+  - first:
+      213: -7169325536262188469
+    second: npc vendedora_31
+  - first:
+      213: 1215753378367753037
+    second: npc vendedora_32
+  - first:
+      213: 6431724256189694359
+    second: npc vendedora_33
+  - first:
+      213: 7912442126823665046
+    second: npc vendedora_34
+  - first:
+      213: -8411570175876594215
+    second: npc vendedora_35
+  - first:
+      213: -7609191616728162505
+    second: npc vendedora_36
+  - first:
+      213: 1409513747445402455
+    second: npc vendedora_37
+  - first:
+      213: -4310713181623561765
+    second: npc vendedora_38
+  - first:
+      213: -8498631883629054422
+    second: npc vendedora_39
+  - first:
+      213: 6036466710379968043
+    second: npc vendedora_40
+  - first:
+      213: 348501723595620514
+    second: npc vendedora_41
+  - first:
+      213: 1632481465216175018
+    second: npc vendedora_42
+  - first:
+      213: -2493690909163465533
+    second: npc vendedora_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: npc vendedora_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1508
+        width: 135
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4a844ece8f5256b0800000000000000
+      internalID: -5309075943765800369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc vendedora_1
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1508
+        width: 84
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 403b902d66a6c2430800000000000000
+      internalID: 3759496778790580996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc vendedora_2
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 1508
+        width: 83
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08248c4ecb73b3f40800000000000000
+      internalID: 5709218237053944448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc vendedora_3
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1504
+        width: 87
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ddb065dd27402bd0800000000000000
+      internalID: -2657045517969605167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc vendedora_4
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 1502
+        width: 84
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e57c813dcd413010800000000000000
+      internalID: 1166799322160592356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc vendedora_5
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 1503
+        width: 124
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51c5fe4bf88f7be10800000000000000
+      internalID: 2213511037975485461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc vendedora_6
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1322
+        width: 81
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0af2fba3267c91f0800000000000000
+      internalID: -1036823918621296116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc vendedora_7
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1322
+        width: 81
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a59f7d9e6a67d850800000000000000
+      internalID: 6401702418651780512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc vendedora_8
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 1322
+        width: 80
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62bbc108653603990800000000000000
+      internalID: -7408312163856762074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc vendedora_9
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1322
+        width: 87
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c6c2bc2ac0eeca70800000000000000
+      internalID: 8849257476767532737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc vendedora_10
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 1320
+        width: 82
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90b2b5472399c79b0800000000000000
+      internalID: -5081017837601215735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc vendedora_11
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 1320
+        width: 81
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b622b87da03763f0800000000000000
+      internalID: -907703278279448907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc vendedora_12
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1144
+        width: 77
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2ab2c43649d58020800000000000000
+      internalID: 2343518076672326186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc vendedora_13
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1144
+        width: 77
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: becea5ed96d5253b0800000000000000
+      internalID: -5525251083546727189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc vendedora_14
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1144
+        width: 77
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0abeaac84c7283840800000000000000
+      internalID: 5203953094553693088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc vendedora_15
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 1146
+        width: 78
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba05b51b5bce7970800000000000000
+      internalID: 8754658317721471670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc vendedora_16
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 1148
+        width: 76
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 564962e70329b4420800000000000000
+      internalID: 2615344745591247973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc vendedora_17
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 1144
+        width: 77
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52636dd0d7d979f70800000000000000
+      internalID: 9193990324728772133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc vendedora_18
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 963
+        width: 77
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7e4d07d34439dd30800000000000000
+      internalID: 4456650772235243132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc vendedora_19
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 963
+        width: 80
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 281f9e02378f6a780800000000000000
+      internalID: -8671970859098181246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc vendedora_20
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 962
+        width: 77
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f7d0eb514e0d6d0800000000000000
+      internalID: -2967621372403155149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc vendedora_21
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 963
+        width: 77
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6536be6d8c5ad2fd0800000000000000
+      internalID: -2365051947281849514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc vendedora_22
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 964
+        width: 77
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ae52db8dc1fd25f0800000000000000
+      internalID: -779701295348818272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc vendedora_23
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 966
+        width: 80
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a75992433719a7110800000000000000
+      internalID: 1259478969785881978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc vendedora_24
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 734
+        width: 111
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03de48728b99ed100800000000000000
+      internalID: 134714055083748656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc vendedora_25
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 734
+        width: 110
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d1c2369752c8db60800000000000000
+      internalID: 7771174838465642964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc vendedora_26
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 734
+        width: 111
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45a62152515243d90800000000000000
+      internalID: -7119024338219406764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc vendedora_27
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 734
+        width: 111
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf40e0ce79b17fd20800000000000000
+      internalID: 3312146390268642555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc vendedora_28
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 500
+        width: 143
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2530baf72e09a6810800000000000000
+      internalID: 1759377906920522578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc vendedora_29
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 500
+        width: 143
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95a9e12e28762a030800000000000000
+      internalID: 3504477271884733017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc vendedora_30
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 502
+        width: 146
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42ba098ea93b8ec00800000000000000
+      internalID: 930190800960138020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc vendedora_31
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 502
+        width: 102
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4294f3d860718c90800000000000000
+      internalID: -7169325536262188469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc vendedora_32
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 275
+        width: 149
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b471c91493fd010800000000000000
+      internalID: 1215753378367753037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc vendedora_33
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 241
+        width: 144
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 791437f5223124950800000000000000
+      internalID: 6431724256189694359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc vendedora_34
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 283
+        width: 110
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69d29234134aecd60800000000000000
+      internalID: 7912442126823665046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc vendedora_35
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 430
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d50b9fcd79144b80800000000000000
+      internalID: -8411570175876594215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc vendedora_36
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 284
+        width: 101
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73f99013a88b66690800000000000000
+      internalID: -7609191616728162505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc vendedora_37
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 413
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75b438e09499f8310800000000000000
+      internalID: 1409513747445402455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc vendedora_38
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 397
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd1dbb053354d24c0800000000000000
+      internalID: -4310713181623561765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc vendedora_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 163
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a263b7b545bce0a80800000000000000
+      internalID: -8498631883629054422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc vendedora_40
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 38
+        width: 129
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b263ba29d76d5c350800000000000000
+      internalID: 6036466710379968043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc vendedora_41
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 38
+        width: 98
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a0478e987026d400800000000000000
+      internalID: 348501723595620514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc vendedora_42
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 40
+        width: 159
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aab8e9c4e3db7a610800000000000000
+      internalID: 1632481465216175018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc vendedora_43
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 0
+        width: 181
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c4d0bb8451a46dd0800000000000000
+      internalID: -2493690909163465533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      npc vendedora_0: -5309075943765800369
+      npc vendedora_1: 3759496778790580996
+      npc vendedora_10: -5081017837601215735
+      npc vendedora_11: -907703278279448907
+      npc vendedora_12: 2343518076672326186
+      npc vendedora_13: -5525251083546727189
+      npc vendedora_14: 5203953094553693088
+      npc vendedora_15: 8754658317721471670
+      npc vendedora_16: 2615344745591247973
+      npc vendedora_17: 9193990324728772133
+      npc vendedora_18: 4456650772235243132
+      npc vendedora_19: -8671970859098181246
+      npc vendedora_2: 5709218237053944448
+      npc vendedora_20: -2967621372403155149
+      npc vendedora_21: -2365051947281849514
+      npc vendedora_22: -779701295348818272
+      npc vendedora_23: 1259478969785881978
+      npc vendedora_24: 134714055083748656
+      npc vendedora_25: 7771174838465642964
+      npc vendedora_26: -7119024338219406764
+      npc vendedora_27: 3312146390268642555
+      npc vendedora_28: 1759377906920522578
+      npc vendedora_29: 3504477271884733017
+      npc vendedora_3: -2657045517969605167
+      npc vendedora_30: 930190800960138020
+      npc vendedora_31: -7169325536262188469
+      npc vendedora_32: 1215753378367753037
+      npc vendedora_33: 6431724256189694359
+      npc vendedora_34: 7912442126823665046
+      npc vendedora_35: -8411570175876594215
+      npc vendedora_36: -7609191616728162505
+      npc vendedora_37: 1409513747445402455
+      npc vendedora_38: -4310713181623561765
+      npc vendedora_39: -8498631883629054422
+      npc vendedora_4: 1166799322160592356
+      npc vendedora_40: 6036466710379968043
+      npc vendedora_41: 348501723595620514
+      npc vendedora_42: 1632481465216175018
+      npc vendedora_43: -2493690909163465533
+      npc vendedora_5: 2213511037975485461
+      npc vendedora_6: -1036823918621296116
+      npc vendedora_7: 6401702418651780512
+      npc vendedora_8: -7408312163856762074
+      npc vendedora_9: 8849257476767532737
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
