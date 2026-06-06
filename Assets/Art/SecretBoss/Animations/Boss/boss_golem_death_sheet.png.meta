@@ -1,0 +1,299 @@
+fileFormatVersion: 2
+guid: 8591d39ac35bbb9418919a128e0259da
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5506091914073722611
+    second: boss_golem_death_sheet_0
+  - first:
+      213: 8454248214231475233
+    second: boss_golem_death_sheet_1
+  - first:
+      213: -8085831275910539173
+    second: boss_golem_death_sheet_2
+  - first:
+      213: -3414520502720050143
+    second: boss_golem_death_sheet_3
+  - first:
+      213: -4820481626515686853
+    second: boss_golem_death_sheet_4
+  - first:
+      213: 6266919942807199432
+    second: boss_golem_death_sheet_5
+  - first:
+      213: 684539763769987332
+    second: boss_golem_death_sheet_6
+  - first:
+      213: -353437444581217491
+    second: boss_golem_death_sheet_7
+  - first:
+      213: -9034095157025434690
+    second: boss_golem_death_sheet_8
+  - first:
+      213: -7031992810361508168
+    second: boss_golem_death_sheet_9
+  - first:
+      213: -8939645529900183674
+    second: boss_golem_death_sheet_10
+  - first:
+      213: -2063820610036363546
+    second: boss_golem_death_sheet_11
+  - first:
+      213: 3043748174210559083
+    second: boss_golem_death_sheet_12
+  - first:
+      213: 3735874197350002590
+    second: boss_golem_death_sheet_13
+  - first:
+      213: -5606559958998092712
+    second: boss_golem_death_sheet_14
+  - first:
+      213: 8040994023892733399
+    second: boss_golem_death_sheet_15
+  - first:
+      213: -2046358688145812532
+    second: boss_golem_death_sheet_16
+  - first:
+      213: 7445662708804237867
+    second: boss_golem_death_sheet_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: boss_golem_death_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 223.6
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3140270595d6074a875b50f26dc7260
+      internalID: -5506091914073722611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_golem_death_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 223.6
+        y: 0
+        width: 223.6
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27188945603c6d941af2e4cfed191f7a
+      internalID: 8454248214231475233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_golem_death_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 447.2
+        y: 0
+        width: 223.6
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d27d9df316e93d84c8f391053e2dc2c6
+      internalID: -8085831275910539173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_golem_death_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 670.80005
+        y: 0
+        width: 223.6
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b064d3ee7e0d34f4fb230c9b68714243
+      internalID: -3414520502720050143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_golem_death_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 894.4
+        y: 0
+        width: 223.6
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0482be296e31e9446b9d701b01d3e347
+      internalID: -4820481626515686853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 405868580ffd1b84099f2ea253a07a98
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      boss_golem_death_sheet_0: -5506091914073722611
+      boss_golem_death_sheet_1: 8454248214231475233
+      boss_golem_death_sheet_10: -8939645529900183674
+      boss_golem_death_sheet_11: -2063820610036363546
+      boss_golem_death_sheet_12: 3043748174210559083
+      boss_golem_death_sheet_13: 3735874197350002590
+      boss_golem_death_sheet_14: -5606559958998092712
+      boss_golem_death_sheet_15: 8040994023892733399
+      boss_golem_death_sheet_16: -2046358688145812532
+      boss_golem_death_sheet_17: 7445662708804237867
+      boss_golem_death_sheet_2: -8085831275910539173
+      boss_golem_death_sheet_3: -3414520502720050143
+      boss_golem_death_sheet_4: -4820481626515686853
+      boss_golem_death_sheet_5: 6266919942807199432
+      boss_golem_death_sheet_6: 684539763769987332
+      boss_golem_death_sheet_7: -353437444581217491
+      boss_golem_death_sheet_8: -9034095157025434690
+      boss_golem_death_sheet_9: -7031992810361508168
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

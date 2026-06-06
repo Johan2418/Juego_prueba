@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: 949791c798b877240bcdd64eb041e153
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3956379658787226695
+    second: ancient_rocks_0
+  - first:
+      213: 413875832476458413
+    second: ancient_rocks_1
+  - first:
+      213: -7633304494543086015
+    second: ancient_rocks_2
+  - first:
+      213: -8223357797876256082
+    second: ancient_rocks_3
+  - first:
+      213: -6186367062472120921
+    second: ancient_rocks_4
+  - first:
+      213: -4411723507269391789
+    second: ancient_rocks_5
+  - first:
+      213: -619244914438277854
+    second: ancient_rocks_6
+  - first:
+      213: 6487672476557423050
+    second: ancient_rocks_7
+  - first:
+      213: 4712683074649028494
+    second: ancient_rocks_8
+  - first:
+      213: 1265503953235226501
+    second: ancient_rocks_9
+  - first:
+      213: -4296187587771902940
+    second: ancient_rocks_10
+  - first:
+      213: -3027212579902292816
+    second: ancient_rocks_11
+  - first:
+      213: -826336143639981993
+    second: ancient_rocks_12
+  - first:
+      213: -236468574970305824
+    second: ancient_rocks_13
+  - first:
+      213: -8483310229615220089
+    second: ancient_rocks_14
+  - first:
+      213: 1946285455974622136
+    second: ancient_rocks_15
+  - first:
+      213: -5449453900313146982
+    second: ancient_rocks_16
+  - first:
+      213: 8906792894190926290
+    second: ancient_rocks_17
+  - first:
+      213: 3682119033732306189
+    second: ancient_rocks_18
+  - first:
+      213: -3796155750318551380
+    second: ancient_rocks_19
+  - first:
+      213: 3169274495770274667
+    second: ancient_rocks_20
+  - first:
+      213: -7781054237817573344
+    second: ancient_rocks_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ancient_rocks_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 334
+        width: 87
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bbf76189ad1819c0800000000000000
+      internalID: -3956379658787226695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ancient_rocks_1
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 336
+        width: 103
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dadd0e770e16eb500800000000000000
+      internalID: 413875832476458413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ancient_rocks_2
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 335
+        width: 94
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14edd54510e011690800000000000000
+      internalID: -7633304494543086015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ancient_rocks_3
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 337
+        width: 96
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea2b5ace6a3c0ed80800000000000000
+      internalID: -8223357797876256082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ancient_rocks_4
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 334
+        width: 65
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a52c27feeb952aa0800000000000000
+      internalID: -6186367062472120921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ancient_rocks_5
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 225
+        width: 94
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35aa7fd28d866c2c0800000000000000
+      internalID: -4411723507269391789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ancient_rocks_6
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 226
+        width: 95
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22570fdf7000867f0800000000000000
+      internalID: -619244914438277854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ancient_rocks_7
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 226
+        width: 95
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac1b8488eb7d80a50800000000000000
+      internalID: 6487672476557423050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ancient_rocks_8
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 224
+        width: 83
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e87737b9940d66140800000000000000
+      internalID: 4712683074649028494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ancient_rocks_9
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 227
+        width: 88
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58f207af329ff8110800000000000000
+      internalID: 1265503953235226501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ancient_rocks_10
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 111
+        width: 91
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 424d96ea620e064c0800000000000000
+      internalID: -4296187587771902940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ancient_rocks_11
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 112
+        width: 88
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bc745b823e2df5d0800000000000000
+      internalID: -3027212579902292816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ancient_rocks_12
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 111
+        width: 98
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 750d54dc7a34884f0800000000000000
+      internalID: -826336143639981993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ancient_rocks_13
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 112
+        width: 93
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e22a5c7515e7bcf0800000000000000
+      internalID: -236468574970305824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ancient_rocks_14
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 110
+        width: 80
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78ae85cea4a354a80800000000000000
+      internalID: -8483310229615220089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ancient_rocks_15
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 11
+        width: 92
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b360e27f48920b10800000000000000
+      internalID: 1946285455974622136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ancient_rocks_16
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 13
+        width: 87
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a99c7f3dc86af54b0800000000000000
+      internalID: -5449453900313146982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ancient_rocks_17
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 11
+        width: 45
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d9393272f84b9b70800000000000000
+      internalID: 8906792894190926290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ancient_rocks_18
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 11
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d059152a0c3891330800000000000000
+      internalID: 3682119033732306189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ancient_rocks_19
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 11
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caec43e3578515bc0800000000000000
+      internalID: -3796155750318551380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ancient_rocks_20
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 11
+        width: 53
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6ba714cc568bfb20800000000000000
+      internalID: 3169274495770274667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ancient_rocks_21
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 11
+        width: 46
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 020f5d08564240490800000000000000
+      internalID: -7781054237817573344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ancient_rocks_0: -3956379658787226695
+      ancient_rocks_1: 413875832476458413
+      ancient_rocks_10: -4296187587771902940
+      ancient_rocks_11: -3027212579902292816
+      ancient_rocks_12: -826336143639981993
+      ancient_rocks_13: -236468574970305824
+      ancient_rocks_14: -8483310229615220089
+      ancient_rocks_15: 1946285455974622136
+      ancient_rocks_16: -5449453900313146982
+      ancient_rocks_17: 8906792894190926290
+      ancient_rocks_18: 3682119033732306189
+      ancient_rocks_19: -3796155750318551380
+      ancient_rocks_2: -7633304494543086015
+      ancient_rocks_20: 3169274495770274667
+      ancient_rocks_21: -7781054237817573344
+      ancient_rocks_3: -8223357797876256082
+      ancient_rocks_4: -6186367062472120921
+      ancient_rocks_5: -4411723507269391789
+      ancient_rocks_6: -619244914438277854
+      ancient_rocks_7: 6487672476557423050
+      ancient_rocks_8: 4712683074649028494
+      ancient_rocks_9: 1265503953235226501
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

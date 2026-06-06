@@ -1,15 +1,18 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 [DisallowMultipleComponent]
 public class SecretBossPlayerAttack : MonoBehaviour
 {
     [Header("Attack")]
     [SerializeField] private KeyCode attackKey = KeyCode.Space;
-    [SerializeField] private int damage = 1;
+    [FormerlySerializedAs("damage")]
+    [SerializeField] private int attackDamage = 1;
     [SerializeField] private float attackRange = 1f;
     [SerializeField] private float attackCooldown = 0.25f;
-    [SerializeField] private LayerMask enemyLayers = ~0;
+    [FormerlySerializedAs("enemyLayers")]
+    [SerializeField] private LayerMask enemyLayer = ~0;
 
     [Header("Optional Reference")]
     [SerializeField] private Transform attackOrigin;
@@ -29,7 +32,8 @@ public class SecretBossPlayerAttack : MonoBehaviour
     {
         nextAttackTime = Time.time + attackCooldown;
         Vector2 center = attackOrigin != null ? attackOrigin.position : transform.position;
-        Collider2D[] hits = Physics2D.OverlapCircleAll(center, attackRange, enemyLayers);
+        Collider2D[] hits = Physics2D.OverlapCircleAll(center, attackRange, enemyLayer);
+        Debug.Log("[SecretBossPlayerAttack] El Player ataca con Space.");
 
         damagedBosses.Clear();
         for (int i = 0; i < hits.Length; i++)
@@ -41,7 +45,7 @@ public class SecretBossPlayerAttack : MonoBehaviour
             }
 
             damagedBosses.Add(bossHealth);
-            bossHealth.TakeDamage(damage);
+            bossHealth.TakeDamage(attackDamage);
         }
     }
 
@@ -54,7 +58,7 @@ public class SecretBossPlayerAttack : MonoBehaviour
 
     private void OnValidate()
     {
-        damage = Mathf.Max(1, damage);
+        attackDamage = Mathf.Max(1, attackDamage);
         attackRange = Mathf.Max(0.05f, attackRange);
         attackCooldown = Mathf.Max(0.05f, attackCooldown);
     }
