@@ -10,6 +10,7 @@ public class InteractionPromptUI : MonoBehaviour
     {
         root = promptRoot;
         promptText = text;
+        gameObject.SetActive(true);
         HidePrompt();
     }
 
@@ -22,6 +23,7 @@ public class InteractionPromptUI : MonoBehaviour
     public void ShowPrompt(string message)
     {
         EnsureReferences();
+        gameObject.SetActive(true);
 
         if (promptText != null)
         {

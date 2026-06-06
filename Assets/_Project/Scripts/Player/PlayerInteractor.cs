@@ -5,6 +5,16 @@ using UnityEngine.UI;
 [RequireComponent(typeof(PlayerController))]
 public class PlayerInteractor : MonoBehaviour
 {
+    private const string InspectPrompt = "Presione el boton E para inspeccionar";
+    private const string MantaChairDescription =
+        "La silla manteña (o silla en \"U\") es un ícono ceremonial y arqueológico de la Cultura Manteña. " +
+        "Símbolo de identidad y poder de Manabí, representa la jerarquía política, religiosa y chamánica " +
+        "de sus antiguos habitantes.";
+    private const string TunaMonumentDescription =
+        "El Monumento al Atún en Manta simboliza la enorme importancia de la pesca para el desarrollo económico, " +
+        "social e histórico de la ciudad. Rinde homenaje a los pescadores, a la industria y al orgullo de Manta " +
+        "por ser conocida como la \"Capital Mundial del Atún\".";
+
     [Header("Interaction")]
     [SerializeField] private KeyCode interactionKey = KeyCode.E;
     [SerializeField] private float interactionRadius = 0.65f;
@@ -16,7 +26,6 @@ public class PlayerInteractor : MonoBehaviour
     [SerializeField] private InteractionPromptUI interactionPromptUI;
     [SerializeField] private NotificationUI notificationUI;
 
-    private readonly Collider2D[] overlapResults = new Collider2D[12];
     private IInteractable currentInteractable;
     private bool interactionLocked;
 
@@ -32,6 +41,8 @@ public class PlayerInteractor : MonoBehaviour
         }
 
         ResolveOrCreateInteractionUI();
+        EnsureCulturalInspectable("silla manteña_0", MantaChairDescription);
+        EnsureCulturalInspectable("atun_43", TunaMonumentDescription);
     }
 
     private void OnEnable()
@@ -43,12 +54,12 @@ public class PlayerInteractor : MonoBehaviour
     {
         if (playerController == null || interactionLocked)
         {
-            currentInteractable = null;
+            SetCurrentInteractable(null);
             interactionPromptUI?.HidePrompt();
             return;
         }
 
-        currentInteractable = FindClosestInteractable();
+        SetCurrentInteractable(FindClosestInteractable());
         UpdatePrompt();
 
         if (currentInteractable != null && Input.GetKeyDown(interactionKey))
@@ -78,6 +89,16 @@ public class PlayerInteractor : MonoBehaviour
         notificationUI?.ShowMessage(message, duration);
     }
 
+    public void ShowPersistentNotification(string message)
+    {
+        notificationUI?.ShowPersistentMessage(message);
+    }
+
+    public void HideNotification()
+    {
+        notificationUI?.HideInstant();
+    }
+
     private IInteractable FindClosestInteractable()
     {
         Vector2 center = transform.position;
@@ -87,18 +108,13 @@ public class PlayerInteractor : MonoBehaviour
             center += lookDirection.normalized * forwardOffset;
         }
 
-        int hitCount = Physics2D.OverlapCircleNonAlloc(center, interactionRadius, overlapResults, interactionLayers);
-        if (hitCount > 0)
-        {
-            Debug.Log($"[PlayerInteractor] Detected {hitCount} potential interactables at {center}");
-        }
+        Collider2D[] overlapResults = Physics2D.OverlapCircleAll(center, interactionRadius, interactionLayers);
         IInteractable closest = null;
         float closestDistance = float.MaxValue;
 
-        for (int i = 0; i < hitCount; i++)
+        for (int i = 0; i < overlapResults.Length; i++)
         {
             Collider2D hit = overlapResults[i];
-            overlapResults[i] = null;
             if (hit == null)
             {
                 continue;
@@ -124,6 +140,26 @@ public class PlayerInteractor : MonoBehaviour
         }
 
         return closest;
+    }
+
+    private void SetCurrentInteractable(IInteractable nextInteractable)
+    {
+        if (ReferenceEquals(currentInteractable, nextInteractable))
+        {
+            return;
+        }
+
+        if (currentInteractable is IInteractionFocusListener previousListener)
+        {
+            previousListener.OnInteractionFocusExited(this);
+        }
+
+        currentInteractable = nextInteractable;
+
+        if (currentInteractable is IInteractionFocusListener nextListener)
+        {
+            nextListener.OnInteractionFocusEntered(this);
+        }
     }
 
     private void UpdatePrompt()
@@ -222,6 +258,24 @@ public class PlayerInteractor : MonoBehaviour
         }
     }
 
+    private static void EnsureCulturalInspectable(string objectName, string description)
+    {
+        GameObject target = GameObject.Find(objectName);
+        if (target == null)
+        {
+            Debug.LogWarning($"[PlayerInteractor] No se encontró el objeto cultural '{objectName}'.");
+            return;
+        }
+
+        CulturalInspectable inspectable = target.GetComponent<CulturalInspectable>();
+        if (inspectable == null)
+        {
+            inspectable = target.AddComponent<CulturalInspectable>();
+        }
+
+        inspectable.Configure(InspectPrompt, description);
+    }
+
     private static Canvas FindScreenSpaceCanvas()
     {
         Canvas[] canvases = FindObjectsByType<Canvas>(FindObjectsInactive.Include, FindObjectsSortMode.None);
@@ -256,8 +310,8 @@ public class PlayerInteractor : MonoBehaviour
         GameObject owner = new GameObject("NotificationUI", typeof(RectTransform), typeof(NotificationUI));
         owner.transform.SetParent(canvasTransform, false);
 
-        GameObject root = CreateUiPanel(owner.transform, "NotificationRoot", new Vector2(520f, 90f), new Vector2(0f, 280f));
-        TMP_Text text = CreateUiText(root.transform, "NotificationText", string.Empty, 26f);
+        GameObject root = CreateUiPanel(owner.transform, "NotificationRoot", new Vector2(760f, 190f), new Vector2(0f, -170f));
+        TMP_Text text = CreateUiText(root.transform, "NotificationText", string.Empty, 24f);
 
         NotificationUI notification = owner.GetComponent<NotificationUI>();
         notification.Configure(root, text);

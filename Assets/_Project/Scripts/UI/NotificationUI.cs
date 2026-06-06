@@ -14,6 +14,7 @@ public class NotificationUI : MonoBehaviour
     {
         root = notificationRoot;
         messageText = text;
+        gameObject.SetActive(true);
         HideInstant();
     }
 
@@ -24,15 +25,7 @@ public class NotificationUI : MonoBehaviour
 
     public void ShowMessage(string message, float duration = -1f)
     {
-        if (messageText != null)
-        {
-            messageText.text = message;
-        }
-
-        if (root != null)
-        {
-            root.SetActive(true);
-        }
+        Show(message);
 
         float finalDuration = duration > 0f ? duration : defaultDuration;
         if (hideRoutine != null)
@@ -41,6 +34,17 @@ public class NotificationUI : MonoBehaviour
         }
 
         hideRoutine = StartCoroutine(HideAfterDelay(finalDuration));
+    }
+
+    public void ShowPersistentMessage(string message)
+    {
+        if (hideRoutine != null)
+        {
+            StopCoroutine(hideRoutine);
+            hideRoutine = null;
+        }
+
+        Show(message);
     }
 
     public void HideInstant()
@@ -67,6 +71,21 @@ public class NotificationUI : MonoBehaviour
         }
 
         hideRoutine = null;
+    }
+
+    private void Show(string message)
+    {
+        gameObject.SetActive(true);
+
+        if (messageText != null)
+        {
+            messageText.text = message;
+        }
+
+        if (root != null)
+        {
+            root.SetActive(true);
+        }
     }
 
     private void OnValidate()
