@@ -19,13 +19,6 @@ public class InteractionPromptUI : MonoBehaviour
         HidePrompt();
     }
 
-    public void Configure(GameObject promptRoot, TMP_Text text)
-    {
-        root = promptRoot;
-        promptText = text;
-        HidePrompt();
-    }
-
     public void ShowPrompt(string message)
     {
         EnsureReferences();
