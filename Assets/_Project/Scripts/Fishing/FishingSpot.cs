@@ -12,6 +12,9 @@ public class FishingSpot : MonoBehaviour, IInteractable
     [SerializeField] private string dockWoodObjectName = "Dock_Wood";
     [SerializeField, Min(0.1f)] private float dockEdgeZoneHeight = 0.55f;
     [SerializeField, Range(0.25f, 1f)] private float dockEdgeZoneWidthRatio = 0.9f;
+    [SerializeField] private Vector2 dockEdgeTopOffset = new Vector2(0f, 1.4f);
+    [SerializeField] private Vector2 dockEdgeBottomOffset = new Vector2(0f, -1.4f);
+    [SerializeField] private Vector2 dockEdgeFallbackSize = new Vector2(2.6f, 0.9f);
 
     [Header("Demo Route (Optional)")]
     [SerializeField] private bool enableDemoRouteHook;
@@ -194,6 +197,8 @@ public class FishingSpot : MonoBehaviour, IInteractable
         fishingDuration = Mathf.Max(0.25f, fishingDuration);
         catchChance = Mathf.Clamp01(catchChance);
         dockEdgeZoneHeight = Mathf.Max(0.1f, dockEdgeZoneHeight);
+        dockEdgeFallbackSize.x = Mathf.Max(0.5f, dockEdgeFallbackSize.x);
+        dockEdgeFallbackSize.y = Mathf.Max(0.2f, dockEdgeFallbackSize.y);
 
         if (fishingMinigameLauncher == null)
         {
@@ -241,15 +246,6 @@ public class FishingSpot : MonoBehaviour, IInteractable
 
         GameObject dockWood = FindSceneObjectByName(dockWoodObjectName);
         SpriteRenderer dockRenderer = dockWood != null ? dockWood.GetComponent<SpriteRenderer>() : null;
-        if (dockRenderer == null)
-        {
-            Debug.LogWarning($"{name} no encontro el SpriteRenderer {dockWoodObjectName} para crear los bordes de pesca.");
-            return;
-        }
-
-        Bounds dockBounds = dockRenderer.bounds;
-        float zoneWidth = Mathf.Max(0.5f, dockBounds.size.x * dockEdgeZoneWidthRatio);
-        float halfHeight = dockEdgeZoneHeight * 0.5f;
 
         GameObject zonesRoot = FindSceneObjectByName("FishingDockInteractionZones");
         if (zonesRoot == null)
@@ -257,16 +253,36 @@ public class FishingSpot : MonoBehaviour, IInteractable
             zonesRoot = new GameObject("FishingDockInteractionZones");
         }
 
+        if (dockRenderer != null)
+        {
+            Bounds dockBounds = dockRenderer.bounds;
+            float zoneWidth = Mathf.Max(0.5f, dockBounds.size.x * dockEdgeZoneWidthRatio);
+            float halfHeight = dockEdgeZoneHeight * 0.5f;
+
+            ConfigureDockEdgeZone(
+                zonesRoot.transform,
+                "FishingDockEdge_Top",
+                new Vector2(dockBounds.center.x, dockBounds.max.y - halfHeight),
+                new Vector2(zoneWidth, dockEdgeZoneHeight));
+            ConfigureDockEdgeZone(
+                zonesRoot.transform,
+                "FishingDockEdge_Bottom",
+                new Vector2(dockBounds.center.x, dockBounds.min.y + halfHeight),
+                new Vector2(zoneWidth, dockEdgeZoneHeight));
+            return;
+        }
+
+        Vector2 fallbackSize = dockEdgeFallbackSize;
         ConfigureDockEdgeZone(
             zonesRoot.transform,
             "FishingDockEdge_Top",
-            new Vector2(dockBounds.center.x, dockBounds.max.y - halfHeight),
-            new Vector2(zoneWidth, dockEdgeZoneHeight));
+            (Vector2)transform.position + dockEdgeTopOffset,
+            fallbackSize);
         ConfigureDockEdgeZone(
             zonesRoot.transform,
             "FishingDockEdge_Bottom",
-            new Vector2(dockBounds.center.x, dockBounds.min.y + halfHeight),
-            new Vector2(zoneWidth, dockEdgeZoneHeight));
+            (Vector2)transform.position + dockEdgeBottomOffset,
+            fallbackSize);
     }
 
     private void ConfigureDockEdgeZone(Transform parent, string zoneName, Vector2 worldPosition, Vector2 size)

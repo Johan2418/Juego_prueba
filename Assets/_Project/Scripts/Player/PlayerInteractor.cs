@@ -5,6 +5,8 @@ using UnityEngine.UI;
 [RequireComponent(typeof(PlayerController))]
 public class PlayerInteractor : MonoBehaviour
 {
+    private const string RuntimeCanvasName = "GameplayRuntimeCanvas";
+
     [Header("Interaction")]
     [SerializeField] private KeyCode interactionKey = KeyCode.E;
     [SerializeField] private float interactionRadius = 0.65f;
@@ -41,6 +43,8 @@ public class PlayerInteractor : MonoBehaviour
 
     private void Update()
     {
+        ResolveOrCreateInteractionUI();
+
         if (playerController == null || interactionLocked)
         {
             currentInteractable = null;
@@ -178,48 +182,64 @@ public class PlayerInteractor : MonoBehaviour
 
     private void ResolveOrCreateInteractionUI()
     {
-        if (interactionPromptUI == null)
+        if (interactionPromptUI == null || !interactionPromptUI.IsConfigured)
         {
             interactionPromptUI = FindFirstObjectByType<InteractionPromptUI>(FindObjectsInactive.Include);
         }
 
-        if (notificationUI == null)
+        if (notificationUI == null || !notificationUI.IsConfigured)
         {
             notificationUI = FindFirstObjectByType<NotificationUI>(FindObjectsInactive.Include);
         }
 
-        if (interactionPromptUI != null && notificationUI != null)
+        if (interactionPromptUI != null && interactionPromptUI.IsConfigured &&
+            notificationUI != null && notificationUI.IsConfigured)
         {
             return;
         }
 
-        Canvas canvas = FindScreenSpaceCanvas();
-        if (canvas == null)
-        {
-            GameObject canvasObject = new GameObject(
-                "InteractionRuntimeCanvas",
-                typeof(Canvas),
-                typeof(CanvasScaler),
-                typeof(GraphicRaycaster));
-            canvas = canvasObject.GetComponent<Canvas>();
-            canvas.renderMode = RenderMode.ScreenSpaceOverlay;
-            canvas.sortingOrder = 1000;
+        Canvas canvas = FindOrCreateRuntimeCanvas();
 
-            CanvasScaler scaler = canvasObject.GetComponent<CanvasScaler>();
-            scaler.uiScaleMode = CanvasScaler.ScaleMode.ScaleWithScreenSize;
-            scaler.referenceResolution = new Vector2(1280f, 720f);
-            scaler.matchWidthOrHeight = 0.5f;
-        }
-
-        if (interactionPromptUI == null)
+        if (interactionPromptUI == null || !interactionPromptUI.IsConfigured)
         {
             interactionPromptUI = CreateInteractionPrompt(canvas.transform);
         }
 
-        if (notificationUI == null)
+        if (notificationUI == null || !notificationUI.IsConfigured)
         {
             notificationUI = CreateNotification(canvas.transform);
         }
+    }
+
+    private static Canvas FindOrCreateRuntimeCanvas()
+    {
+        GameObject existingRuntimeCanvas = GameObject.Find(RuntimeCanvasName);
+        Canvas runtimeCanvas = existingRuntimeCanvas != null ? existingRuntimeCanvas.GetComponent<Canvas>() : null;
+        if (runtimeCanvas != null)
+        {
+            return runtimeCanvas;
+        }
+
+        Canvas screenSpaceCanvas = FindScreenSpaceCanvas();
+        if (screenSpaceCanvas != null)
+        {
+            return screenSpaceCanvas;
+        }
+
+        GameObject canvasObject = new GameObject(
+            RuntimeCanvasName,
+            typeof(Canvas),
+            typeof(CanvasScaler),
+            typeof(GraphicRaycaster));
+        Canvas canvas = canvasObject.GetComponent<Canvas>();
+        canvas.renderMode = RenderMode.ScreenSpaceOverlay;
+        canvas.sortingOrder = 1000;
+
+        CanvasScaler scaler = canvasObject.GetComponent<CanvasScaler>();
+        scaler.uiScaleMode = CanvasScaler.ScaleMode.ScaleWithScreenSize;
+        scaler.referenceResolution = new Vector2(1280f, 720f);
+        scaler.matchWidthOrHeight = 0.5f;
+        return canvas;
     }
 
     private static Canvas FindScreenSpaceCanvas()

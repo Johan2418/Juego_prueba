@@ -10,6 +10,8 @@ public class NotificationUI : MonoBehaviour
 
     private Coroutine hideRoutine;
 
+    public bool IsConfigured => root != null && messageText != null;
+
     public void Configure(GameObject notificationRoot, TMP_Text text)
     {
         root = notificationRoot;

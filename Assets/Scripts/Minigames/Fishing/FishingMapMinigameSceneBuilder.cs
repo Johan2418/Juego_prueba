@@ -13,6 +13,8 @@ namespace MantaMinigames.Fishing
     [ExecuteAlways]
     public sealed class FishingMapMinigameSceneBuilder : MonoBehaviour
     {
+        private const string RuntimeCanvasName = "GameplayRuntimeCanvas";
+
         [SerializeField] private Canvas canvas;
         [SerializeField] private FishingMinigameLauncher fishingLauncher;
         [SerializeField] private FishingPlayerFishingState fishingState;
@@ -93,7 +95,7 @@ namespace MantaMinigames.Fishing
 
             if (canvas == null)
             {
-                canvas = UnityEngine.Object.FindFirstObjectByType<Canvas>();
+                canvas = FindGameplayCanvas();
             }
 
             if (fishingLauncher == null)
@@ -266,6 +268,29 @@ namespace MantaMinigames.Fishing
                 }
 
                 return rect;
+            }
+
+            return null;
+        }
+
+        private static Canvas FindGameplayCanvas()
+        {
+            GameObject namedCanvas = GameObject.Find(RuntimeCanvasName);
+            Canvas canvas = namedCanvas != null ? namedCanvas.GetComponent<Canvas>() : null;
+            if (canvas != null)
+            {
+                return canvas;
+            }
+
+            Canvas[] canvases = UnityEngine.Object.FindObjectsByType<Canvas>(FindObjectsInactive.Include, FindObjectsSortMode.None);
+            for (int i = 0; i < canvases.Length; i++)
+            {
+                Canvas candidate = canvases[i];
+                if (candidate != null &&
+                    (candidate.renderMode == RenderMode.ScreenSpaceOverlay || candidate.renderMode == RenderMode.ScreenSpaceCamera))
+                {
+                    return candidate;
+                }
             }
 
             return null;

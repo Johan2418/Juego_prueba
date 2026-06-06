@@ -23,7 +23,7 @@ namespace MantaMinigames.Fishing
         private bool waitingToHideOnPlayerMove;
         private float hideAllowedTime;
 
-        private const string RuntimeCanvasName = "FishingRuntimeCanvas";
+        private const string RuntimeCanvasName = "GameplayRuntimeCanvas";
         private const string RuntimeEventSystemName = "FishingRuntimeEventSystem";
 
         public event Action<FishingResult> OnFishingCompleted;
@@ -66,6 +66,7 @@ namespace MantaMinigames.Fishing
         public void StartFishing(global::FishData selectedFish)
         {
             EnsureConfigured();
+            RebuildRuntimeUiIfNeeded();
 
             if (minigameController == null)
             {
@@ -204,7 +205,7 @@ namespace MantaMinigames.Fishing
 
             if (canvas == null)
             {
-                canvas = UnityEngine.Object.FindFirstObjectByType<Canvas>(FindObjectsInactive.Include);
+                canvas = FindGameplayCanvas();
             }
 
             if (builder == null)
@@ -226,6 +227,21 @@ namespace MantaMinigames.Fishing
             return builder;
         }
 
+        private void RebuildRuntimeUiIfNeeded()
+        {
+            FishingMapMinigameSceneBuilder builder = ResolveSceneBuilder();
+            if (builder == null)
+            {
+                return;
+            }
+
+            FishingMinigameController rebuiltController = builder.BuildIfNeeded();
+            if (rebuiltController != null)
+            {
+                AssignMinigameController(rebuiltController);
+            }
+        }
+
         private static Canvas CreateRuntimeCanvas()
         {
             GameObject canvasObject = new GameObject(RuntimeCanvasName, typeof(Canvas), typeof(CanvasScaler), typeof(GraphicRaycaster));
@@ -238,6 +254,29 @@ namespace MantaMinigames.Fishing
             scaler.matchWidthOrHeight = 0.5f;
 
             return canvas;
+        }
+
+        private static Canvas FindGameplayCanvas()
+        {
+            GameObject namedCanvas = GameObject.Find(RuntimeCanvasName);
+            Canvas canvas = namedCanvas != null ? namedCanvas.GetComponent<Canvas>() : null;
+            if (canvas != null)
+            {
+                return canvas;
+            }
+
+            Canvas[] canvases = UnityEngine.Object.FindObjectsByType<Canvas>(FindObjectsInactive.Include, FindObjectsSortMode.None);
+            for (int i = 0; i < canvases.Length; i++)
+            {
+                Canvas candidate = canvases[i];
+                if (candidate != null &&
+                    (candidate.renderMode == RenderMode.ScreenSpaceOverlay || candidate.renderMode == RenderMode.ScreenSpaceCamera))
+                {
+                    return candidate;
+                }
+            }
+
+            return null;
         }
 
         private static void EnsureEventSystem()

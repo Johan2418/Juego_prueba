@@ -11311,7 +11311,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 043f326739f747859aedc1da04869c6f, type: 3}
   m_Name:
   m_EditorClassIdentifier:
-  prompt: Presiona E para pedir ceviche
+  prompt: Pulsa E para comer ceviche
   integration: {fileID: 609726106}
 --- !u!114 &609726106
 MonoBehaviour:
@@ -48043,7 +48043,7 @@ Transform:
   m_GameObject: {fileID: 1073591040}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 85, y: 45, z: 0}
+  m_LocalPosition: {x: 61.8343, y: 12.0136, z: 0}
   m_LocalScale: {x: 5.9732113, y: 5.1680355, z: 1.5}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -48725,7 +48725,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 043f326739f747859aedc1da04869c6f, type: 3}
   m_Name:
   m_EditorClassIdentifier:
-  prompt: Presiona E para pedir ceviche
+  prompt: Pulsa E para comer ceviche
   integration: {fileID: 1133024460}
 --- !u!114 &1133024460
 MonoBehaviour:

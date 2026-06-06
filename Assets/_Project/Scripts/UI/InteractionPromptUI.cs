@@ -6,6 +6,8 @@ public class InteractionPromptUI : MonoBehaviour
     [SerializeField] private GameObject root;
     [SerializeField] private TMP_Text promptText;
 
+    public bool IsConfigured => root != null && promptText != null;
+
     public void Configure(GameObject promptRoot, TMP_Text text)
     {
         root = promptRoot;

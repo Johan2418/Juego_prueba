@@ -778,11 +778,11 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: 55a9c1e0-5e14-4edc-82f4-974fe4e81ff9
+  cloudProjectId: e55346ae-3a9e-4431-af95-0e384a9e8ed6
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Juego_prueba (2)
-  organizationId: josuvince
+  projectName: Juego_prueba
+  organizationId: anonimouwu8562
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
