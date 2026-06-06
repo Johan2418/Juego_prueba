@@ -10,6 +10,13 @@ public class NotificationUI : MonoBehaviour
 
     private Coroutine hideRoutine;
 
+    public void Configure(GameObject notificationRoot, TMP_Text text)
+    {
+        root = notificationRoot;
+        messageText = text;
+        HideInstant();
+    }
+
     private void Awake()
     {
         HideInstant();

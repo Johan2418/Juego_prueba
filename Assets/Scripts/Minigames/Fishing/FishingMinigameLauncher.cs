@@ -1,6 +1,9 @@
 using System;
 using TMPro;
 using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.UI;
 using UnityEngine.UI;
 
 namespace MantaMinigames.Fishing
@@ -19,6 +22,9 @@ namespace MantaMinigames.Fishing
         private bool isAutoConfiguring;
         private bool waitingToHideOnPlayerMove;
         private float hideAllowedTime;
+
+        private const string RuntimeCanvasName = "FishingRuntimeCanvas";
+        private const string RuntimeEventSystemName = "FishingRuntimeEventSystem";
 
         public event Action<FishingResult> OnFishingCompleted;
 
@@ -131,7 +137,7 @@ namespace MantaMinigames.Fishing
         {
             ResolveFishingState();
 
-            if (minigameController != null)
+            if (HasUsableController())
             {
                 return true;
             }
@@ -144,9 +150,9 @@ namespace MantaMinigames.Fishing
             isAutoConfiguring = true;
             try
             {
-                AssignMinigameController(UnityEngine.Object.FindFirstObjectByType<FishingMinigameController>());
+                AssignMinigameController(UnityEngine.Object.FindFirstObjectByType<FishingMinigameController>(FindObjectsInactive.Include));
 
-                if (minigameController == null)
+                if (!HasUsableController())
                 {
                     FishingMapMinigameSceneBuilder builder = ResolveSceneBuilder();
                     if (builder != null)
@@ -155,9 +161,9 @@ namespace MantaMinigames.Fishing
                     }
                 }
 
-                if (minigameController == null)
+                if (!HasUsableController())
                 {
-                    AssignMinigameController(UnityEngine.Object.FindFirstObjectByType<FishingMinigameController>());
+                    AssignMinigameController(UnityEngine.Object.FindFirstObjectByType<FishingMinigameController>(FindObjectsInactive.Include));
                 }
             }
             finally
@@ -165,7 +171,7 @@ namespace MantaMinigames.Fishing
                 isAutoConfiguring = false;
             }
 
-            return minigameController != null;
+            return HasUsableController();
         }
 
         private FishingPlayerFishingState ResolveFishingState()
@@ -181,7 +187,7 @@ namespace MantaMinigames.Fishing
                 return fishingState;
             }
 
-            fishingState = UnityEngine.Object.FindFirstObjectByType<FishingPlayerFishingState>();
+            fishingState = UnityEngine.Object.FindFirstObjectByType<FishingPlayerFishingState>(FindObjectsInactive.Include);
             if (fishingState != null)
             {
                 return fishingState;
@@ -193,8 +199,13 @@ namespace MantaMinigames.Fishing
 
         private FishingMapMinigameSceneBuilder ResolveSceneBuilder()
         {
-            FishingMapMinigameSceneBuilder builder = UnityEngine.Object.FindFirstObjectByType<FishingMapMinigameSceneBuilder>();
-            Canvas canvas = UnityEngine.Object.FindFirstObjectByType<Canvas>();
+            FishingMapMinigameSceneBuilder builder = UnityEngine.Object.FindFirstObjectByType<FishingMapMinigameSceneBuilder>(FindObjectsInactive.Include);
+            Canvas canvas = builder != null ? builder.GetComponent<Canvas>() : null;
+
+            if (canvas == null)
+            {
+                canvas = UnityEngine.Object.FindFirstObjectByType<Canvas>(FindObjectsInactive.Include);
+            }
 
             if (builder == null)
             {
@@ -210,13 +221,14 @@ namespace MantaMinigames.Fishing
                 }
             }
 
+            EnsureEventSystem();
             builder.ConfigureSceneReferences(canvas, this, ResolveFishingState());
             return builder;
         }
 
         private static Canvas CreateRuntimeCanvas()
         {
-            GameObject canvasObject = new GameObject("FishingRuntimeCanvas", typeof(Canvas), typeof(CanvasScaler), typeof(GraphicRaycaster));
+            GameObject canvasObject = new GameObject(RuntimeCanvasName, typeof(Canvas), typeof(CanvasScaler), typeof(GraphicRaycaster));
             Canvas canvas = canvasObject.GetComponent<Canvas>();
             canvas.renderMode = RenderMode.ScreenSpaceOverlay;
 
@@ -226,6 +238,16 @@ namespace MantaMinigames.Fishing
             scaler.matchWidthOrHeight = 0.5f;
 
             return canvas;
+        }
+
+        private static void EnsureEventSystem()
+        {
+            if (UnityEngine.Object.FindFirstObjectByType<EventSystem>(FindObjectsInactive.Include) != null)
+            {
+                return;
+            }
+
+            _ = new GameObject(RuntimeEventSystemName, typeof(EventSystem), typeof(InputSystemUIInputModule));
         }
 
         private void AssignMinigameController(FishingMinigameController controller)
@@ -241,11 +263,30 @@ namespace MantaMinigames.Fishing
             }
 
             minigameController = controller;
+            if (minigameController != null)
+            {
+                minigameRoot = minigameController.gameObject;
+            }
 
             if (isActiveAndEnabled && minigameController != null)
             {
                 minigameController.OnFishingCompleted += HandleFishingCompleted;
             }
+        }
+
+        private bool HasUsableController()
+        {
+            if (minigameController == null)
+            {
+                return false;
+            }
+
+            if (minigameRoot == null)
+            {
+                minigameRoot = minigameController.gameObject;
+            }
+
+            return minigameRoot != null;
         }
 
         private void HandleFishingCompleted(FishingResult result)
@@ -317,14 +358,16 @@ namespace MantaMinigames.Fishing
 
         private static bool HasPlayerMovementInput()
         {
-            return Input.GetKey(KeyCode.W) ||
-                Input.GetKey(KeyCode.A) ||
-                Input.GetKey(KeyCode.S) ||
-                Input.GetKey(KeyCode.D) ||
-                Input.GetKey(KeyCode.UpArrow) ||
-                Input.GetKey(KeyCode.DownArrow) ||
-                Input.GetKey(KeyCode.LeftArrow) ||
-                Input.GetKey(KeyCode.RightArrow);
+            Keyboard keyboard = Keyboard.current;
+            return keyboard != null &&
+                (keyboard.wKey.isPressed ||
+                keyboard.aKey.isPressed ||
+                keyboard.sKey.isPressed ||
+                keyboard.dKey.isPressed ||
+                keyboard.upArrowKey.isPressed ||
+                keyboard.downArrowKey.isPressed ||
+                keyboard.leftArrowKey.isPressed ||
+                keyboard.rightArrowKey.isPressed);
         }
 
         private void HideOwnMarkerRendererIfNeeded()

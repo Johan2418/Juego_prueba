@@ -1,4 +1,6 @@
 using UnityEngine;
+using TMPro;
+using UnityEngine.UI;
 
 [RequireComponent(typeof(PlayerController))]
 public class PlayerInteractor : MonoBehaviour
@@ -28,6 +30,13 @@ public class PlayerInteractor : MonoBehaviour
         {
             playerController = GetComponent<PlayerController>();
         }
+
+        ResolveOrCreateInteractionUI();
+    }
+
+    private void OnEnable()
+    {
+        ResolveOrCreateInteractionUI();
     }
 
     private void Update()
@@ -165,5 +174,131 @@ public class PlayerInteractor : MonoBehaviour
     {
         interactionRadius = Mathf.Max(0.05f, interactionRadius);
         forwardOffset = Mathf.Max(0f, forwardOffset);
+    }
+
+    private void ResolveOrCreateInteractionUI()
+    {
+        if (interactionPromptUI == null)
+        {
+            interactionPromptUI = FindFirstObjectByType<InteractionPromptUI>(FindObjectsInactive.Include);
+        }
+
+        if (notificationUI == null)
+        {
+            notificationUI = FindFirstObjectByType<NotificationUI>(FindObjectsInactive.Include);
+        }
+
+        if (interactionPromptUI != null && notificationUI != null)
+        {
+            return;
+        }
+
+        Canvas canvas = FindScreenSpaceCanvas();
+        if (canvas == null)
+        {
+            GameObject canvasObject = new GameObject(
+                "InteractionRuntimeCanvas",
+                typeof(Canvas),
+                typeof(CanvasScaler),
+                typeof(GraphicRaycaster));
+            canvas = canvasObject.GetComponent<Canvas>();
+            canvas.renderMode = RenderMode.ScreenSpaceOverlay;
+            canvas.sortingOrder = 1000;
+
+            CanvasScaler scaler = canvasObject.GetComponent<CanvasScaler>();
+            scaler.uiScaleMode = CanvasScaler.ScaleMode.ScaleWithScreenSize;
+            scaler.referenceResolution = new Vector2(1280f, 720f);
+            scaler.matchWidthOrHeight = 0.5f;
+        }
+
+        if (interactionPromptUI == null)
+        {
+            interactionPromptUI = CreateInteractionPrompt(canvas.transform);
+        }
+
+        if (notificationUI == null)
+        {
+            notificationUI = CreateNotification(canvas.transform);
+        }
+    }
+
+    private static Canvas FindScreenSpaceCanvas()
+    {
+        Canvas[] canvases = FindObjectsByType<Canvas>(FindObjectsInactive.Include, FindObjectsSortMode.None);
+        for (int i = 0; i < canvases.Length; i++)
+        {
+            Canvas canvas = canvases[i];
+            if (canvas != null &&
+                (canvas.renderMode == RenderMode.ScreenSpaceOverlay || canvas.renderMode == RenderMode.ScreenSpaceCamera))
+            {
+                return canvas;
+            }
+        }
+
+        return null;
+    }
+
+    private static InteractionPromptUI CreateInteractionPrompt(Transform canvasTransform)
+    {
+        GameObject owner = new GameObject("InteractionPromptUI", typeof(RectTransform), typeof(InteractionPromptUI));
+        owner.transform.SetParent(canvasTransform, false);
+
+        GameObject root = CreateUiPanel(owner.transform, "PromptRoot", new Vector2(460f, 58f), new Vector2(0f, -270f));
+        TMP_Text text = CreateUiText(root.transform, "PromptText", "Presiona E para interactuar", 26f);
+
+        InteractionPromptUI prompt = owner.GetComponent<InteractionPromptUI>();
+        prompt.Configure(root, text);
+        return prompt;
+    }
+
+    private static NotificationUI CreateNotification(Transform canvasTransform)
+    {
+        GameObject owner = new GameObject("NotificationUI", typeof(RectTransform), typeof(NotificationUI));
+        owner.transform.SetParent(canvasTransform, false);
+
+        GameObject root = CreateUiPanel(owner.transform, "NotificationRoot", new Vector2(520f, 90f), new Vector2(0f, 280f));
+        TMP_Text text = CreateUiText(root.transform, "NotificationText", string.Empty, 26f);
+
+        NotificationUI notification = owner.GetComponent<NotificationUI>();
+        notification.Configure(root, text);
+        return notification;
+    }
+
+    private static GameObject CreateUiPanel(Transform parent, string objectName, Vector2 size, Vector2 position)
+    {
+        GameObject panel = new GameObject(objectName, typeof(RectTransform), typeof(Image));
+        panel.transform.SetParent(parent, false);
+
+        RectTransform rect = panel.GetComponent<RectTransform>();
+        rect.anchorMin = new Vector2(0.5f, 0.5f);
+        rect.anchorMax = new Vector2(0.5f, 0.5f);
+        rect.pivot = new Vector2(0.5f, 0.5f);
+        rect.sizeDelta = size;
+        rect.anchoredPosition = position;
+
+        Image image = panel.GetComponent<Image>();
+        image.color = new Color(0f, 0f, 0f, 0.72f);
+        image.raycastTarget = false;
+        return panel;
+    }
+
+    private static TMP_Text CreateUiText(Transform parent, string objectName, string value, float fontSize)
+    {
+        GameObject textObject = new GameObject(objectName, typeof(RectTransform), typeof(TextMeshProUGUI));
+        textObject.transform.SetParent(parent, false);
+
+        RectTransform rect = textObject.GetComponent<RectTransform>();
+        rect.anchorMin = Vector2.zero;
+        rect.anchorMax = Vector2.one;
+        rect.offsetMin = new Vector2(16f, 8f);
+        rect.offsetMax = new Vector2(-16f, -8f);
+
+        TextMeshProUGUI text = textObject.GetComponent<TextMeshProUGUI>();
+        text.text = value;
+        text.fontSize = fontSize;
+        text.alignment = TextAlignmentOptions.Center;
+        text.color = Color.white;
+        text.raycastTarget = false;
+        return text;
     }
 }

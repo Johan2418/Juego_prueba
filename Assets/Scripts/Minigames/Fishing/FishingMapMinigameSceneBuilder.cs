@@ -221,16 +221,28 @@ namespace MantaMinigames.Fishing
         private static RectTransform GetOrCreateRect(Transform parent, string objectName, Vector2 size, out bool created)
         {
             Transform existing = parent.Find(objectName);
-            created = existing == null;
-            GameObject target = created ? new GameObject(objectName, typeof(RectTransform)) : existing.gameObject;
+            bool adopted = false;
+            if (existing == null)
+            {
+                existing = FindLooseRectTransform(objectName);
+                if (existing != null && existing != parent)
+                {
+                    existing.SetParent(parent, false);
+                    adopted = true;
+                }
+            }
 
-            if (created)
+            bool needsNewObject = existing == null;
+            created = needsNewObject || adopted;
+            GameObject target = needsNewObject ? new GameObject(objectName, typeof(RectTransform)) : existing.gameObject;
+
+            if (needsNewObject)
             {
                 target.transform.SetParent(parent, false);
             }
 
             RectTransform rect = (RectTransform)target.transform;
-            if (created)
+            if (created || rect.parent == parent)
             {
                 rect.localScale = Vector3.one;
                 rect.sizeDelta = size;
@@ -240,6 +252,23 @@ namespace MantaMinigames.Fishing
             }
 
             return rect;
+        }
+
+        private static RectTransform FindLooseRectTransform(string objectName)
+        {
+            RectTransform[] rects = UnityEngine.Object.FindObjectsByType<RectTransform>(FindObjectsInactive.Include, FindObjectsSortMode.None);
+            for (int i = 0; i < rects.Length; i++)
+            {
+                RectTransform rect = rects[i];
+                if (rect == null || rect.name != objectName)
+                {
+                    continue;
+                }
+
+                return rect;
+            }
+
+            return null;
         }
 
         private static Image EnsureImage(GameObject target, Color color)
