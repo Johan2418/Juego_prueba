@@ -1,0 +1,2834 @@
+fileFormatVersion: 2
+guid: adfb2bb97165c0640aa418ee7fcc95e9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8241709391814558451
+    second: casas_0
+  - first:
+      213: -2210486488036156438
+    second: casas_1
+  - first:
+      213: -2376475546915352486
+    second: casas_2
+  - first:
+      213: -1917232712457681804
+    second: casas_3
+  - first:
+      213: -7286831641655322059
+    second: casas_4
+  - first:
+      213: -6265856406282734618
+    second: casas_5
+  - first:
+      213: 1613496174233749402
+    second: casas_6
+  - first:
+      213: -124070719092260613
+    second: casas_7
+  - first:
+      213: -8430587515196322945
+    second: casas_8
+  - first:
+      213: 8580130892494132676
+    second: casas_9
+  - first:
+      213: 4059118704859375621
+    second: casas_10
+  - first:
+      213: 1036584119353376391
+    second: casas_11
+  - first:
+      213: -3460354851673589508
+    second: casas_12
+  - first:
+      213: 5277820383209940398
+    second: casas_13
+  - first:
+      213: -3509977112604015409
+    second: casas_14
+  - first:
+      213: -4668088041159804264
+    second: casas_15
+  - first:
+      213: 2230787017397640715
+    second: casas_16
+  - first:
+      213: -7903094082201906283
+    second: casas_17
+  - first:
+      213: -8323853967985530126
+    second: casas_18
+  - first:
+      213: 8372791825409674592
+    second: casas_19
+  - first:
+      213: 3210220070879572714
+    second: casas_20
+  - first:
+      213: 5395690519791918028
+    second: casas_21
+  - first:
+      213: -8935511355842313535
+    second: casas_22
+  - first:
+      213: 4411018075786996272
+    second: casas_23
+  - first:
+      213: 2728320976037308344
+    second: casas_24
+  - first:
+      213: 4583477305014549756
+    second: casas_25
+  - first:
+      213: 8001091173390508046
+    second: casas_26
+  - first:
+      213: 267081782274253580
+    second: casas_27
+  - first:
+      213: -4330593090837681126
+    second: casas_28
+  - first:
+      213: -2766881463988067588
+    second: casas_29
+  - first:
+      213: -1859004768793251567
+    second: casas_30
+  - first:
+      213: 8703166921149764082
+    second: casas_31
+  - first:
+      213: -6946578816057058500
+    second: casas_32
+  - first:
+      213: -7913594984188073421
+    second: casas_33
+  - first:
+      213: -7108902434659139605
+    second: casas_34
+  - first:
+      213: -6792714237408006789
+    second: casas_35
+  - first:
+      213: 3922536106090339724
+    second: casas_36
+  - first:
+      213: 1330738326925532551
+    second: casas_37
+  - first:
+      213: -745002631019719205
+    second: casas_38
+  - first:
+      213: 8021601269425331331
+    second: casas_39
+  - first:
+      213: 9114134169073423096
+    second: casas_40
+  - first:
+      213: -448693507004627618
+    second: casas_41
+  - first:
+      213: -8907063173695164558
+    second: casas_42
+  - first:
+      213: -5158015902607416207
+    second: casas_43
+  - first:
+      213: -6675631546658836636
+    second: casas_44
+  - first:
+      213: -4999563938755310456
+    second: casas_45
+  - first:
+      213: -5281663599130652568
+    second: casas_46
+  - first:
+      213: 6912929593617627504
+    second: casas_47
+  - first:
+      213: -8287557104042621969
+    second: casas_48
+  - first:
+      213: 2174188915085830489
+    second: casas_49
+  - first:
+      213: 4787747415448046476
+    second: casas_50
+  - first:
+      213: -7087820254224786511
+    second: casas_51
+  - first:
+      213: 5304103282646078173
+    second: casas_52
+  - first:
+      213: 7344722910403592165
+    second: casas_53
+  - first:
+      213: 3245348522391808268
+    second: casas_54
+  - first:
+      213: 2850297250738518111
+    second: casas_55
+  - first:
+      213: 1197377410228486562
+    second: casas_56
+  - first:
+      213: 5746264598041770054
+    second: casas_57
+  - first:
+      213: -3664455407149163334
+    second: casas_58
+  - first:
+      213: 8394014389019006865
+    second: casas_59
+  - first:
+      213: 6131539946210470210
+    second: casas_60
+  - first:
+      213: -6344715888830363369
+    second: casas_61
+  - first:
+      213: -8878412805239566804
+    second: casas_62
+  - first:
+      213: 3016044174590535777
+    second: casas_63
+  - first:
+      213: -6847348718194364202
+    second: casas_64
+  - first:
+      213: 1544882948823861636
+    second: casas_65
+  - first:
+      213: -9040160965105182629
+    second: casas_66
+  - first:
+      213: -756978369667690315
+    second: casas_67
+  - first:
+      213: 5093526906138337372
+    second: casas_68
+  - first:
+      213: 5453278657084177343
+    second: casas_69
+  - first:
+      213: -7542314997093823197
+    second: casas_70
+  - first:
+      213: -6756981256829648937
+    second: casas_71
+  - first:
+      213: 3961044045232582975
+    second: casas_72
+  - first:
+      213: 6426931436028422838
+    second: casas_73
+  - first:
+      213: 1161619075386046708
+    second: casas_74
+  - first:
+      213: -5827694494415043858
+    second: casas_75
+  - first:
+      213: 20223385270825520
+    second: casas_76
+  - first:
+      213: -9098209934639111347
+    second: casas_77
+  - first:
+      213: -1679691287584901477
+    second: casas_78
+  - first:
+      213: 621497029182966214
+    second: casas_79
+  - first:
+      213: -5228899072168815805
+    second: casas_80
+  - first:
+      213: 5887761590646399836
+    second: casas_81
+  - first:
+      213: -7612676480844444559
+    second: casas_82
+  - first:
+      213: 7886851748105309426
+    second: casas_83
+  - first:
+      213: 9025135452861635360
+    second: casas_84
+  - first:
+      213: -7937792769776539603
+    second: casas_85
+  - first:
+      213: 1892121417756587675
+    second: casas_86
+  - first:
+      213: -2087922599160926336
+    second: casas_87
+  - first:
+      213: -5978203597736928963
+    second: casas_88
+  - first:
+      213: -3814794352601491156
+    second: casas_89
+  - first:
+      213: -370513962891748953
+    second: casas_90
+  - first:
+      213: -3138769552518681155
+    second: casas_91
+  - first:
+      213: -5272672828653121748
+    second: casas_92
+  - first:
+      213: -1190261611037388624
+    second: casas_93
+  - first:
+      213: 8657188165672181981
+    second: casas_94
+  - first:
+      213: -8988891691298878079
+    second: casas_95
+  - first:
+      213: 5842327836232216447
+    second: casas_96
+  - first:
+      213: -7852700956761073441
+    second: casas_97
+  - first:
+      213: -6490807108796252323
+    second: casas_98
+  - first:
+      213: -3094991810753580033
+    second: casas_99
+  - first:
+      213: -9067567978423035657
+    second: casas_100
+  - first:
+      213: -4339139711055183607
+    second: casas_101
+  - first:
+      213: 6651919343746847764
+    second: casas_102
+  - first:
+      213: 1766217047878744583
+    second: casas_103
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: casas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1002
+        width: 272
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0d74ee79f09f9d80800000000000000
+      internalID: -8241709391814558451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_1
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1004
+        width: 222
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aebddc33046c251e0800000000000000
+      internalID: -2210486488036156438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_2
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 1004
+        width: 208
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5055b8c410150fd0800000000000000
+      internalID: -2376475546915352486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_3
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1003
+        width: 189
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4748336810f9465e0800000000000000
+      internalID: -1917232712457681804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_4
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 1004
+        width: 248
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53ade0daa39ffda90800000000000000
+      internalID: -7286831641655322059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_5
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 797
+        width: 215
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e379e1ebc43b09a0800000000000000
+      internalID: -6265856406282734618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_6
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 797
+        width: 232
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9787a7c83a446610800000000000000
+      internalID: 1613496174233749402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_7
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 796
+        width: 211
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf08a7d9656374ef0800000000000000
+      internalID: -124070719092260613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_8
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 795
+        width: 203
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7b41e47259800b80800000000000000
+      internalID: -8430587515196322945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_9
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 794
+        width: 214
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c5d775569fb21770800000000000000
+      internalID: 8580130892494132676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_10
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 680
+        width: 131
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5086948b4f2e45830800000000000000
+      internalID: 4059118704859375621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_11
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 680
+        width: 135
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78e7ed5b3cfa26e00800000000000000
+      internalID: 1036584119353376391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_12
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 680
+        width: 65
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf8323d98995affc0800000000000000
+      internalID: -3460354851673589508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_13
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 678
+        width: 86
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea56b89eca59e3940800000000000000
+      internalID: 5277820383209940398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_14
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 697
+        width: 57
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc48c79a96e0a4fc0800000000000000
+      internalID: -3509977112604015409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_15
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 696
+        width: 60
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89abb6eb8ae973fb0800000000000000
+      internalID: -4668088041159804264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_16
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 679
+        width: 124
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0e1a8d19f855fe10800000000000000
+      internalID: 2230787017397640715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_17
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 676
+        width: 151
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5931ddbfdc1925290800000000000000
+      internalID: -7903094082201906283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_18
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 682
+        width: 77
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fa2ff3faeabb7c80800000000000000
+      internalID: -8323853967985530126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_19
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 676
+        width: 82
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06d86d3edc1223470800000000000000
+      internalID: 8372791825409674592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_20
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 684
+        width: 22
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae23b9f552efc8c20800000000000000
+      internalID: 3210220070879572714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_21
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 598
+        width: 132
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccbd32ea0f751ea40800000000000000
+      internalID: 5395690519791918028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_22
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 598
+        width: 135
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c2cc84a3cfaef380800000000000000
+      internalID: -8935511355842313535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_23
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 598
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03a6c11c195173d30800000000000000
+      internalID: 4411018075786996272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_24
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 591
+        width: 83
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b763f1f871fcd520800000000000000
+      internalID: 2728320976037308344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_25
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 595
+        width: 57
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfcf4791358cb9f30800000000000000
+      internalID: 4583477305014549756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_26
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 595
+        width: 58
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e006475d706990f60800000000000000
+      internalID: 8001091173390508046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_27
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 591
+        width: 124
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c036f66477dd4b300800000000000000
+      internalID: 267081782274253580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_28
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 591
+        width: 151
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1cebd14784a6e3c0800000000000000
+      internalID: -4330593090837681126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_29
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 587
+        width: 77
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf2e063d7ff0a99d0800000000000000
+      internalID: -2766881463988067588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_30
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 585
+        width: 88
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1113250230d7336e0800000000000000
+      internalID: -1859004768793251567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_31
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 590
+        width: 20
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f1df04143cd7c870800000000000000
+      internalID: 8703166921149764082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_32
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 450
+        width: 111
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3b5aa01f5bc89f90800000000000000
+      internalID: -6946578816057058500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_33
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 450
+        width: 88
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a28273a434d2290800000000000000
+      internalID: -7913594984188073421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_34
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 449
+        width: 85
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bef7b3776ea185d90800000000000000
+      internalID: -7108902434659139605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_35
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 449
+        width: 84
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7dae82f36e6bb1a0800000000000000
+      internalID: -6792714237408006789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_36
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 449
+        width: 73
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8d98265ec5af6630800000000000000
+      internalID: 3922536106090339724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_37
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 449
+        width: 64
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78dd461357bb77210800000000000000
+      internalID: 1330738326925532551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_38
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 486
+        width: 72
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd59655ed0839a5f0800000000000000
+      internalID: -745002631019719205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_39
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 511
+        width: 131
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38c5be1bad3725f60800000000000000
+      internalID: 8021601269425331331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_40
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 511
+        width: 103
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f21fdeecb8eb7e70800000000000000
+      internalID: 9114134169073423096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_41
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 511
+        width: 111
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5507f5f1abe5c9f0800000000000000
+      internalID: -448693507004627618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_42
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 511
+        width: 112
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27fafe33c31c36480800000000000000
+      internalID: -8907063173695164558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_43
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 432
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 174e44b6ddb0b68b0800000000000000
+      internalID: -5158015902607416207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_44
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 435
+        width: 78
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46f22023a746b53a0800000000000000
+      internalID: -6675631546658836636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_45
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 434
+        width: 79
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88c03a6261bfd9ab0800000000000000
+      internalID: -4999563938755310456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_46
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 435
+        width: 75
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 860d4b6a0f2c3b6b0800000000000000
+      internalID: -5281663599130652568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_47
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 435
+        width: 82
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0793dd0d6d8afef50800000000000000
+      internalID: 6912929593617627504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_48
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 435
+        width: 105
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe346c529beacfc80800000000000000
+      internalID: -8287557104042621969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_49
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 327
+        width: 53
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95968468c454c2e10800000000000000
+      internalID: 2174188915085830489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_50
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 327
+        width: 56
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8b431468ee717240800000000000000
+      internalID: 4787747415448046476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_51
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 327
+        width: 54
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bbdc1b180103ad90800000000000000
+      internalID: -7087820254224786511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_52
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 327
+        width: 52
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd25a1e45d5fb9940800000000000000
+      internalID: 5304103282646078173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_53
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 327
+        width: 51
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ef7740b292bde560800000000000000
+      internalID: 7344722910403592165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_54
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 330
+        width: 54
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c09a089594bc90d20800000000000000
+      internalID: 3245348522391808268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_55
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 330
+        width: 53
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f58ba8e7f3a4e8720800000000000000
+      internalID: 2850297250738518111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_56
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 341
+        width: 65
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a10fbe1960fd9010800000000000000
+      internalID: 1197377410228486562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_57
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 341
+        width: 66
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 648bea7f435debf40800000000000000
+      internalID: 5746264598041770054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_58
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 339
+        width: 60
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abc5d99e83d352dc0800000000000000
+      internalID: -3664455407149163334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_59
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 342
+        width: 51
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 197def80d978d7470800000000000000
+      internalID: 8394014389019006865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_60
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 342
+        width: 55
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2492ef3481b971550800000000000000
+      internalID: 6131539946210470210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_61
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 343
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7194d7dc38a03f7a0800000000000000
+      internalID: -6344715888830363369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_62
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 346
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2e8a6ee79a89c480800000000000000
+      internalID: -8878412805239566804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_63
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 341
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 168ea5572342bd920800000000000000
+      internalID: 3016044174590535777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_64
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 341
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d07cce9e9459f0a0800000000000000
+      internalID: -6847348718194364202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_65
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 244
+        width: 126
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48944385bd6807510800000000000000
+      internalID: 1544882948823861636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_66
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 248
+        width: 94
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b589d82cf75ea8280800000000000000
+      internalID: -9040160965105182629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_67
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 246
+        width: 93
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b09d45fe2cae75f0800000000000000
+      internalID: -756978369667690315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_68
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 247
+        width: 91
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5025460cb7dfa640800000000000000
+      internalID: 5093526906138337372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_69
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 246
+        width: 67
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbbb8b0cb00fdab40800000000000000
+      internalID: 5453278657084177343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_70
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 246
+        width: 116
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32d0f169870545790800000000000000
+      internalID: -7542314997093823197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_71
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 248
+        width: 144
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df32b0d8516a32a0800000000000000
+      internalID: -6756981256829648937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_72
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 254
+        width: 99
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f31b3c7929478f630800000000000000
+      internalID: 3961044045232582975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_73
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 258
+        width: 110
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bae348f61c013950800000000000000
+      internalID: 6426931436028422838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_74
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 257
+        width: 118
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f8f3b00566ee1010800000000000000
+      internalID: 1161619075386046708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_75
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 167
+        width: 105
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee244e8dbbedf1fa0800000000000000
+      internalID: -5827694494415043858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_76
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 168
+        width: 109
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 032393fcf09d74000800000000000000
+      internalID: 20223385270825520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_77
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 168
+        width: 101
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d43e7e1d44aacb180800000000000000
+      internalID: -9098209934639111347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_78
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 170
+        width: 124
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b96fe2f5ca980b8e0800000000000000
+      internalID: -1679691287584901477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_79
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 170
+        width: 127
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c94965514000a800800000000000000
+      internalID: 621497029182966214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_80
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 170
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 343120d6ff73f67b0800000000000000
+      internalID: -5228899072168815805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_81
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 176
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c53eaa4d8f785b150800000000000000
+      internalID: 5887761590646399836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_82
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 174
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17ccb4903175a5690800000000000000
+      internalID: -7612676480844444559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_83
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 168
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fc4cf9e0e9b37d60800000000000000
+      internalID: 7886851748105309426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_84
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 174
+        width: 69
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02b1a9d80e8bf3d70800000000000000
+      internalID: 9025135452861635360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_85
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 178
+        width: 82
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d282ec8388b47d190800000000000000
+      internalID: -7937792769776539603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_86
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 178
+        width: 53
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b963a41976a224a10800000000000000
+      internalID: 1892121417756587675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_87
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 168
+        width: 54
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08fa08655753603e0800000000000000
+      internalID: -2087922599160926336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 96
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d399de17087290da0800000000000000
+      internalID: -5978203597736928963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_89
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 61
+        width: 57
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c29950a7fb02f0bc0800000000000000
+      internalID: -3814794352601491156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_90
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 61
+        width: 52
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a9d389838babdaf0800000000000000
+      internalID: -370513962891748953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_91
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 61
+        width: 52
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbdef4ec8b9d074d0800000000000000
+      internalID: -3138769552518681155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_92
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 61
+        width: 42
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2fc6478ff3b3d6b0800000000000000
+      internalID: -5272672828653121748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_93
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 61
+        width: 52
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b0155cfe575b7fe0800000000000000
+      internalID: -1190261611037388624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_94
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 60
+        width: 64
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd02b98d4c2842870800000000000000
+      internalID: 8657188165672181981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_95
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 59
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18d8ba7c1aa014380800000000000000
+      internalID: -8988891691298878079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_96
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 54
+        width: 63
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7f6ffb863e141150800000000000000
+      internalID: 5842327836232216447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_97
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 54
+        width: 62
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd8d2e0d51a950390800000000000000
+      internalID: -7852700956761073441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_98
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 58
+        width: 49
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5f7e9603550ce5a0800000000000000
+      internalID: -6490807108796252323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_99
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 61
+        width: 44
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff33a4998516c05d0800000000000000
+      internalID: -3094991810753580033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_100
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 63
+        width: 55
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f8536537f6892280800000000000000
+      internalID: -9067567978423035657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_101
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 67
+        width: 40
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 901c3cb2c6748c3c0800000000000000
+      internalID: -4339139711055183607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_102
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 58
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4149496566d505c50800000000000000
+      internalID: 6651919343746847764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casas_103
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 55
+        width: 67
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70a3d071c0dd28810800000000000000
+      internalID: 1766217047878744583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      casas_0: -8241709391814558451
+      casas_1: -2210486488036156438
+      casas_10: 4059118704859375621
+      casas_100: -9067567978423035657
+      casas_101: -4339139711055183607
+      casas_102: 6651919343746847764
+      casas_103: 1766217047878744583
+      casas_11: 1036584119353376391
+      casas_12: -3460354851673589508
+      casas_13: 5277820383209940398
+      casas_14: -3509977112604015409
+      casas_15: -4668088041159804264
+      casas_16: 2230787017397640715
+      casas_17: -7903094082201906283
+      casas_18: -8323853967985530126
+      casas_19: 8372791825409674592
+      casas_2: -2376475546915352486
+      casas_20: 3210220070879572714
+      casas_21: 5395690519791918028
+      casas_22: -8935511355842313535
+      casas_23: 4411018075786996272
+      casas_24: 2728320976037308344
+      casas_25: 4583477305014549756
+      casas_26: 8001091173390508046
+      casas_27: 267081782274253580
+      casas_28: -4330593090837681126
+      casas_29: -2766881463988067588
+      casas_3: -1917232712457681804
+      casas_30: -1859004768793251567
+      casas_31: 8703166921149764082
+      casas_32: -6946578816057058500
+      casas_33: -7913594984188073421
+      casas_34: -7108902434659139605
+      casas_35: -6792714237408006789
+      casas_36: 3922536106090339724
+      casas_37: 1330738326925532551
+      casas_38: -745002631019719205
+      casas_39: 8021601269425331331
+      casas_4: -7286831641655322059
+      casas_40: 9114134169073423096
+      casas_41: -448693507004627618
+      casas_42: -8907063173695164558
+      casas_43: -5158015902607416207
+      casas_44: -6675631546658836636
+      casas_45: -4999563938755310456
+      casas_46: -5281663599130652568
+      casas_47: 6912929593617627504
+      casas_48: -8287557104042621969
+      casas_49: 2174188915085830489
+      casas_5: -6265856406282734618
+      casas_50: 4787747415448046476
+      casas_51: -7087820254224786511
+      casas_52: 5304103282646078173
+      casas_53: 7344722910403592165
+      casas_54: 3245348522391808268
+      casas_55: 2850297250738518111
+      casas_56: 1197377410228486562
+      casas_57: 5746264598041770054
+      casas_58: -3664455407149163334
+      casas_59: 8394014389019006865
+      casas_6: 1613496174233749402
+      casas_60: 6131539946210470210
+      casas_61: -6344715888830363369
+      casas_62: -8878412805239566804
+      casas_63: 3016044174590535777
+      casas_64: -6847348718194364202
+      casas_65: 1544882948823861636
+      casas_66: -9040160965105182629
+      casas_67: -756978369667690315
+      casas_68: 5093526906138337372
+      casas_69: 5453278657084177343
+      casas_7: -124070719092260613
+      casas_70: -7542314997093823197
+      casas_71: -6756981256829648937
+      casas_72: 3961044045232582975
+      casas_73: 6426931436028422838
+      casas_74: 1161619075386046708
+      casas_75: -5827694494415043858
+      casas_76: 20223385270825520
+      casas_77: -9098209934639111347
+      casas_78: -1679691287584901477
+      casas_79: 621497029182966214
+      casas_8: -8430587515196322945
+      casas_80: -5228899072168815805
+      casas_81: 5887761590646399836
+      casas_82: -7612676480844444559
+      casas_83: 7886851748105309426
+      casas_84: 9025135452861635360
+      casas_85: -7937792769776539603
+      casas_86: 1892121417756587675
+      casas_87: -2087922599160926336
+      casas_88: -5978203597736928963
+      casas_89: -3814794352601491156
+      casas_9: 8580130892494132676
+      casas_90: -370513962891748953
+      casas_91: -3138769552518681155
+      casas_92: -5272672828653121748
+      casas_93: -1190261611037388624
+      casas_94: 8657188165672181981
+      casas_95: -8988891691298878079
+      casas_96: 5842327836232216447
+      casas_97: -7852700956761073441
+      casas_98: -6490807108796252323
+      casas_99: -3094991810753580033
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
