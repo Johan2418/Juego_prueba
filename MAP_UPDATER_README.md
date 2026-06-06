@@ -1,7 +1,7 @@
 # Map Design Updater - Instrucciones de Uso
 
 ## Descripción
-El script `MapDesignUpdater.cs` crea o actualiza los assets de tiles con los nuevos sprites de arena y agua del pack `Cute_Fantasy_Free`, pero no repinta la escena automáticamente.
+El script `MapDesignUpdater.cs` reemplaza automáticamente los sprites del mapa con los nuevos sprites de arena y agua del pack `Cute_Fantasy_Free` y guarda la escena.
 
 ## Sprites que se utilizarán:
 - **Agua (azul)** → `Water_Tile.png` (Cute_Fantasy_Free/Tiles)
@@ -20,7 +20,8 @@ El script `MapDesignUpdater.cs` crea o actualiza los assets de tiles con los nue
 3. El script ejecutará automáticamente:
    - Cargará los sprites desde `Assets/Sprites/Cute_Fantasy_Free/Tiles/`
    - Creará Tile assets en `Assets/Tiles/`
-   - Dejará la escena actual intacta para no sobrescribir tu diseño
+   - Pintará los tilemaps detectados en la escena
+   - Guardará la escena actual
    - Mostrará un diálogo confirmando que se completó
 
 ## Resultado esperado:
@@ -29,5 +30,4 @@ El script `MapDesignUpdater.cs` crea o actualiza los assets de tiles con los nue
 - El mapa tendrá un aspecto más pulido con los nuevos tiles
 
 ## Nota:
-- El script ya no modifica la escena para proteger el layout que diseñaste
-- Si quieres aplicar los sprites nuevos al mapa, hazlo manualmente sobre una copia de la escena
+- El script vuelve a modificar y guardar la escena, así que úsalo solo cuando quieras aplicar el cambio de tiles al mapa activo
